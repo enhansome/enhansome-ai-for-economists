@@ -258,10 +258,10 @@
             "archived": false,
             "id": 975734319,
             "language": "TypeScript",
-            "last_commit": "2026-08-27T11:17:13Z",
+            "last_commit": "2026-08-27T14:28:01Z",
             "owner": "anomalyco",
             "repo": "opencode",
-            "stars": 201854
+            "stars": 201892
           }
         },
         {
@@ -273,10 +273,10 @@
             "archived": false,
             "id": 824874689,
             "language": "TypeScript",
-            "last_commit": "2026-08-27T07:09:55Z",
+            "last_commit": "2026-08-27T12:38:25Z",
             "owner": "cline",
             "repo": "cline",
-            "stars": 66962
+            "stars": 66985
           }
         },
         {
@@ -291,7 +291,7 @@
             "last_commit": "2026-05-22T14:02:20Z",
             "owner": "Aider-AI",
             "repo": "aider",
-            "stars": 48527
+            "stars": 48531
           }
         },
         {
@@ -303,10 +303,10 @@
             "archived": false,
             "id": 678526156,
             "language": "Python",
-            "last_commit": "2026-08-27T04:39:03Z",
+            "last_commit": "2026-08-27T14:28:43Z",
             "owner": "marimo-team",
             "repo": "marimo",
-            "stars": 22508
+            "stars": 22510
           }
         },
         {
@@ -395,10 +395,10 @@
                 "archived": false,
                 "id": 979115477,
                 "language": "Python",
-                "last_commit": "2026-08-27T10:12:06Z",
+                "last_commit": "2026-08-27T14:22:50Z",
                 "owner": "bytedance",
                 "repo": "deer-flow",
-                "stars": 80986
+                "stars": 81001
               }
             },
             {
@@ -413,7 +413,7 @@
                 "last_commit": "2026-01-21T10:12:33Z",
                 "owner": "FoundationAgents",
                 "repo": "MetaGPT",
-                "stars": 70061
+                "stars": 70065
               }
             },
             {
@@ -428,7 +428,7 @@
                 "last_commit": "2026-04-15T11:59:09Z",
                 "owner": "microsoft",
                 "repo": "autogen",
-                "stars": 60647
+                "stars": 60649
               }
             },
             {
@@ -440,7 +440,7 @@
                 "archived": false,
                 "id": 488641606,
                 "language": "Python",
-                "last_commit": "2026-08-27T11:14:01Z",
+                "last_commit": "2026-08-27T14:22:27Z",
                 "owner": "agno-agi",
                 "repo": "agno",
                 "stars": 41939
@@ -458,7 +458,7 @@
                 "last_commit": "2026-08-27T04:48:29Z",
                 "owner": "stanfordnlp",
                 "repo": "dspy",
-                "stars": 37618
+                "stars": 37619
               }
             },
             {
@@ -488,7 +488,7 @@
                 "last_commit": "2026-08-25T18:36:00Z",
                 "owner": "huggingface",
                 "repo": "smolagents",
-                "stars": 29017
+                "stars": 29018
               }
             },
             {
@@ -500,10 +500,10 @@
                 "archived": false,
                 "id": 946380199,
                 "language": "Python",
-                "last_commit": "2026-08-27T08:58:16Z",
+                "last_commit": "2026-08-27T14:05:58Z",
                 "owner": "openai",
                 "repo": "openai-agents-python",
-                "stars": 29006
+                "stars": 29007
               }
             },
             {
@@ -518,7 +518,7 @@
                 "last_commit": "2026-08-27T05:36:33Z",
                 "owner": "google",
                 "repo": "adk-python",
-                "stars": 21306
+                "stars": 21307
               }
             },
             {
@@ -533,7 +533,7 @@
                 "last_commit": "2025-12-19T07:46:21Z",
                 "owner": "SakanaAI",
                 "repo": "AI-Scientist",
-                "stars": 14452
+                "stars": 14453
               }
             },
             {
@@ -576,7 +576,7 @@
                 "last_commit": "2026-08-26T13:55:19Z",
                 "owner": "py-why",
                 "repo": "dowhy",
-                "stars": 8283
+                "stars": 8284
               }
             },
             {
@@ -606,7 +606,7 @@
                 "last_commit": "2026-08-24T18:49:28Z",
                 "owner": "py-why",
                 "repo": "EconML",
-                "stars": 4766
+                "stars": 4767
               }
             },
             {
@@ -678,7 +678,7 @@
                 "archived": false,
                 "id": 568100553,
                 "language": "Python",
-                "last_commit": "2026-08-26T21:24:17Z",
+                "last_commit": "2026-08-27T12:18:57Z",
                 "owner": "py-econometrics",
                 "repo": "pyfixest",
                 "stars": 349
@@ -700,7 +700,7 @@
                 "archived": false,
                 "id": 1126412969,
                 "language": "Python",
-                "last_commit": "2026-08-26T16:41:16Z",
+                "last_commit": "2026-08-27T13:34:44Z",
                 "owner": "igerber",
                 "repo": "diff-diff",
                 "stars": 387
@@ -956,7 +956,7 @@
                 "last_commit": "2026-08-14T20:27:00Z",
                 "owner": "google-deepmind",
                 "repo": "concordia",
-                "stars": 1652
+                "stars": 1653
               }
             },
             {
@@ -1053,7 +1053,7 @@
                 "last_commit": "2026-07-14T03:27:18Z",
                 "owner": "google-research",
                 "repo": "timesfm",
-                "stars": 28277
+                "stars": 28281
               }
             },
             {
@@ -1158,7 +1158,7 @@
                 "last_commit": "2026-08-25T07:55:21Z",
                 "owner": "DataDog",
                 "repo": "toto",
-                "stars": 535
+                "stars": 536
               }
             },
             {
@@ -1312,6 +1312,21 @@
             },
             {
               "node_type": "item",
+              "title": "Deep Learning for Dynamic Econ",
+              "description": "Neural networks to solve DSGE models (course materials).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 794057601,
+                "language": "Jupyter Notebook",
+                "last_commit": "2024-06-13T20:21:04Z",
+                "owner": "sischei",
+                "repo": "Deep_Learning_For_Dynamic_Econ",
+                "stars": 41
+              }
+            },
+            {
+              "node_type": "item",
               "title": "gEconpy",
               "description": "DSGE toolkit in Python.",
               "children": [],
@@ -1323,21 +1338,6 @@
                 "owner": "jessegrabowski",
                 "repo": "gEconpy",
                 "stars": 41
-              }
-            },
-            {
-              "node_type": "item",
-              "title": "Deep Learning for Dynamic Econ",
-              "description": "Neural networks to solve DSGE models (course materials).",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "id": 794057601,
-                "language": "Jupyter Notebook",
-                "last_commit": "2024-06-13T20:21:04Z",
-                "owner": "sischei",
-                "repo": "Deep_Learning_For_Dynamic_Econ",
-                "stars": 40
               }
             }
           ],
@@ -1393,7 +1393,7 @@
             "last_commit": "2026-08-26T11:53:52Z",
             "owner": "Future-House",
             "repo": "paper-qa",
-            "stars": 9111
+            "stars": 9112
           }
         },
         {
@@ -1438,7 +1438,7 @@
             "last_commit": "2026-08-25T21:40:13Z",
             "owner": "asreview",
             "repo": "asreview",
-            "stars": 983
+            "stars": 984
           }
         }
       ],
@@ -1461,7 +1461,7 @@
                 "last_commit": "2026-08-24T14:19:43Z",
                 "owner": "microsoft",
                 "repo": "data-formulator",
-                "stars": 17012
+                "stars": 17014
               }
             }
           ],
@@ -1620,7 +1620,7 @@
             "last_commit": "2026-07-22T11:59:34Z",
             "owner": "PaddlePaddle",
             "repo": "PaddleOCR",
-            "stars": 88338
+            "stars": 88344
           }
         },
         {
@@ -1635,7 +1635,7 @@
             "last_commit": "2026-08-27T10:14:42Z",
             "owner": "opendatalab",
             "repo": "MinerU",
-            "stars": 78601
+            "stars": 78615
           }
         },
         {
@@ -1650,7 +1650,7 @@
             "last_commit": "2026-08-26T16:15:06Z",
             "owner": "docling-project",
             "repo": "docling",
-            "stars": 65631
+            "stars": 65636
           }
         },
         {
@@ -1665,7 +1665,7 @@
             "last_commit": "2026-08-27T05:17:52Z",
             "owner": "datalab-to",
             "repo": "marker",
-            "stars": 39308
+            "stars": 39316
           }
         },
         {
@@ -1680,7 +1680,7 @@
             "last_commit": "2026-01-27T03:45:14Z",
             "owner": "deepseek-ai",
             "repo": "DeepSeek-OCR",
-            "stars": 23854
+            "stars": 23855
           }
         },
         {
@@ -1710,7 +1710,7 @@
             "last_commit": "2026-03-25T17:52:37Z",
             "owner": "allenai",
             "repo": "olmocr",
-            "stars": 19395
+            "stars": 19396
           }
         },
         {
@@ -1842,7 +1842,7 @@
             "last_commit": "2026-07-18T15:55:05Z",
             "owner": "TauricResearch",
             "repo": "TradingAgents",
-            "stars": 100845
+            "stars": 100946
           }
         },
         {
@@ -1857,7 +1857,7 @@
             "last_commit": "2026-07-30T17:33:42Z",
             "owner": "OpenBB-finance",
             "repo": "OpenBB",
-            "stars": 72360
+            "stars": 72369
           }
         },
         {
@@ -1872,7 +1872,7 @@
             "last_commit": "2026-08-07T17:21:58Z",
             "owner": "virattt",
             "repo": "ai-hedge-fund",
-            "stars": 63066
+            "stars": 63067
           }
         },
         {
@@ -1887,7 +1887,7 @@
             "last_commit": "2026-08-27T02:32:05Z",
             "owner": "wilsonfreitas",
             "repo": "awesome-quant",
-            "stars": 29218
+            "stars": 29223
           }
         },
         {
@@ -1932,7 +1932,7 @@
             "last_commit": "2026-08-23T12:06:08Z",
             "owner": "AI4Finance-Foundation",
             "repo": "FinRobot",
-            "stars": 7873
+            "stars": 7875
           }
         },
         {
@@ -1970,7 +1970,7 @@
                 "last_commit": "2026-08-25T07:39:29Z",
                 "owner": "unclecode",
                 "repo": "crawl4ai",
-                "stars": 79507
+                "stars": 79523
               }
             },
             {
@@ -1985,7 +1985,7 @@
                 "last_commit": "2026-08-27T09:27:24Z",
                 "owner": "ScrapeGraphAI",
                 "repo": "Scrapegraph-ai",
-                "stars": 29977
+                "stars": 29980
               }
             }
           ],
@@ -2004,7 +2004,7 @@
                 "archived": false,
                 "id": 133060053,
                 "language": "Python",
-                "last_commit": "2026-08-27T08:28:58Z",
+                "last_commit": "2026-08-27T11:47:17Z",
                 "owner": "sdv-dev",
                 "repo": "SDV",
                 "stars": 3549
@@ -2071,7 +2071,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:18:36.137Z",
+    "last_updated": "2026-08-27T14:28:44.977Z",
     "original_repository_info": {
       "archived": false,
       "id": 1163081173,
