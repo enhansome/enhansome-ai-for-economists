@@ -5,27 +5,6 @@
       "items": [
         {
           "node_type": "item",
-          "title": "Financial Datasets MCP",
-          "description": "Stock market data including prices, financials, and SEC filings via MCP.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "An MCP server for interacting with the Financial Datasets stock market API.",
-            "homepage": "https://www.financialdatasets.ai/",
-            "id": 944516885,
-            "language": "Python",
-            "license": "MIT",
-            "last_commit": "2025-06-05T19:50:38Z",
-            "open_issues": 16,
-            "owner": "financial-datasets",
-            "repo": "mcp-server",
-            "stars": 2306,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T15:35:06.493Z"
-        },
-        {
-          "node_type": "item",
           "title": "SEC EDGAR MCP",
           "description": "Connects AI assistants to U.S. SEC EDGAR filings, financial statements, and insider-trading data.",
           "children": [],
@@ -40,7 +19,7 @@
             "open_issues": 14,
             "owner": "stefanoamorelli",
             "repo": "sec-edgar-mcp",
-            "stars": 368,
+            "stars": 369,
             "topics": [
               "ai",
               "artificial-intelligence",
@@ -59,8 +38,71 @@
         },
         {
           "node_type": "item",
+          "title": "Equibles MCP",
+          "description": "Self-hosted, open-source server for SEC filings, XBRL financials, 13F holdings, insider trades, short interest, CFTC positioning, and federal contracts.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Self-hosted, open-source financial data MCP server for AI agents — SEC filings, XBRL financials, 13F holdings, insider & congressional trades, short interest, FRED, CFTC/CBOE and daily prices across 64 MCP tools. Equibles Cloud adds earnings call transcripts, live quotes, options chains with Greeks, guidance and a screener.",
+            "homepage": "https://equibles.com",
+            "id": 1191114524,
+            "language": "C#",
+            "license": "AGPL-3.0",
+            "last_commit": "2026-10-11T22:07:57Z",
+            "open_issues": 29,
+            "owner": "daniel3303",
+            "repo": "Equibles",
+            "stars": 230,
+            "topics": [
+              "ai",
+              "ai-agents",
+              "artificial-intelligence",
+              "claude",
+              "earnings-calls",
+              "finance",
+              "financial-data",
+              "fintech",
+              "insider-trading",
+              "llm",
+              "market-data",
+              "mcp",
+              "mcp-server",
+              "model-context-protocol",
+              "options-trading",
+              "quantitative-finance",
+              "sec",
+              "sec-filings",
+              "self-hosted",
+              "stock-market"
+            ]
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
+        },
+        {
+          "node_type": "item",
+          "title": "MoSPI eSankhyiki MCP",
+          "description": "Official Indian statistics ministry server for PLFS, CPI, national accounts, NSS surveys, and more.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "This repository consists of Source Code for Model Context Protocol (MCP) Pilot Project being undertaken by Ministry of Statistics and Programme Implementation and source code for the same is being shared under  MIT License.",
+            "homepage": null,
+            "id": 1104463863,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-10-12T11:13:26Z",
+            "open_issues": 13,
+            "owner": "nso-india",
+            "repo": "esankhyiki-mcp",
+            "stars": 145,
+            "topics": []
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
+        },
+        {
+          "node_type": "item",
           "title": "Data Commons MCP Server",
-          "description": "Query Data Commons public statistics from Census, World Bank, WHO, and BLS to ground AI answers.",
+          "description": "Official Data Commons server, hosted with a free key or run locally, serving Census, World Bank, BLS, and WHO statistics.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -81,7 +123,7 @@
         {
           "node_type": "item",
           "title": "FRED MCP Server",
-          "description": "Access all 800,000+ FRED time series with date filtering and frequency adjustment.",
+          "description": "Community open-source FRED server run with your own free API key; a self-hostable alternative to the official connector.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -135,6 +177,48 @@
               "mcp-server",
               "postgresql",
               "vitest"
+            ]
+          },
+          "first_seen": "2026-08-28T15:35:06.493Z"
+        },
+        {
+          "node_type": "item",
+          "title": "OpenEcon Data",
+          "description": "MCP server and web app for plain-English queries over 330,000+ indicators from FRED, World Bank, IMF, Eurostat, and more.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Give your AI agent accurate economic data. 330K indicators from FRED, World Bank, IMF, Eurostat & more. MCP server + web UI.",
+            "homepage": "https://openecon.ai",
+            "id": 1079442627,
+            "language": "Python",
+            "license": "NOASSERTION",
+            "last_commit": "2026-09-18T23:00:02Z",
+            "open_issues": 1,
+            "owner": "hanlulong",
+            "repo": "openecon-data",
+            "stars": 84,
+            "topics": [
+              "ai",
+              "data-visualization",
+              "economic-data",
+              "economic-indicators",
+              "economics",
+              "eurostat",
+              "fastapi",
+              "financial-data",
+              "fred",
+              "fred-api",
+              "imf",
+              "inflation",
+              "mcp",
+              "mcp-server",
+              "model-context-protocol",
+              "natural-language",
+              "open-data",
+              "python",
+              "react",
+              "world-bank"
             ]
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
@@ -196,7 +280,7 @@
         {
           "node_type": "item",
           "title": "World Bank Data360 MCP",
-          "description": "Official World Bank server giving AI agents structured access to Data360 development indicators.",
+          "description": "Official World Bank server with a public hosted endpoint (no key needed) for searching, fetching, and charting Data360 indicators.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -227,34 +311,6 @@
         },
         {
           "node_type": "item",
-          "title": "TAM MCP Server",
-          "description": "One server, eight sources: Alpha Vantage, BLS, Census, FRED, IMF, Nasdaq, OECD, and World Bank.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "A comprehensive Model Context Protocol (MCP) server for market sizing analysis, TAM/SAM calculations, and industry research. Built with TypeScript, Express.js, and following the MCP  specification.",
-            "homepage": null,
-            "id": 997136172,
-            "language": "TypeScript",
-            "license": "MIT",
-            "last_commit": "2026-08-16T19:44:24Z",
-            "open_issues": 1,
-            "owner": "gvaibhav",
-            "repo": "TAM-MCP-Server",
-            "stars": 36,
-            "topics": [
-              "ai-tools",
-              "business-intelligence",
-              "market-analysis",
-              "mcp-server",
-              "model-context-protocol",
-              "typescript"
-            ]
-          },
-          "first_seen": "2026-08-28T15:35:06.493Z"
-        },
-        {
-          "node_type": "item",
           "title": "IMF Data MCP Server",
           "description": "WEO forecasts, balance of payments, and more from the IMF.",
           "children": [],
@@ -270,27 +326,6 @@
             "owner": "c-cf",
             "repo": "imf-data-mcp",
             "stars": 14,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T15:35:06.493Z"
-        },
-        {
-          "node_type": "item",
-          "title": "Eurostat MCP Server",
-          "description": "Query Eurostat APIs for EU statistics with dataset search, filtering, and CSV export.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": null,
-            "homepage": null,
-            "id": 1131214487,
-            "language": "Python",
-            "license": "MIT",
-            "last_commit": "2026-01-09T16:55:53Z",
-            "open_issues": 1,
-            "owner": "ano-kuhanathan",
-            "repo": "eurostat-mcp",
-            "stars": 10,
             "topics": []
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
@@ -324,45 +359,40 @@
         },
         {
           "node_type": "item",
-          "title": "BEA MCP Server",
-          "description": "Exposes U.S. Bureau of Economic Analysis data including GDP, personal income, and regional accounts.",
+          "title": "Eurostat MCP Server",
+          "description": "Search, inspect, and query Eurostat datasets, including Comext detailed trade, PRODCOM, and NUTS regional data.",
           "children": [],
           "repo_info": {
             "archived": false,
-            "description": "MCP server for Bureau of Economic Analysis API - GDP, personal income, regional economics",
-            "homepage": null,
-            "id": 1143786848,
+            "description": "Search and query the Eurostat catalogue — EU economy, demography, trade, health, and NUTS regional data via MCP. STDIO or Streamable HTTP.",
+            "homepage": "https://www.npmjs.com/package/@cyanheads/eurostat-mcp-server",
+            "id": 1247701207,
             "language": "TypeScript",
-            "license": null,
-            "last_commit": "2026-01-28T01:20:47Z",
-            "open_issues": 0,
-            "owner": "shawndrake2",
-            "repo": "mcp-bea",
-            "stars": 3,
-            "topics": []
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-04T07:06:48Z",
+            "open_issues": 6,
+            "owner": "cyanheads",
+            "repo": "eurostat-mcp-server",
+            "stars": 7,
+            "topics": [
+              "bun",
+              "cyanheads",
+              "demography",
+              "economy",
+              "eu",
+              "eurostat",
+              "gdp",
+              "mcp",
+              "mcp-server",
+              "model-context-protocol",
+              "nuts",
+              "open-data",
+              "statistics",
+              "trade",
+              "typescript"
+            ]
           },
-          "first_seen": "2026-08-28T15:35:06.493Z"
-        },
-        {
-          "node_type": "item",
-          "title": "BLS MCP Server",
-          "description": "Bureau of Labor Statistics data: CPI, unemployment, employment, and wages via BLS API.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "MCP server for Bureau of Labor Statistics API - employment, CPI, wages",
-            "homepage": null,
-            "id": 1143786875,
-            "language": "TypeScript",
-            "license": null,
-            "last_commit": "2026-01-28T01:20:48Z",
-            "open_issues": 0,
-            "owner": "shawndrake2",
-            "repo": "mcp-bls",
-            "stars": 3,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T15:35:06.493Z"
+          "first_seen": "2026-10-12T11:13:46.942Z"
         },
         {
           "node_type": "item",
@@ -427,88 +457,369 @@
       "title": "MCP Servers for Economic Data"
     },
     {
-      "description": null,
+      "description": "Agent Skills are folders that an AI agent loads when a task needs them: a file of instructions, plus optional scripts and reference files. The open format works in Claude, Claude Code, OpenAI Codex, GitHub Copilot, Cursor, and other agents.",
       "items": [
         {
           "node_type": "item",
-          "title": "opencode",
-          "description": "Open-source, provider-agnostic AI coding agent built for the terminal with a TUI.",
+          "title": "Claude Code Academic Workflow",
+          "description": "Pedro Sant'Anna's (Emory) ready-to-fork template with 60+ skills, multi-agent review, quality gates, and replication protocols.",
           "children": [],
           "repo_info": {
             "archived": false,
-            "description": "The open source coding agent.",
-            "homepage": "https://opencode.ai",
-            "id": 975734319,
-            "language": "TypeScript",
+            "description": "A ready-to-fork Claude Code template for academics using LaTeX/Beamer + R. Multi-agent review, quality gates, adversarial QA, and replication protocols.",
+            "homepage": "https://psantanna.com/claude-code-my-workflow/",
+            "id": 1151617003,
+            "language": "HTML",
             "license": "MIT",
-            "last_commit": "2026-10-11T09:27:11Z",
-            "open_issues": 5218,
-            "owner": "anomalyco",
-            "repo": "opencode",
-            "stars": 212633,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T15:35:06.493Z"
-        },
-        {
-          "node_type": "item",
-          "title": "Cline",
-          "description": "Autonomous coding agent for VS Code with Plan/Act modes and MCP integration.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-            "homepage": "https://cline.bot",
-            "id": 824874689,
-            "language": "TypeScript",
-            "license": "Apache-2.0",
-            "last_commit": "2026-10-11T05:40:43Z",
-            "open_issues": 1652,
-            "owner": "cline",
-            "repo": "cline",
-            "stars": 70152,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T15:35:06.493Z"
-        },
-        {
-          "node_type": "item",
-          "title": "Aider",
-          "description": "AI pair programming in your terminal with git integration and 260+ LLM support.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "aider is AI pair programming in your terminal",
-            "homepage": "https://aider.chat/",
-            "id": 638629097,
-            "language": "Python",
-            "license": "Apache-2.0",
-            "last_commit": "2026-05-22T14:02:20Z",
-            "open_issues": 1911,
-            "owner": "Aider-AI",
-            "repo": "aider",
-            "stars": 49465,
+            "last_commit": "2026-09-27T22:26:46Z",
+            "open_issues": 6,
+            "owner": "pedrohcgs",
+            "repo": "claude-code-my-workflow",
+            "stars": 1657,
             "topics": [
+              "academic-writing",
+              "causal-inference",
+              "claude-code",
+              "claude-code-skills",
+              "econometrics",
+              "economics",
+              "latex",
+              "quarto",
+              "reproducible-research",
+              "research-workflow"
+            ]
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Awesome Journal Skills",
+          "description": "Per-journal skill packs for AER, QJE, the AEJs, and hundreds of other venues, from topic choice to referee response.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Journal-specific Claude Code/Codex skill packs covering mainstream journals — AER, QJE, Nature, Cell, 管理世界, 经济研究 & 200+ more — your fast track to getting published. ｜ 覆盖主流期刊的 Claude Code/Codex 期刊技能包，从选题、识别策略到表格规范与审稿回复全流程，助你快速发论文。",
+            "homepage": "https://www.copaper.ai",
+            "id": 1248879346,
+            "language": "Stata",
+            "license": "MIT",
+            "last_commit": "2026-09-27T08:08:29Z",
+            "open_issues": 2,
+            "owner": "brycewang-stanford",
+            "repo": "Awesome-Journal-Skills",
+            "stars": 1244,
+            "topics": [
+              "academic-research",
+              "academic-writing",
+              "agent-skills",
+              "ai-agents",
               "anthropic",
-              "chatgpt",
-              "claude-3",
-              "cli",
-              "command-line",
-              "gemini",
-              "gpt-3",
-              "gpt-35-turbo",
-              "gpt-4",
-              "gpt-4o",
-              "llama",
-              "openai",
-              "sonnet"
+              "awesome-list",
+              "causal-inference",
+              "claude",
+              "claude-code",
+              "econometrics",
+              "economics",
+              "empirical-research",
+              "finance",
+              "journal",
+              "llm",
+              "mcp",
+              "peer-review",
+              "replication",
+              "research-tools",
+              "scholarly-publishing"
+            ]
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Econ Writing Skill",
+          "description": "Economics paper-writing skill synthesizing 50+ guides by Cochrane, McCloskey, Shapiro, Head, and others.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Agent Skill that transforms AI assistants into expert economics paper writers. Synthesizes 50+ guides by Cochrane, McCloskey, Shapiro, Head, Bellemare, Goldin, Kremer. Compatible with Claude Code and OpenAI Codex.",
+            "homepage": "https://openecon.ai",
+            "id": 1159184254,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-07-20T00:11:11Z",
+            "open_issues": 0,
+            "owner": "hanlulong",
+            "repo": "econ-writing-skill",
+            "stars": 655,
+            "topics": [
+              "academic-writing",
+              "agent-skills",
+              "ai",
+              "claude-code",
+              "codex",
+              "economics",
+              "latex",
+              "research-tools"
             ]
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
         },
         {
           "node_type": "item",
-          "title": "Marimo",
+          "title": "awesome-econ-ai-stuff",
+          "description": "Antonio Mele's (LSE) SKILL.md collection for Stata, R, and Python econometrics, data fetching, LaTeX tables, literature review, and modeling.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "AI Skills for Economists",
+            "homepage": "https://meleantonio.github.io/awesome-econ-ai-stuff/",
+            "id": 1142382219,
+            "language": "HTML",
+            "license": "NOASSERTION",
+            "last_commit": "2026-09-26T07:08:56Z",
+            "open_issues": 6,
+            "owner": "meleantonio",
+            "repo": "awesome-econ-ai-stuff",
+            "stars": 647,
+            "topics": []
+          },
+          "first_seen": "2026-08-28T15:35:06.493Z"
+        },
+        {
+          "node_type": "item",
+          "title": "AI Research Feedback",
+          "description": "Claes Bäckman's (SAFE Frankfurt) skills for multi-agent referee reports plus pre-analysis-plan, grant, and replication-code reviews.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "A collection of Claude Code skills for academic research review. These tools were developed by Claes Bäckman.",
+            "homepage": null,
+            "id": 1169890710,
+            "language": "JavaScript",
+            "license": "MIT",
+            "last_commit": "2026-09-25T18:28:01Z",
+            "open_issues": 0,
+            "owner": "claesbackman",
+            "repo": "AI-research-feedback",
+            "stars": 495,
+            "topics": []
+          },
+          "first_seen": "2026-08-28T15:35:06.493Z"
+        },
+        {
+          "node_type": "item",
+          "title": "MixtapeTools",
+          "description": "Scott Cunningham's (Baylor) skills for independent code audits, cross-language replication, bibliography checks, and Beamer decks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Tools for coding, teaching, and presentations with AI assistance",
+            "homepage": null,
+            "id": 1147477898,
+            "language": "TeX",
+            "license": null,
+            "last_commit": "2026-08-26T16:01:07Z",
+            "open_issues": 18,
+            "owner": "scunning1975",
+            "repo": "MixtapeTools",
+            "stars": 475,
+            "topics": []
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Stata Skill",
+          "description": "Dylan Moore's (Hawaii) Stata reference skill covering econometrics, causal inference, Mata, and 20+ community packages such as reghdfe.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Claude Code skill for writing correct, idiomatic Stata code — covers syntax, data management, econometrics, causal inference, graphics, Mata, and 20 community packages.",
+            "homepage": null,
+            "id": 1151358532,
+            "language": "Python",
+            "license": "NOASSERTION",
+            "last_commit": "2026-04-10T02:43:33Z",
+            "open_issues": 6,
+            "owner": "dylantmoore",
+            "repo": "stata-skill",
+            "stars": 292,
+            "topics": []
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
+        },
+        {
+          "node_type": "item",
+          "title": "World Bank Reproducibility Skill",
+          "description": "Official World Bank skill that audits and assembles replication packages, starting with a data-privacy check.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "This repository supports the World Bank's Reproducible Research Repository",
+            "homepage": "https://worldbank.github.io/wb-reproducible-research-repository/",
+            "id": 663129525,
+            "language": "R",
+            "license": null,
+            "last_commit": "2026-09-25T18:44:50Z",
+            "open_issues": 0,
+            "owner": "worldbank",
+            "repo": "wb-reproducible-research-repository",
+            "stars": 37,
+            "topics": [
+              "open-data",
+              "open-science",
+              "reproducible-research",
+              "research",
+              "research-transparency"
+            ]
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Econ Paper Review Skill",
+          "description": "Writes referee reports on economics papers with verified comments, editing notes, and a step-by-step revision plan; free for non-commercial use.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Referee report on your economics paper before a real referee sees it — verified comments and a revision plan your agents implement. Agent Skill for Claude Code & Codex.",
+            "homepage": "https://openecon.ai",
+            "id": 1298724548,
+            "language": "Python",
+            "license": "NOASSERTION",
+            "last_commit": "2026-09-01T19:50:27Z",
+            "open_issues": 6,
+            "owner": "hanlulong",
+            "repo": "econ-paper-review-skill",
+            "stars": 28,
+            "topics": [
+              "academic-writing",
+              "agent-skills",
+              "ai",
+              "ai-agents",
+              "causal-inference",
+              "claude",
+              "claude-code",
+              "claude-skills",
+              "codex",
+              "econometrics",
+              "economics",
+              "finance",
+              "llm",
+              "paper-review",
+              "peer-review",
+              "referee-report",
+              "research-tools",
+              "social-science"
+            ]
+          },
+          "first_seen": "2026-08-28T15:35:06.493Z"
+        },
+        {
+          "node_type": "item",
+          "title": "dynare-copilot",
+          "description": "Skill turning macro model ideas into validated Dynare .mod files, drawing on 149 Macroeconomic Model Data Base models.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Turn macro intuition into validated Dynare .mod files — a coding agent skill for DSGE modeling.",
+            "homepage": null,
+            "id": 1266896323,
+            "language": "AMPL",
+            "license": "MIT",
+            "last_commit": "2026-07-16T00:34:27Z",
+            "open_issues": 0,
+            "owner": "EconSolider",
+            "repo": "dynare-copilot",
+            "stars": 23,
+            "topics": [
+              "ai-agent",
+              "claude-code",
+              "claude-skill",
+              "codex-skill",
+              "dsge",
+              "dynare",
+              "macroeconomics",
+              "matlab"
+            ]
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Econ Slides Skill",
+          "description": "Turns a paper into a Beamer talk with a timed speaker script, including job-market and discussant decks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Turn an economics paper into a seminar-ready Beamer talk with a timed speaker script — conference, job-market and discussant slides. Agent Skill for Claude Code & Codex.",
+            "homepage": "https://openecon.ai",
+            "id": 1301463756,
+            "language": "TeX",
+            "license": "MIT",
+            "last_commit": "2026-07-20T01:23:21Z",
+            "open_issues": 1,
+            "owner": "hanlulong",
+            "repo": "econ-slides-skill",
+            "stars": 22,
+            "topics": [
+              "academic-writing",
+              "agent-skills",
+              "ai",
+              "ai-agents",
+              "beamer",
+              "claude",
+              "claude-code",
+              "claude-skills",
+              "codex",
+              "economics",
+              "latex",
+              "presentation",
+              "research-tools",
+              "seminar",
+              "slides"
+            ]
+          },
+          "first_seen": "2026-08-28T15:35:06.493Z"
+        },
+        {
+          "node_type": "item",
+          "title": "More skills: Academic Research Skills",
+          "description": "(research-to-publication pipeline, CC BY-NC) | Anthropic Skills (Word, Excel, PowerPoint, PDF) | Posit Skills (Quarto, tidyverse, Shiny) | Scientific Agent Skills (statistics, FRED and World Bank lookups). Browse skills.sh for more. Skills can run code on your computer, so read a third-party skill's and scripts before installing it.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+            "homepage": "https://buymeacoffee.com/crucify020v",
+            "id": 1167300963,
+            "language": "Python",
+            "license": "NOASSERTION",
+            "last_commit": "2026-10-11T17:04:29Z",
+            "open_issues": 36,
+            "owner": "Imbad0202",
+            "repo": "academic-research-skills",
+            "stars": 51481,
+            "topics": [
+              "academic-pipeline",
+              "academic-writing",
+              "ai-research",
+              "claude",
+              "claude-code",
+              "literature-review",
+              "peer-review",
+              "prompt-engineering"
+            ]
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
+        }
+      ],
+      "title": "Agent Skills for Economists"
+    },
+    {
+      "description": "AI assistants, agent connectors, and setup guides for Stata, R, MATLAB, Python, and notebooks. General-purpose coding agents are in the Appendix.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "marimo",
           "description": "Reactive Python notebook stored as pure .py files with built-in AI assistant.",
           "children": [],
           "repo_info": {
@@ -518,11 +829,11 @@
             "id": 678526156,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-10T17:43:11Z",
-            "open_issues": 617,
+            "last_commit": "2026-10-12T09:04:47Z",
+            "open_issues": 622,
             "owner": "marimo-team",
             "repo": "marimo",
-            "stars": 23105,
+            "stars": 23122,
             "topics": [
               "artificial-intelligence",
               "dag",
@@ -544,7 +855,7 @@
         {
           "node_type": "item",
           "title": "Jupyter AI",
-          "description": "Official JupyterLab extension with magic commands for code generation and explanation.",
+          "description": "Official JupyterLab extension bringing Claude, Codex, Gemini, and other agents into notebooks through a chat panel.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -554,7 +865,7 @@
             "language": "Python",
             "license": "BSD-3-Clause",
             "last_commit": "2026-10-10T06:03:46Z",
-            "open_issues": 317,
+            "open_issues": 319,
             "owner": "jupyterlab",
             "repo": "jupyter-ai",
             "stars": 4411,
@@ -570,29 +881,62 @@
         },
         {
           "node_type": "item",
-          "title": "awesome-econ-ai-stuff",
-          "description": "Reusable AI skills for economists (SKILL.md standard) covering Stata, Python, and LaTeX workflows.",
+          "title": "MATLAB MCP Server",
+          "description": "Official MathWorks server letting Claude Code, Codex, and Copilot run, lint, and test code in your local MATLAB.",
           "children": [],
           "repo_info": {
             "archived": false,
-            "description": "AI Skills for Economists",
-            "homepage": "https://meleantonio.github.io/awesome-econ-ai-stuff/",
-            "id": 1142382219,
-            "language": "HTML",
+            "description": "Run MATLAB® using AI applications with the official MATLAB MCP Server from MathWorks®. This MCP server for MATLAB supports a wide range of coding agents like Claude Code® and Visual Studio® Code.",
+            "homepage": "https://www.mathworks.com/matlabcentral/discussions/ai",
+            "id": 1081301020,
+            "language": "Go",
             "license": "NOASSERTION",
-            "last_commit": "2026-09-26T07:08:56Z",
-            "open_issues": 6,
-            "owner": "meleantonio",
-            "repo": "awesome-econ-ai-stuff",
-            "stars": 646,
-            "topics": []
+            "last_commit": "2026-09-25T15:41:05Z",
+            "open_issues": 23,
+            "owner": "matlab",
+            "repo": "matlab-mcp-server",
+            "stars": 1647,
+            "topics": [
+              "engineering-tools",
+              "matlab",
+              "matlab-mcp-server",
+              "mcp-server",
+              "mcp-tools"
+            ]
           },
-          "first_seen": "2026-08-28T15:35:06.493Z"
+          "first_seen": "2026-10-12T11:13:46.942Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Jupyter MCP Server",
+          "description": "MCP server and Claude Code plugin letting AI agents edit and run live Jupyter notebooks.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "🪐 🔧 Model Context Protocol (MCP) Server for Jupyter.",
+            "homepage": "https://jupyter-mcp-server.datalayer.tech",
+            "id": 931366703,
+            "language": "Python",
+            "license": "BSD-3-Clause",
+            "last_commit": "2026-10-11T15:51:34Z",
+            "open_issues": 31,
+            "owner": "datalayer",
+            "repo": "jupyter-mcp-server",
+            "stars": 1300,
+            "topics": [
+              "ai",
+              "jupyter",
+              "mcp",
+              "mcp-server",
+              "tools"
+            ]
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
         },
         {
           "node_type": "item",
           "title": "Stata-MCP",
-          "description": "Execute .do/.ado/.mata files from VS Code, Cursor, Claude Code, or GitHub Copilot with real-time output panels, built-in data viewer, and graph display.",
+          "description": "Runs Stata from VS Code, Cursor, Claude Code, Codex, and Copilot with real-time output, a data viewer, and graph display.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -605,37 +949,75 @@
             "open_issues": 6,
             "owner": "hanlulong",
             "repo": "stata-mcp",
-            "stars": 509,
+            "stars": 510,
             "topics": []
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
         },
         {
           "node_type": "item",
-          "title": "Jupyter AI Agents",
-          "description": "AI agents for JupyterLab with MCP integration for connecting notebooks to FRED, World Bank, and more.",
+          "title": "MCP-for-Stata",
+          "description": "MCP server and CLI, with bundled Stata skills, letting Claude Code, Codex, and other agents run local Stata.",
           "children": [],
           "repo_info": {
             "archived": false,
-            "description": "🪐 🤖 AI Agents with 🔧 MCP tools and 🧰 Skills for JupyterLab — Chat with your Notebook and execute code.",
-            "homepage": "https://jupyter-ai-agents.datalayer.tech",
-            "id": 900277531,
-            "language": "Jupyter Notebook",
-            "license": "BSD-3-Clause",
-            "last_commit": "2026-10-08T13:22:17Z",
-            "open_issues": 6,
-            "owner": "datalayer",
-            "repo": "jupyter-ai-agents",
-            "stars": 163,
+            "description": "Stata-MCP: A MCP server for integrating Stata into your agent loop with a safety-first design.",
+            "homepage": "https://aidea-labs.com/open/projects/mcp-for-stata",
+            "id": 956330003,
+            "language": "Python",
+            "license": "AGPL-3.0",
+            "last_commit": "2026-10-06T06:52:39Z",
+            "open_issues": 2,
+            "owner": "SepineTam",
+            "repo": "mcp-for-stata",
+            "stars": 265,
             "topics": [
-              "agent",
-              "ai",
-              "ai-agent",
-              "jupyter",
-              "mcp"
+              "claude-code",
+              "claude-code-plugin",
+              "claude-code-skill",
+              "codex",
+              "codex-plugin",
+              "dsh-plugin",
+              "dsh-plugins",
+              "econometrics",
+              "empirical",
+              "empirical-research",
+              "llm",
+              "mcp",
+              "safety",
+              "security",
+              "social-science",
+              "social-science-research",
+              "stata",
+              "stata-mcp",
+              "statistical-analysis"
             ]
           },
-          "first_seen": "2026-08-28T15:35:06.493Z"
+          "first_seen": "2026-10-12T11:13:46.942Z"
+        },
+        {
+          "node_type": "item",
+          "title": "mcptools",
+          "description": "Posit's R package letting Claude Code, Copilot, and other MCP clients run code in your live R sessions.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Model Context Protocol For R",
+            "homepage": "https://posit-dev.github.io/mcptools/",
+            "id": 955571244,
+            "language": "R",
+            "license": "NOASSERTION",
+            "last_commit": "2026-09-28T13:23:45Z",
+            "open_issues": 24,
+            "owner": "posit-dev",
+            "repo": "mcptools",
+            "stars": 200,
+            "topics": [
+              "mcp-server",
+              "r"
+            ]
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
         },
         {
           "node_type": "item",
@@ -657,107 +1039,81 @@
             "topics": []
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
-        },
+        }
+      ],
+      "title": "Coding Tools for Economists"
+    },
+    {
+      "description": null,
+      "items": [
         {
           "children": [
             {
               "node_type": "item",
-              "title": "DeerFlow",
-              "description": "ByteDance's research SuperAgent for long-horizon tasks with sandboxed code execution.",
+              "title": "CrewAI",
+              "description": "Open-source Python framework for orchestrating role-based, collaborative multi-agent systems.",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-                "homepage": "https://deerflow.tech",
-                "id": 979115477,
+                "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+                "homepage": "https://crewai.com",
+                "id": 710601088,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-11T09:50:04Z",
-                "open_issues": 901,
-                "owner": "bytedance",
-                "repo": "deer-flow",
-                "stars": 83676,
+                "last_commit": "2026-10-12T09:51:10Z",
+                "open_issues": 656,
+                "owner": "crewAIInc",
+                "repo": "crewAI",
+                "stars": 59597,
                 "topics": [
-                  "agent",
-                  "agentic",
-                  "agentic-framework",
-                  "agentic-workflow",
-                  "ai",
-                  "ai-agents",
-                  "deep-research",
-                  "harness",
-                  "langchain",
-                  "langgraph",
-                  "langmanus",
-                  "llm",
-                  "multi-agent",
-                  "nodejs",
-                  "podcast",
-                  "python",
-                  "superagent",
-                  "typescript"
-                ]
-              },
-              "first_seen": "2026-08-28T15:35:06.493Z"
-            },
-            {
-              "node_type": "item",
-              "title": "MetaGPT",
-              "description": "Multi-agent framework simulating roles (PM, analyst, engineer) with structured SOPs.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
-                "homepage": "https://atoms.dev/",
-                "id": 660551251,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-01-21T10:12:33Z",
-                "open_issues": 141,
-                "owner": "FoundationAgents",
-                "repo": "MetaGPT",
-                "stars": 70801,
-                "topics": [
-                  "agent",
-                  "gpt",
-                  "llm",
-                  "metagpt",
-                  "multi-agent"
-                ]
-              },
-              "first_seen": "2026-08-28T15:35:06.493Z"
-            },
-            {
-              "node_type": "item",
-              "title": "AutoGen",
-              "description": "Microsoft's multi-agent conversation framework for complex research workflows.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "A programming framework for agentic AI",
-                "homepage": "https://microsoft.github.io/autogen/",
-                "id": 680120071,
-                "language": "Python",
-                "license": "CC-BY-4.0",
-                "last_commit": "2026-04-15T11:59:09Z",
-                "open_issues": 1101,
-                "owner": "microsoft",
-                "repo": "autogen",
-                "stars": 61347,
-                "topics": [
-                  "agentic",
-                  "agentic-agi",
                   "agents",
                   "ai",
-                  "autogen",
-                  "autogen-ecosystem",
-                  "chatgpt",
-                  "framework",
-                  "llm-agent",
-                  "llm-framework"
+                  "ai-agents",
+                  "aiagentframework",
+                  "llms"
                 ]
               },
-              "first_seen": "2026-08-28T15:35:06.493Z"
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            },
+            {
+              "node_type": "item",
+              "title": "LangGraph",
+              "description": "LangChain's low-level framework for stateful, durable agent workflows built as graphs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Build resilient agents.",
+                "homepage": "https://docs.langchain.com/oss/python/langgraph/",
+                "id": 676672661,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-10-12T02:54:17Z",
+                "open_issues": 805,
+                "owner": "langchain-ai",
+                "repo": "langgraph",
+                "stars": 43123,
+                "topics": [
+                  "agents",
+                  "ai",
+                  "ai-agents",
+                  "chatgpt",
+                  "deepagents",
+                  "enterprise",
+                  "framework",
+                  "gemini",
+                  "generative-ai",
+                  "langchain",
+                  "langgraph",
+                  "llm",
+                  "multiagent",
+                  "open-source",
+                  "openai",
+                  "pydantic",
+                  "python",
+                  "rag"
+                ]
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
             },
             {
               "node_type": "item",
@@ -771,11 +1127,11 @@
                 "id": 488641606,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-11T09:49:20Z",
-                "open_issues": 1851,
+                "last_commit": "2026-10-12T10:48:10Z",
+                "open_issues": 1887,
                 "owner": "agno-agi",
                 "repo": "agno",
-                "stars": 42658,
+                "stars": 42684,
                 "topics": [
                   "agents",
                   "ai",
@@ -789,7 +1145,7 @@
             {
               "node_type": "item",
               "title": "DSPy",
-              "description": "Stanford framework for programmatic LLM optimization — \"programming, not prompting.\"",
+              "description": "Stanford NLP framework for building LLM pipelines from declarative Python modules, with optimizers that tune prompts and weights.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -798,52 +1154,19 @@
                 "id": 587050620,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-10T16:52:23Z",
-                "open_issues": 798,
+                "last_commit": "2026-10-11T13:16:03Z",
+                "open_issues": 805,
                 "owner": "stanfordnlp",
                 "repo": "dspy",
-                "stars": 38591,
+                "stars": 38599,
                 "topics": []
               },
               "first_seen": "2026-08-28T15:35:06.493Z"
             },
             {
               "node_type": "item",
-              "title": "GPT Researcher",
-              "description": "Autonomous deep research agent producing cited reports from web sources.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
-                "homepage": "https://gptr.dev",
-                "id": 639835356,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2026-10-10T22:03:53Z",
-                "open_issues": 31,
-                "owner": "assafelovic",
-                "repo": "gpt-researcher",
-                "stars": 30011,
-                "topics": [
-                  "agent",
-                  "ai",
-                  "automation",
-                  "deepresearch",
-                  "llms",
-                  "mcp",
-                  "mcp-server",
-                  "python",
-                  "research",
-                  "search",
-                  "webscraping"
-                ]
-              },
-              "first_seen": "2026-08-28T15:35:06.493Z"
-            },
-            {
-              "node_type": "item",
               "title": "OpenAI Agents SDK",
-              "description": "Lightweight production-ready multi-agent framework with handoffs and guardrails.",
+              "description": "Lightweight Python framework for multi-agent workflows with handoffs, guardrails, and tracing.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -853,10 +1176,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-10-08T19:41:57Z",
-                "open_issues": 16,
+                "open_issues": 20,
                 "owner": "openai",
                 "repo": "openai-agents-python",
-                "stars": 29962,
+                "stars": 29983,
                 "topics": [
                   "agents",
                   "ai",
@@ -882,10 +1205,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-06T18:35:07Z",
-                "open_issues": 906,
+                "open_issues": 921,
                 "owner": "huggingface",
                 "repo": "smolagents",
-                "stars": 29780,
+                "stars": 29797,
                 "topics": []
               },
               "first_seen": "2026-08-28T15:35:06.493Z"
@@ -902,11 +1225,11 @@
                 "id": 958830659,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-11T05:15:08Z",
-                "open_issues": 423,
+                "last_commit": "2026-10-12T06:23:06Z",
+                "open_issues": 431,
                 "owner": "google",
                 "repo": "adk-python",
-                "stars": 21776,
+                "stars": 21780,
                 "topics": [
                   "agent",
                   "agentic",
@@ -930,8 +1253,149 @@
             },
             {
               "node_type": "item",
+              "title": "Pydantic AI",
+              "description": "Type-safe Python agent framework with validated structured outputs across all major model providers.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.",
+                "homepage": "https://pydantic.dev/pydantic-ai",
+                "id": 818331198,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-10-12T09:29:32Z",
+                "open_issues": 1397,
+                "owner": "pydantic",
+                "repo": "pydantic-ai",
+                "stars": 20570,
+                "topics": [
+                  "agent-framework",
+                  "genai",
+                  "harness",
+                  "harness-engineering",
+                  "llm",
+                  "pydantic",
+                  "python"
+                ]
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Microsoft Agent Framework",
+              "description": "Microsoft's successor to AutoGen and Semantic Kernel for multi-agent workflows in Python and .NET.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
+                "homepage": "https://aka.ms/agent-framework",
+                "id": 974445592,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-10-12T09:54:07Z",
+                "open_issues": 766,
+                "owner": "microsoft",
+                "repo": "agent-framework",
+                "stars": 14075,
+                "topics": [
+                  "agent-framework",
+                  "agentic-ai",
+                  "agents",
+                  "ai",
+                  "dotnet",
+                  "multi-agent",
+                  "orchestration",
+                  "python",
+                  "sdk",
+                  "workflows"
+                ]
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            }
+          ],
+          "description": "Libraries for building your own LLM pipelines and agents, from data collection to analysis and reporting.",
+          "node_type": "group",
+          "title": "AI Agent Frameworks"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "DeerFlow",
+              "description": "ByteDance's research SuperAgent for long-horizon tasks with sandboxed code execution.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+                "homepage": "https://deerflow.tech",
+                "id": 979115477,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-10-12T11:00:55Z",
+                "open_issues": 934,
+                "owner": "bytedance",
+                "repo": "deer-flow",
+                "stars": 83734,
+                "topics": [
+                  "agent",
+                  "agentic",
+                  "agentic-framework",
+                  "agentic-workflow",
+                  "ai",
+                  "ai-agents",
+                  "deep-research",
+                  "harness",
+                  "langchain",
+                  "langgraph",
+                  "langmanus",
+                  "llm",
+                  "multi-agent",
+                  "nodejs",
+                  "podcast",
+                  "python",
+                  "superagent",
+                  "typescript"
+                ]
+              },
+              "first_seen": "2026-08-28T15:35:06.493Z"
+            },
+            {
+              "node_type": "item",
+              "title": "GPT Researcher",
+              "description": "Autonomous deep research agent producing cited reports from web sources.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
+                "homepage": "https://gptr.dev",
+                "id": 639835356,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-10T22:03:53Z",
+                "open_issues": 33,
+                "owner": "assafelovic",
+                "repo": "gpt-researcher",
+                "stars": 30035,
+                "topics": [
+                  "agent",
+                  "ai",
+                  "automation",
+                  "deepresearch",
+                  "llms",
+                  "mcp",
+                  "mcp-server",
+                  "python",
+                  "research",
+                  "search",
+                  "webscraping"
+                ]
+              },
+              "first_seen": "2026-08-28T15:35:06.493Z"
+            },
+            {
+              "node_type": "item",
               "title": "The AI Scientist",
-              "description": "Sakana AI framework for fully automated research with LaTeX paper generation and automated reviewing.",
+              "description": "Sakana AI system that generates ML research ideas, runs experiments, and writes and reviews LaTeX papers (Nature 2026; template-free v2).",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -944,7 +1408,7 @@
                 "open_issues": 122,
                 "owner": "SakanaAI",
                 "repo": "AI-Scientist",
-                "stars": 14693,
+                "stars": 14701,
                 "topics": []
               },
               "first_seen": "2026-08-28T15:35:06.493Z"
@@ -952,7 +1416,7 @@
             {
               "node_type": "item",
               "title": "Econ Auto Research",
-              "description": "Vision stage: an economist-directed research pipeline — identification judgment, pre-specified analysis, and referee-grade self-checking — built on the OpenEcon toolchain.",
+              "description": "Vision-stage plan (no code yet) for an economist-directed AI pipeline from research question to working paper, with adversarial self-refereeing.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -982,12 +1446,12 @@
               "first_seen": "2026-08-28T15:35:06.493Z"
             }
           ],
-          "description": "Build automated research pipelines — from data collection to analysis to report generation.",
+          "description": "Systems that turn a research question into a cited report, an analysis, or a draft paper.",
           "node_type": "group",
-          "title": "AI Agent Frameworks"
+          "title": "Autonomous Research Agents"
         }
       ],
-      "title": "Coding Tools for Economists"
+      "title": "AI Agents for Research"
     },
     {
       "description": null,
@@ -1006,11 +1470,11 @@
                 "id": 135584946,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-11T09:26:12Z",
+                "last_commit": "2026-10-12T06:35:31Z",
                 "open_issues": 235,
                 "owner": "py-why",
                 "repo": "dowhy",
-                "stars": 8346,
+                "stars": 8348,
                 "topics": [
                   "bayesian-networks",
                   "causal-inference",
@@ -1039,8 +1503,8 @@
                 "id": 195914972,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-05T13:33:52Z",
-                "open_issues": 12,
+                "last_commit": "2026-10-12T05:52:30Z",
+                "open_issues": 10,
                 "owner": "uber",
                 "repo": "causalml",
                 "stars": 6021,
@@ -1069,7 +1533,7 @@
                 "open_issues": 426,
                 "owner": "py-why",
                 "repo": "EconML",
-                "stars": 4810,
+                "stars": 4811,
                 "topics": [
                   "causal-inference",
                   "causality",
@@ -1121,7 +1585,7 @@
             {
               "node_type": "item",
               "title": "CausalPy",
-              "description": "Bayesian causal inference for quasi-experiments (DiD, synthetic control, RDD) powered by PyMC.",
+              "description": "Bayesian causal inference for quasi-experiments (DiD, synthetic control, RDD) powered by PyMC, with bundled agent skills.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1130,11 +1594,11 @@
                 "id": 539537904,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-09T19:04:34Z",
-                "open_issues": 166,
+                "last_commit": "2026-10-12T09:51:03Z",
+                "open_issues": 173,
                 "owner": "pymc-labs",
                 "repo": "CausalPy",
-                "stars": 1203,
+                "stars": 1204,
                 "topics": [
                   "causal-inference",
                   "pymc",
@@ -1198,6 +1662,27 @@
             },
             {
               "node_type": "item",
+              "title": "marginaleffects",
+              "description": "Predictions, slopes, marginal means, and contrasts for 100+ model classes in R and Python, with an official agent skill.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "R package to compute and plot predictions, slopes, marginal means, and comparisons (contrasts, risk ratios, odds, etc.) for over 100 classes of statistical and ML models. Conduct linear and non-linear hypothesis tests, or equivalence tests. Calculate uncertainty estimates using the delta method, bootstrapping, or simulation-based inference",
+                "homepage": "https://marginaleffects.com",
+                "id": 403625715,
+                "language": "R",
+                "license": null,
+                "last_commit": "2026-10-08T18:03:59Z",
+                "open_issues": 10,
+                "owner": "vincentarelbundock",
+                "repo": "marginaleffects",
+                "stars": 648,
+                "topics": []
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            },
+            {
+              "node_type": "item",
               "title": "pyfixest",
               "description": "Fast high-dimensional fixed-effects regression in Python with IV, Poisson, and modern difference-in-differences estimators.",
               "children": [],
@@ -1208,8 +1693,8 @@
                 "id": 568100553,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-11T08:05:27Z",
-                "open_issues": 252,
+                "last_commit": "2026-10-12T07:30:08Z",
+                "open_issues": 256,
                 "owner": "py-econometrics",
                 "repo": "pyfixest",
                 "stars": 356,
@@ -1220,6 +1705,101 @@
                 ]
               },
               "first_seen": "2026-08-28T15:35:06.493Z"
+            },
+            {
+              "node_type": "item",
+              "title": "CausalMatch",
+              "description": "ByteDance's Python package for propensity score matching and coarsened exact matching, with machine-learning propensity models.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "CausalMatch is a Bytedance research project aimed at integrating cutting-edge machine learning and econometrics methods to bring about automation in decision-making process.",
+                "homepage": null,
+                "id": 836720183,
+                "language": "Jupyter Notebook",
+                "license": "Apache-2.0",
+                "last_commit": "2026-03-17T08:25:17Z",
+                "open_issues": 1,
+                "owner": "bytedance",
+                "repo": "CausalMatch",
+                "stars": 113,
+                "topics": [
+                  "causal-inference",
+                  "econometrics",
+                  "machine-learning"
+                ]
+              },
+              "first_seen": "2026-08-28T15:35:06.493Z"
+            },
+            {
+              "node_type": "item",
+              "title": "policytree",
+              "description": "R package for learning shallow-tree treatment-assignment rules via doubly robust empirical welfare maximization (Athey and Wager).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Policy learning via doubly robust empirical welfare maximization over trees",
+                "homepage": "https://grf-labs.github.io/policytree/",
+                "id": 228679399,
+                "language": "R",
+                "license": "MIT",
+                "last_commit": "2026-08-04T11:02:04Z",
+                "open_issues": 13,
+                "owner": "grf-labs",
+                "repo": "policytree",
+                "stars": 89,
+                "topics": [
+                  "causal-inference",
+                  "policy-learning"
+                ]
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            },
+            {
+              "node_type": "item",
+              "title": "xtdml",
+              "description": "Stata module for double machine learning in static panel models with fixed effects.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Double Machine Learning for panel data models with fixed effects",
+                "homepage": null,
+                "id": 731321937,
+                "language": "R",
+                "license": null,
+                "last_commit": "2026-05-15T15:27:11Z",
+                "open_issues": 0,
+                "owner": "POLSEAN",
+                "repo": "xtdml",
+                "stars": 20,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T15:35:06.493Z"
+            },
+            {
+              "node_type": "item",
+              "title": "ddml",
+              "description": "Double/debiased ML with stacked learners for Stata (Ahrens, Hansen, Schaffer, Wiemann), with a sister R package.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Double/Debiased Machine Learning implementation for Stata",
+                "homepage": null,
+                "id": 296711926,
+                "language": "Stata",
+                "license": "MIT",
+                "last_commit": "2026-02-12T11:59:10Z",
+                "open_issues": 6,
+                "owner": "aahrens1",
+                "repo": "ddml",
+                "stars": 19,
+                "topics": [
+                  "causal-inference",
+                  "machine-learning",
+                  "stata"
+                ]
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
             }
           ],
           "description": null,
@@ -1231,7 +1811,7 @@
             {
               "node_type": "item",
               "title": "diff-diff",
-              "description": "Scikit-learn-style difference-in-differences library for Python.",
+              "description": "Python DiD library with Callaway-Sant'Anna, imputation, synthetic DiD, continuous treatment, and Honest DiD, benchmarked against R.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1241,10 +1821,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-10-05T18:46:18Z",
-                "open_issues": 9,
+                "open_issues": 10,
                 "owner": "igerber",
                 "repo": "diff-diff",
-                "stars": 405,
+                "stars": 406,
                 "topics": [
                   "analytics",
                   "causal-inference",
@@ -1264,76 +1844,6 @@
                   "survey-design",
                   "synthetic-control",
                   "treatment-effects"
-                ]
-              },
-              "first_seen": "2026-08-28T15:35:06.493Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Salesforce CausalAI",
-              "description": "Causal analysis for time series and tabular data.",
-              "children": [],
-              "repo_info": {
-                "archived": true,
-                "description": "Salesforce CausalAI Library: A Fast and Scalable framework for Causal Analysis of Time Series and Tabular Data",
-                "homepage": null,
-                "id": 568936460,
-                "language": "Jupyter Notebook",
-                "license": "BSD-3-Clause",
-                "last_commit": "2025-05-01T17:28:42Z",
-                "open_issues": 7,
-                "owner": "salesforce",
-                "repo": "causalai",
-                "stars": 325,
-                "topics": [
-                  "causality"
-                ]
-              },
-              "first_seen": "2026-08-28T15:35:06.493Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Causal-Copilot",
-              "description": "LLM agent automating end-to-end causal discovery, inference, and reporting from natural-language queries.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": null,
-                "homepage": null,
-                "id": 857177398,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-06-01T08:30:44Z",
-                "open_issues": 0,
-                "owner": "Lancelot39",
-                "repo": "Causal-Copilot",
-                "stars": 210,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T15:35:06.493Z"
-            },
-            {
-              "node_type": "item",
-              "title": "CausalPFN",
-              "description": "Prior-fitted transformer for amortized, in-context ATE and CATE estimation without per-dataset retraining.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "CausalPFN: Amortized Causal Effect Estimation via In-Context Learning",
-                "homepage": null,
-                "id": 999002254,
-                "language": "Jupyter Notebook",
-                "license": "Apache-2.0",
-                "last_commit": "2026-09-27T18:59:14Z",
-                "open_issues": 3,
-                "owner": "vdblm",
-                "repo": "CausalPFN",
-                "stars": 130,
-                "topics": [
-                  "causal-inference",
-                  "causalpfn",
-                  "foundation-models",
-                  "machine-learning"
                 ]
               },
               "first_seen": "2026-08-28T15:35:06.493Z"
@@ -1360,31 +1870,6 @@
                   "difference-in-differences",
                   "econometrics",
                   "panel-data"
-                ]
-              },
-              "first_seen": "2026-08-28T15:35:06.493Z"
-            },
-            {
-              "node_type": "item",
-              "title": "CausalMatch",
-              "description": "ByteDance's causal matching engine at industrial scale.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "CausalMatch is a Bytedance research project aimed at integrating cutting-edge machine learning and econometrics methods to bring about automation in decision-making process.",
-                "homepage": null,
-                "id": 836720183,
-                "language": "Jupyter Notebook",
-                "license": "Apache-2.0",
-                "last_commit": "2026-03-17T08:25:17Z",
-                "open_issues": 1,
-                "owner": "bytedance",
-                "repo": "CausalMatch",
-                "stars": 113,
-                "topics": [
-                  "causal-inference",
-                  "econometrics",
-                  "machine-learning"
                 ]
               },
               "first_seen": "2026-08-28T15:35:06.493Z"
@@ -1438,24 +1923,29 @@
             },
             {
               "node_type": "item",
-              "title": "CausalFM",
-              "description": "Foundation models for causal inference; pre-trained models replace per-problem estimation (ICLR 2026).",
+              "title": "mlsynth",
+              "description": "Python library bundling dozens of synthetic control estimators under one API, cross-checked against original implementations.",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "Official Implementation of Paper [ICLR2026]: Foundation Models for Causal Inference via Prior-Data Fitted Networks",
-                "homepage": null,
-                "id": 1000755181,
+                "description": "This is the repository for the Python library mlsynth",
+                "homepage": "https://mlsynth.readthedocs.io",
+                "id": 792381745,
                 "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2026-06-07T01:05:17Z",
-                "open_issues": 1,
-                "owner": "yccm",
-                "repo": "CausalFM",
-                "stars": 53,
-                "topics": []
+                "license": "NOASSERTION",
+                "last_commit": "2026-10-12T00:08:51Z",
+                "open_issues": 52,
+                "owner": "jgreathouse9",
+                "repo": "mlsynth",
+                "stars": 62,
+                "topics": [
+                  "causal-inference",
+                  "econometrics",
+                  "synthetic-control",
+                  "synthetic-control-method"
+                ]
               },
-              "first_seen": "2026-08-28T15:35:06.493Z"
+              "first_seen": "2026-10-12T11:13:46.942Z"
             },
             {
               "node_type": "item",
@@ -1489,7 +1979,7 @@
             {
               "node_type": "item",
               "title": "moderndid",
-              "description": "GPU-accelerated modern DiD with staggered adoption and event studies.",
+              "description": "Modern DiD estimators (staggered, continuous, triple, Honest DiD) under one API, scaling to GPUs and Spark or Dask clusters.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1498,7 +1988,7 @@
                 "id": 978478263,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-10T01:42:24Z",
+                "last_commit": "2026-10-12T06:28:38Z",
                 "open_issues": 4,
                 "owner": "jordandeklerk",
                 "repo": "moderndid",
@@ -1517,103 +2007,171 @@
                 ]
               },
               "first_seen": "2026-08-28T15:35:06.493Z"
-            },
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Difference-in-Differences and Synthetic Control"
+        },
+        {
+          "children": [
             {
               "node_type": "item",
-              "title": "CausalAgent",
-              "description": "Multi-agent AI for end-to-end causal inference through conversation.",
+              "title": "ppi_py",
+              "description": "Prediction-powered inference (Science 2023): valid confidence intervals combining a small labeled sample with many ML or LLM predictions.",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "A Conversational Multi-Agent System for End-to-End Causal Inference.",
+                "description": "A package for statistically rigorous scientific discovery using machine learning. Implements prediction-powered inference.",
                 "homepage": null,
-                "id": 1143848922,
+                "id": 682380805,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-01-28T04:02:57Z",
-                "open_issues": 0,
-                "owner": "DMIRLAB-Group",
-                "repo": "CausalAgent",
-                "stars": 23,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T15:35:06.493Z"
-            },
-            {
-              "node_type": "item",
-              "title": "xtdml",
-              "description": "Stata module for double machine learning in static panel models with fixed effects.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Double Machine Learning for panel data models with fixed effects",
-                "homepage": null,
-                "id": 731321937,
-                "language": "R",
-                "license": null,
-                "last_commit": "2026-05-15T15:27:11Z",
-                "open_issues": 0,
-                "owner": "POLSEAN",
-                "repo": "xtdml",
-                "stars": 20,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T15:35:06.493Z"
-            },
-            {
-              "node_type": "item",
-              "title": "TexIV",
-              "description": "Extract instrumental variables from text data using ML.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "A machine learning–based package for transforming text into instrumental variables (IV).",
-                "homepage": null,
-                "id": 1010756423,
-                "language": "Python",
-                "license": "AGPL-3.0",
-                "last_commit": "2026-07-07T11:00:20Z",
-                "open_issues": 0,
-                "owner": "SepineTam",
-                "repo": "TexIV",
-                "stars": 7,
+                "last_commit": "2026-04-10T06:03:09Z",
+                "open_issues": 7,
+                "owner": "aangelopoulos",
+                "repo": "ppi_py",
+                "stars": 301,
                 "topics": [
-                  "econometrics",
-                  "instrumental-variables",
-                  "iv",
-                  "iv-2sls",
+                  "confidence-interval",
+                  "confidence-intervals",
+                  "inference",
                   "machine-learning",
-                  "stata",
-                  "texiv"
+                  "p-value",
+                  "p-values",
+                  "statistical-analysis",
+                  "statistical-inference",
+                  "statistics"
+                ]
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            },
+            {
+              "node_type": "item",
+              "title": "ValidMLInference",
+              "description": "Python package for bias-corrected inference with AI/ML-generated covariates (Battaglia, Christensen, Hansen, Sacher); the R port is MLBC on CRAN.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Source code for the ValidMLInference Python Package",
+                "homepage": null,
+                "id": 940740129,
+                "language": "Jupyter Notebook",
+                "license": "MIT",
+                "last_commit": "2026-04-30T14:12:36Z",
+                "open_issues": 0,
+                "owner": "timothymchristensen",
+                "repo": "ValidMLInference",
+                "stars": 8,
+                "topics": []
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            }
+          ],
+          "description": "Valid estimates and standard errors when regression variables come from LLM or ML predictions.",
+          "node_type": "group",
+          "title": "Inference with AI-Generated Data"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Causal-Copilot",
+              "description": "LLM agent automating end-to-end causal discovery, inference, and reporting from natural-language queries.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 857177398,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-06-01T08:30:44Z",
+                "open_issues": 0,
+                "owner": "Lancelot39",
+                "repo": "Causal-Copilot",
+                "stars": 210,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T15:35:06.493Z"
+            },
+            {
+              "node_type": "item",
+              "title": "CausalPFN",
+              "description": "Prior-fitted transformer for amortized, in-context ATE and CATE estimation without per-dataset retraining.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "CausalPFN: Amortized Causal Effect Estimation via In-Context Learning",
+                "homepage": null,
+                "id": 999002254,
+                "language": "Jupyter Notebook",
+                "license": "Apache-2.0",
+                "last_commit": "2026-09-27T18:59:14Z",
+                "open_issues": 3,
+                "owner": "vdblm",
+                "repo": "CausalPFN",
+                "stars": 130,
+                "topics": [
+                  "causal-inference",
+                  "causalpfn",
+                  "foundation-models",
+                  "machine-learning"
                 ]
               },
               "first_seen": "2026-08-28T15:35:06.493Z"
             },
             {
               "node_type": "item",
-              "title": "DoubleLingo",
-              "description": "Double ML with LLM-based nuisance models for causal inference on unstructured data.",
+              "title": "CausalFM",
+              "description": "Foundation models for causal inference; pre-trained models replace per-problem estimation (ICLR 2026).",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "Theoretically consistent estimation of causal effects using LLM-based nuisance models by incorporating them within the framework of Double Machine Learning.",
+                "description": "Official Implementation of Paper [ICLR2026]: Foundation Models for Causal Inference via Prior-Data Fitted Networks",
                 "homepage": null,
-                "id": 827040258,
+                "id": 1000755181,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2024-07-10T22:47:24Z",
-                "open_issues": 0,
-                "owner": "markov24",
-                "repo": "DoubleLingo",
-                "stars": 4,
+                "last_commit": "2026-06-07T01:05:17Z",
+                "open_issues": 1,
+                "owner": "yccm",
+                "repo": "CausalFM",
+                "stars": 53,
                 "topics": []
               },
               "first_seen": "2026-08-28T15:35:06.493Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Causal AI Scientist",
+              "description": "LLM agent that answers causal questions by choosing and running DiD, IV, RDD, or adjustment estimators, with assumption checks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Causal AI Scientist (CAIS) is an LLM-powered tool for generating data-driven answers to natural language causal queries.",
+                "homepage": null,
+                "id": 1001266403,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-09-24T13:43:36Z",
+                "open_issues": 6,
+                "owner": "causalNLP",
+                "repo": "causal-agent",
+                "stars": 39,
+                "topics": [
+                  "ai-agents",
+                  "causal-inference",
+                  "causality",
+                  "llms"
+                ]
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
             }
           ],
           "description": null,
           "node_type": "group",
-          "title": "Frontier Tools"
+          "title": "LLM and Foundation-Model Causal Tools"
         }
       ],
       "title": "Causal Inference and Econometrics"
@@ -1623,6 +2181,39 @@
       "items": [
         {
           "children": [
+            {
+              "node_type": "item",
+              "title": "Mesa",
+              "description": "Python agent-based modeling framework; its Mesa-LLM extension adds language-model decision-making to agents.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Mesa is an open-source Python library for agent-based modeling, ideal for simulating complex systems and exploring emergent behaviors.",
+                "homepage": "https://mesa.readthedocs.io",
+                "id": 24245737,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-10T17:53:08Z",
+                "open_issues": 131,
+                "owner": "mesa",
+                "repo": "mesa",
+                "stars": 3879,
+                "topics": [
+                  "agent-based-modeling",
+                  "agent-based-simulation",
+                  "complex-systems",
+                  "complexity-analysis",
+                  "gis",
+                  "mesa",
+                  "modeling-agents",
+                  "simulation",
+                  "simulation-environment",
+                  "simulation-framework",
+                  "spatial-models"
+                ]
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            },
             {
               "node_type": "item",
               "title": "MarS",
@@ -1639,7 +2230,7 @@
                 "open_issues": 16,
                 "owner": "microsoft",
                 "repo": "MarS",
-                "stars": 1874,
+                "stars": 1875,
                 "topics": []
               },
               "first_seen": "2026-08-28T15:35:06.493Z"
@@ -1657,10 +2248,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-08T23:36:40Z",
-                "open_issues": 42,
+                "open_issues": 48,
                 "owner": "google-deepmind",
                 "repo": "concordia",
-                "stars": 1770,
+                "stars": 1774,
                 "topics": [
                   "agent-based-simulation",
                   "generative-agents",
@@ -1673,7 +2264,7 @@
             {
               "node_type": "item",
               "title": "AgentSociety",
-              "description": "Large-scale LLM-driven social simulator modeling urban, social, and economic spaces with taxation and banking.",
+              "description": "Tsinghua's LLM-agent platform for social-science experiments (AgentSociety 2, 2026), plus the legacy city simulator with economic modules.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1705,7 +2296,7 @@
             {
               "node_type": "item",
               "title": "LLM-ABM Survey",
-              "description": "Tsinghua's toolkit and survey for LLM agent-based modeling.",
+              "description": "Tsinghua's paper list accompanying its LLM agent-based modeling survey (Humanities and Social Sciences Communications, 2024).",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1722,6 +2313,27 @@
                 "topics": []
               },
               "first_seen": "2026-08-28T15:35:06.493Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Magentic Marketplace",
+              "description": "Microsoft Research environment simulating two-sided markets of LLM buyer and seller agents to study welfare and manipulation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Magentic-Marketplace: Simulate Agentic Markets and See How They Evolve",
+                "homepage": "https://microsoft.github.io/multi-agent-marketplace/",
+                "id": 1064221999,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-10-11T22:34:37Z",
+                "open_issues": 27,
+                "owner": "microsoft",
+                "repo": "multi-agent-marketplace",
+                "stars": 192,
+                "topics": []
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
             },
             {
               "node_type": "item",
@@ -1783,7 +2395,7 @@
                 "id": 788383887,
                 "language": "Julia",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-07T15:56:24Z",
+                "last_commit": "2026-10-12T11:08:08Z",
                 "open_issues": 8,
                 "owner": "bancaditalia",
                 "repo": "BeforeIT.jl",
@@ -1811,7 +2423,7 @@
             {
               "node_type": "item",
               "title": "TimesFM",
-              "description": "Google's decoder-only time series foundation model pre-trained on 400B+ time points.",
+              "description": "Google's time-series foundation model; TimesFM 3.0 (2026) adds zero-shot multivariate forecasting with covariates (self-hosted weights are non-commercial).",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1824,7 +2436,7 @@
                 "open_issues": 264,
                 "owner": "google-research",
                 "repo": "timesfm",
-                "stars": 34184,
+                "stars": 34278,
                 "topics": []
               },
               "first_seen": "2026-08-28T15:35:06.493Z"
@@ -1832,7 +2444,7 @@
             {
               "node_type": "item",
               "title": "Chronos",
-              "description": "Amazon's pretrained time series models with Bolt variant for 250x speedup.",
+              "description": "Amazon's pretrained forecasting models; Chronos-2 adds zero-shot multivariate and covariate-informed forecasting.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1845,7 +2457,7 @@
                 "open_issues": 38,
                 "owner": "amazon-science",
                 "repo": "chronos-forecasting",
-                "stars": 6048,
+                "stars": 6061,
                 "topics": [
                   "artificial-intelligence",
                   "forecasting",
@@ -1877,10 +2489,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-10T02:02:13Z",
-                "open_issues": 162,
+                "open_issues": 165,
                 "owner": "Nixtla",
                 "repo": "statsforecast",
-                "stars": 4926,
+                "stars": 4927,
                 "topics": [
                   "arima",
                   "automl",
@@ -1922,7 +2534,7 @@
                 "open_issues": 12,
                 "owner": "Nixtla",
                 "repo": "neuralforecast",
-                "stars": 4282,
+                "stars": 4283,
                 "topics": [
                   "baselines",
                   "baselines-zoo",
@@ -1951,7 +2563,7 @@
             {
               "node_type": "item",
               "title": "TimeGPT",
-              "description": "Nixtla's foundation model for time series trained on 100B+ data points.",
+              "description": "Nixtla's closed-source, API-based time-series foundation model with a free trial; TimeGPT-2.1 adds multivariate forecasting.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1960,11 +2572,11 @@
                 "id": 409653223,
                 "language": "Jupyter Notebook",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-08T23:52:03Z",
-                "open_issues": 64,
+                "last_commit": "2026-10-12T03:55:16Z",
+                "open_issues": 66,
                 "owner": "Nixtla",
                 "repo": "nixtla",
-                "stars": 4020,
+                "stars": 4021,
                 "topics": [
                   "agent",
                   "agentic-ai",
@@ -1987,8 +2599,8 @@
             },
             {
               "node_type": "item",
-              "title": "uni2ts",
-              "description": "Unified time series transformer models.",
+              "title": "Moirai (uni2ts)",
+              "description": "Salesforce's library for Moirai time-series foundation models (latest Moirai 2.0), with pre-training, fine-tuning, and evaluation code.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2001,7 +2613,7 @@
                 "open_issues": 50,
                 "owner": "SalesforceAIResearch",
                 "repo": "uni2ts",
-                "stars": 1604,
+                "stars": 1605,
                 "topics": [
                   "deep-learning",
                   "forecasting",
@@ -2019,41 +2631,8 @@
             },
             {
               "node_type": "item",
-              "title": "Lag-Llama",
-              "description": "First open-source foundation model for probabilistic time series forecasting.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Lag-Llama: Towards Foundation Models for Probabilistic Time Series Forecasting",
-                "homepage": null,
-                "id": 754066467,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2025-06-06T12:23:52Z",
-                "open_issues": 66,
-                "owner": "time-series-foundation-models",
-                "repo": "lag-llama",
-                "stars": 1600,
-                "topics": [
-                  "forecasting",
-                  "foundation-models",
-                  "lag-llama",
-                  "llama",
-                  "time-series",
-                  "time-series-forecasting",
-                  "time-series-prediction",
-                  "time-series-transformer",
-                  "timeseries",
-                  "timeseries-forecasting",
-                  "transformers"
-                ]
-              },
-              "first_seen": "2026-08-28T15:35:06.493Z"
-            },
-            {
-              "node_type": "item",
               "title": "Toto",
-              "description": "Datadog's open-weight time-series foundation model, paired with the 350M-observation BOOM benchmark.",
+              "description": "Datadog's Apache-2.0 time-series foundation models; Toto 2.0 (2026) spans 4M to 2.5B parameters.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2062,7 +2641,7 @@
                 "id": 977821228,
                 "language": "Jupyter Notebook",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-05T07:53:08Z",
+                "last_commit": "2026-10-12T08:04:44Z",
                 "open_issues": 20,
                 "owner": "DataDog",
                 "repo": "toto",
@@ -2083,42 +2662,14 @@
                 "id": 912343521,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-10T12:19:23Z",
-                "open_issues": 15,
+                "last_commit": "2026-10-12T07:51:06Z",
+                "open_issues": 13,
                 "owner": "PriorLabs",
                 "repo": "tabpfn-time-series",
                 "stars": 463,
                 "topics": [
                   "tabpfn",
                   "time-series-forecasting"
-                ]
-              },
-              "first_seen": "2026-08-28T15:35:06.493Z"
-            },
-            {
-              "node_type": "item",
-              "title": "TiRex",
-              "description": "NX-AI's xLSTM-based zero-shot time-series foundation model topping the GIFT-Eval forecasting leaderboard.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "TiRex: Zero-Shot Forecasting Across Long and Short Horizons with Enhanced In-Context Learning",
-                "homepage": "https://nx-ai.github.io/tirex/",
-                "id": 991499215,
-                "language": "Jupyter Notebook",
-                "license": "NOASSERTION",
-                "last_commit": "2026-10-07T18:02:12Z",
-                "open_issues": 4,
-                "owner": "NX-AI",
-                "repo": "tirex",
-                "stars": 305,
-                "topics": [
-                  "classification",
-                  "forecasting",
-                  "foundation-models",
-                  "timeseries",
-                  "timeseries-forecasting",
-                  "xlstm"
                 ]
               },
               "first_seen": "2026-08-28T15:35:06.493Z"
@@ -2152,6 +2703,27 @@
             },
             {
               "node_type": "item",
+              "title": "TiRex-2",
+              "description": "NX-AI's zero-shot forecaster extending TiRex to multivariate series with past and future-known covariates (NeurIPS 2026, Apache-2.0).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "TiRex-2: A Zero-Shot Timeseries Forecasting Model",
+                "homepage": "https://nx-ai.github.io/tirex-2/",
+                "id": 1287050833,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-12T09:38:18Z",
+                "open_issues": 10,
+                "owner": "NX-AI",
+                "repo": "tirex-2",
+                "stars": 149,
+                "topics": []
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            },
+            {
+              "node_type": "item",
               "title": "Durbyn.jl",
               "description": "Julia port of R's forecast package.",
               "children": [],
@@ -2181,32 +2753,6 @@
                 ]
               },
               "first_seen": "2026-08-28T15:35:06.493Z"
-            },
-            {
-              "node_type": "item",
-              "title": "emerging-trajectories",
-              "description": "LLM-based forecasting of political and economic events.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Open source framework for using LLMs to forecast political, economic, and social events.",
-                "homepage": "https://emergingtrajectories.com/",
-                "id": 745751350,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2025-06-18T18:59:15Z",
-                "open_issues": 0,
-                "owner": "wgryc",
-                "repo": "emerging-trajectories",
-                "stars": 79,
-                "topics": [
-                  "agents",
-                  "economics",
-                  "gpt-4",
-                  "llms"
-                ]
-              },
-              "first_seen": "2026-08-28T15:35:06.493Z"
             }
           ],
           "description": null,
@@ -2215,6 +2761,33 @@
         },
         {
           "children": [
+            {
+              "node_type": "item",
+              "title": "OpenSpiel",
+              "description": "Google DeepMind library of games with equilibrium-finding and multi-agent learning algorithms such as CFR and PSRO.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "OpenSpiel is a collection of environments and algorithms for research in general reinforcement learning and search/planning in games.",
+                "homepage": null,
+                "id": 198232685,
+                "language": "C++",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-31T20:35:43Z",
+                "open_issues": 80,
+                "owner": "google-deepmind",
+                "repo": "open_spiel",
+                "stars": 5528,
+                "topics": [
+                  "cpp",
+                  "games",
+                  "multiagent",
+                  "python",
+                  "reinforcement-learning"
+                ]
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            },
             {
               "node_type": "item",
               "title": "Axelrod",
@@ -2231,7 +2804,7 @@
                 "open_issues": 73,
                 "owner": "Axelrod-Python",
                 "repo": "Axelrod",
-                "stars": 854,
+                "stars": 855,
                 "topics": [
                   "computer-science",
                   "evolutionary-game-theory",
@@ -2279,6 +2852,27 @@
             },
             {
               "node_type": "item",
+              "title": "Deep Learning for Solving and Estimating Dynamic Models in Economics and Finance",
+              "description": "Simon Scheidegger's (Lausanne) open course with runnable notebooks applying deep equilibrium nets and PINNs to DSGE, OLG, and heterogeneous-agent models.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": "https://sischei.github.io/Deep_Learning_for_Solving_And_Estimating_Dynamic_Economic_Models/",
+                "id": 1222349678,
+                "language": "Jupyter Notebook",
+                "license": "NOASSERTION",
+                "last_commit": "2026-08-24T14:54:04Z",
+                "open_issues": 0,
+                "owner": "sischei",
+                "repo": "Deep_Learning_for_Solving_And_Estimating_Dynamic_Economic_Models",
+                "stars": 207,
+                "topics": []
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            },
+            {
+              "node_type": "item",
               "title": "MacroModelling.jl",
               "description": "Julia DSGE toolkit.",
               "children": [],
@@ -2289,7 +2883,7 @@
                 "id": 571475096,
                 "language": "Julia",
                 "license": "MIT",
-                "last_commit": "2026-10-10T23:06:16Z",
+                "last_commit": "2026-10-11T23:06:38Z",
                 "open_issues": 48,
                 "owner": "thorek1",
                 "repo": "MacroModelling.jl",
@@ -2345,7 +2939,7 @@
                 "id": 408062052,
                 "language": "Jupyter Notebook",
                 "license": "GPL-3.0",
-                "last_commit": "2026-10-10T00:53:00Z",
+                "last_commit": "2026-10-12T04:21:59Z",
                 "open_issues": 16,
                 "owner": "jessegrabowski",
                 "repo": "gEconpy",
@@ -2361,24 +2955,24 @@
             },
             {
               "node_type": "item",
-              "title": "Deep Learning for Dynamic Econ",
-              "description": "Neural networks to solve DSGE models (course materials).",
+              "title": "Structural Reinforcement Learning",
+              "description": "JAX tutorials by Yang, Wang, Schaab, and Moll solving heterogeneous-agent models with aggregate risk via policy gradients.",
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": null,
+                "description": "Structural Reinforcement Learning — pedagogical JAX tutorials for solving heterogeneous-agent macro models in general equilibrium (companion code to Yang, Wang, Schaab & Moll)",
                 "homepage": null,
-                "id": 794057601,
+                "id": 1281688052,
                 "language": "Jupyter Notebook",
-                "license": "CC0-1.0",
-                "last_commit": "2024-06-13T20:21:04Z",
+                "license": "MIT",
+                "last_commit": "2026-09-23T02:01:11Z",
                 "open_issues": 0,
-                "owner": "sischei",
-                "repo": "Deep_Learning_For_Dynamic_Econ",
-                "stars": 41,
+                "owner": "StructuralRL",
+                "repo": "SRL",
+                "stars": 20,
                 "topics": []
               },
-              "first_seen": "2026-08-28T15:35:06.493Z"
+              "first_seen": "2026-10-12T11:13:46.942Z"
             }
           ],
           "description": null,
@@ -2391,58 +2985,6 @@
     {
       "description": null,
       "items": [
-        {
-          "node_type": "item",
-          "title": "STORM",
-          "description": "Stanford's LLM-powered system that researches topics and generates full reports with citations.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
-            "homepage": "http://storm.genie.stanford.edu",
-            "id": 776854298,
-            "language": "Python",
-            "license": "MIT",
-            "last_commit": "2025-09-30T18:07:21Z",
-            "open_issues": 111,
-            "owner": "stanford-oval",
-            "repo": "storm",
-            "stars": 31604,
-            "topics": [
-              "agentic-rag",
-              "deep-research",
-              "emnlp2024",
-              "knowledge-curation",
-              "large-language-models",
-              "naacl",
-              "nlp",
-              "report-generation",
-              "retrieval-augmented-generation"
-            ]
-          },
-          "first_seen": "2026-08-28T15:35:06.493Z"
-        },
-        {
-          "node_type": "item",
-          "title": "LangChain Open Deep Research",
-          "description": "Open-source configurable deep-research agent producing cited reports across any LLM and search tools.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "description": null,
-            "homepage": null,
-            "id": 891642747,
-            "language": "Python",
-            "license": "MIT",
-            "last_commit": "2026-08-10T18:13:37Z",
-            "open_issues": 72,
-            "owner": "langchain-ai",
-            "repo": "open_deep_research",
-            "stars": 12681,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T15:35:06.493Z"
-        },
         {
           "node_type": "item",
           "title": "PaperQA2",
@@ -2459,7 +3001,7 @@
             "open_issues": 152,
             "owner": "Future-House",
             "repo": "paper-qa",
-            "stars": 9344,
+            "stars": 9351,
             "topics": [
               "ai",
               "rag",
@@ -2468,6 +3010,39 @@
             ]
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Zotero MCP",
+          "description": "Connects your Zotero library to Claude, ChatGPT, Codex, and Cursor to search, read, annotate, and cite papers.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Zotero MCP: Connects your Zotero research library with Claude and other AI assistants via the Model Context Protocol to discuss papers, get summaries, analyze citations, and more.",
+            "homepage": "https://stevenyuyy.com/zotero-mcp/",
+            "id": 953089294,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-10-08T01:41:37Z",
+            "open_issues": 64,
+            "owner": "54yyyu",
+            "repo": "zotero-mcp",
+            "stars": 5336,
+            "topics": [
+              "ai-agent",
+              "chatgpt",
+              "claude",
+              "claude-code",
+              "mcp",
+              "mcp-server",
+              "model-context-protocol",
+              "research-tools",
+              "semantic-search",
+              "zotero",
+              "zotero-plugin"
+            ]
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
         },
         {
           "node_type": "item",
@@ -2513,27 +3088,6 @@
         },
         {
           "node_type": "item",
-          "title": "OpenScholar",
-          "description": "Retrieval-augmented LM for scientific literature synthesis across 45M+ papers (Nature 2026).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "This repository includes the official implementation of OpenScholar: Synthesizing Scientific Literature with Retrieval-augmented LMs. ",
-            "homepage": "https://open-scholar.allen.ai/",
-            "id": 889114262,
-            "language": "Python",
-            "license": "Apache-2.0",
-            "last_commit": "2025-08-13T04:16:46Z",
-            "open_issues": 11,
-            "owner": "AkariAsai",
-            "repo": "OpenScholar",
-            "stars": 1662,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T15:35:06.493Z"
-        },
-        {
-          "node_type": "item",
           "title": "ASReview",
           "description": "Active learning for systematic reviews, reducing screening time by up to 95% (Nature Machine Intelligence).",
           "children": [],
@@ -2544,11 +3098,11 @@
             "id": 164874894,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-06T02:22:52Z",
-            "open_issues": 120,
+            "last_commit": "2026-10-12T11:09:21Z",
+            "open_issues": 124,
             "owner": "asreview",
             "repo": "asreview",
-            "stars": 1030,
+            "stars": 1031,
             "topics": [
               "active-learning",
               "asreview",
@@ -2571,296 +3125,46 @@
       "title": "Literature Review and Research Discovery"
     },
     {
-      "description": null,
-      "items": [
-        {
-          "children": [
-            {
-              "node_type": "item",
-              "title": "Microsoft Data Formulator",
-              "description": "Describe charts in English and get publication-quality output with Python code.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "🪄 Data Formulator is an interactive AI-powered data analysis system makes it easy to connect, explore and visualize data.",
-                "homepage": "https://data-formulator.ai/",
-                "id": 812077621,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-10-08T04:58:44Z",
-                "open_issues": 109,
-                "owner": "microsoft",
-                "repo": "data-formulator",
-                "stars": 17552,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T15:35:06.493Z"
-            }
-          ],
-          "description": null,
-          "node_type": "group",
-          "title": "AI Data Analysis Platforms"
-        },
-        {
-          "children": [
-            {
-              "node_type": "item",
-              "title": "OpenEcon Data",
-              "description": "Query 330,000+ economic indicators from FRED, World Bank, IMF, Comtrade, StatsCan, Eurostat, BIS, and more in plain English. Export to CSV, JSON, DTA, or Python. Try it | GitHub",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Give your AI agent accurate economic data. 330K indicators from FRED, World Bank, IMF, Eurostat & more. MCP server + web UI.",
-                "homepage": "https://openecon.ai",
-                "id": 1079442627,
-                "language": "Python",
-                "license": "NOASSERTION",
-                "last_commit": "2026-09-18T23:00:02Z",
-                "open_issues": 1,
-                "owner": "hanlulong",
-                "repo": "openecon-data",
-                "stars": 84,
-                "topics": [
-                  "ai",
-                  "data-visualization",
-                  "economic-data",
-                  "economic-indicators",
-                  "economics",
-                  "eurostat",
-                  "fastapi",
-                  "financial-data",
-                  "fred",
-                  "fred-api",
-                  "imf",
-                  "inflation",
-                  "mcp",
-                  "mcp-server",
-                  "model-context-protocol",
-                  "natural-language",
-                  "open-data",
-                  "python",
-                  "react",
-                  "world-bank"
-                ]
-              },
-              "first_seen": "2026-08-28T15:35:06.493Z"
-            },
-            {
-              "node_type": "item",
-              "title": "fedfred",
-              "description": "Modern Python client for the FRED API at scale.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "A feature-rich python package for interacting with the Federal Reserve Bank of St. Louis Economic Database: FRED",
-                "homepage": "https://nikhilxsunder.github.io/fedfred/",
-                "id": 917774816,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-10-11T09:00:53Z",
-                "open_issues": 0,
-                "owner": "nikhilxsunder",
-                "repo": "fedfred",
-                "stars": 9,
-                "topics": [
-                  "api-client",
-                  "awesome-list",
-                  "data-science",
-                  "econometrics",
-                  "economic-analysis",
-                  "economic-data",
-                  "economic-research",
-                  "economics",
-                  "fed",
-                  "federal-reserve",
-                  "finance",
-                  "fred",
-                  "fred-api",
-                  "macroeconomics",
-                  "mit-license",
-                  "open-source",
-                  "python",
-                  "requests",
-                  "research-tool",
-                  "trading"
-                ]
-              },
-              "first_seen": "2026-08-28T15:35:06.493Z"
-            }
-          ],
-          "description": null,
-          "node_type": "group",
-          "title": "Economic Data Sources"
-        }
-      ],
-      "title": "Economic Data and Analysis"
-    },
-    {
-      "description": null,
+      "description": "Agent skills for paper writing, refereeing, and slides are listed under Agent Skills for Economists above.",
       "items": [
         {
           "node_type": "item",
-          "title": "Econ Writing Skill",
-          "description": "Agent skill for writing economics papers, synthesizing 50+ guides by Cochrane, McCloskey, Shapiro, Head, and others. Works with Claude Code and OpenAI Codex.",
+          "title": "bibverify",
+          "description": "Verifies BibTeX entries against Crossref, OpenAlex, Semantic Scholar, and arXiv via CLI, MCP server, or agent skill.",
           "children": [],
           "repo_info": {
             "archived": false,
-            "description": "Agent Skill that transforms AI assistants into expert economics paper writers. Synthesizes 50+ guides by Cochrane, McCloskey, Shapiro, Head, Bellemare, Goldin, Kremer. Compatible with Claude Code and OpenAI Codex.",
-            "homepage": "https://openecon.ai",
-            "id": 1159184254,
+            "description": "Cross-platform BibTeX verification for researchers and AI assistants — CLI, Python API, MCP server, and explainable multi-source matching.",
+            "homepage": "https://pypi.org/project/bibverify/",
+            "id": 1074176989,
             "language": "Python",
             "license": "MIT",
-            "last_commit": "2026-07-20T00:11:11Z",
+            "last_commit": "2026-10-09T13:37:08Z",
             "open_issues": 0,
-            "owner": "hanlulong",
-            "repo": "econ-writing-skill",
-            "stars": 652,
+            "owner": "Hylouis233",
+            "repo": "bibverify",
+            "stars": 99,
             "topics": [
-              "academic-writing",
-              "agent-skills",
-              "ai",
-              "claude-code",
-              "codex",
-              "economics",
-              "latex",
-              "research-tools"
-            ]
-          },
-          "first_seen": "2026-08-28T15:35:06.493Z"
-        },
-        {
-          "node_type": "item",
-          "title": "AI Research Feedback",
-          "description": "Claude Code skills giving multi-agent referee-style feedback on economics papers before submission.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "A collection of Claude Code skills for academic research review. These tools were developed by Claes Bäckman.",
-            "homepage": null,
-            "id": 1169890710,
-            "language": "JavaScript",
-            "license": "MIT",
-            "last_commit": "2026-09-25T18:28:01Z",
-            "open_issues": 0,
-            "owner": "claesbackman",
-            "repo": "AI-research-feedback",
-            "stars": 495,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T15:35:06.493Z"
-        },
-        {
-          "node_type": "item",
-          "title": "Rigorous",
-          "description": "Open-source AI pre-submission peer review generating referee-style manuscript feedback using your own LLM keys.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "A comprehensive suite of tools, built to liberate science by making the creation, evaluation, and dissemination of research more transparent, affordable, and efficient.",
-            "homepage": "https://rigorous.review",
-            "id": 963189192,
-            "language": "Python",
-            "license": "MIT",
-            "last_commit": "2025-08-08T22:24:23Z",
-            "open_issues": 3,
-            "owner": "Agentic-Systems-Lab",
-            "repo": "rigorous",
-            "stars": 254,
-            "topics": [
-              "academic-paper",
-              "academic-writing",
-              "ai-agents",
-              "ai-tools",
-              "llm",
-              "manuscript-analyses",
+              "bibliography",
+              "bibtex",
+              "citation-verification",
+              "cli",
+              "cross-platform",
+              "crossref",
+              "mcp-server",
+              "model-context-protocol",
+              "openalex",
               "python",
-              "research",
-              "science"
-            ]
-          },
-          "first_seen": "2026-08-28T15:35:06.493Z"
-        },
-        {
-          "node_type": "item",
-          "title": "Econ Paper Review Skill",
-          "description": "Agent skill producing tough, fair referee reports on economics papers — verified comments, editing notes, and a revision plan. Works with Claude Code and OpenAI Codex.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "Referee report on your economics paper before a real referee sees it — verified comments and a revision plan your agents implement. Agent Skill for Claude Code & Codex.",
-            "homepage": "https://openecon.ai",
-            "id": 1298724548,
-            "language": "Python",
-            "license": "NOASSERTION",
-            "last_commit": "2026-09-01T19:50:27Z",
-            "open_issues": 6,
-            "owner": "hanlulong",
-            "repo": "econ-paper-review-skill",
-            "stars": 28,
-            "topics": [
-              "academic-writing",
-              "agent-skills",
-              "ai",
-              "ai-agents",
-              "causal-inference",
-              "claude",
-              "claude-code",
-              "claude-skills",
-              "codex",
-              "econometrics",
-              "economics",
-              "finance",
-              "llm",
-              "paper-review",
-              "peer-review",
-              "referee-report",
               "research-tools",
-              "social-science"
+              "scholarly-metadata"
             ]
           },
-          "first_seen": "2026-08-28T15:35:06.493Z"
-        },
-        {
-          "node_type": "item",
-          "title": "Econ Slides Skill",
-          "description": "Agent skill turning a paper into a professional Beamer talk plus a timed speaker script — conference, seminar, job-market, and discussant decks with compile-and-render verification. Works with Claude Code and OpenAI Codex.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "Turn an economics paper into a seminar-ready Beamer talk with a timed speaker script — conference, job-market and discussant slides. Agent Skill for Claude Code & Codex.",
-            "homepage": "https://openecon.ai",
-            "id": 1301463756,
-            "language": "TeX",
-            "license": "MIT",
-            "last_commit": "2026-07-20T01:23:21Z",
-            "open_issues": 1,
-            "owner": "hanlulong",
-            "repo": "econ-slides-skill",
-            "stars": 22,
-            "topics": [
-              "academic-writing",
-              "agent-skills",
-              "ai",
-              "ai-agents",
-              "beamer",
-              "claude",
-              "claude-code",
-              "claude-skills",
-              "codex",
-              "economics",
-              "latex",
-              "presentation",
-              "research-tools",
-              "seminar",
-              "slides"
-            ]
-          },
-          "first_seen": "2026-08-28T15:35:06.493Z"
+          "first_seen": "2026-10-12T11:13:46.942Z"
         },
         {
           "node_type": "item",
           "title": "overleaf-sync-now",
-          "description": "Keeps local LaTeX in sync with Overleaf so AI coding agents never edit a stale paper.",
+          "description": "Agent skill and CLI that pull recent Overleaf web edits into a Dropbox-synced copy before AI agents edit it.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -2908,7 +3212,7 @@
         {
           "node_type": "item",
           "title": "PaddleOCR-VL",
-          "description": "Vision-language OCR extracting layout, formulas, and structured tables from documents across many languages.",
+          "description": "Compact 0.9B vision-language OCR (v1.6, 2026) extracting layout, formulas, tables, and charts, including from historical documents.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -2918,10 +3222,10 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-09-16T03:31:50Z",
-            "open_issues": 244,
+            "open_issues": 243,
             "owner": "PaddlePaddle",
             "repo": "PaddleOCR",
-            "stars": 90909,
+            "stars": 90957,
             "topics": [
               "ai4science",
               "chineseocr",
@@ -2943,7 +3247,7 @@
         {
           "node_type": "item",
           "title": "MinerU",
-          "description": "PDF, web, and e-book content extraction with OCR for 84 languages.",
+          "description": "Converts PDFs, scans, Office files, and e-books into LLM-ready Markdown or JSON with tiered local parsing (v4, 2026).",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -2953,10 +3257,10 @@
             "language": "Python",
             "license": "NOASSERTION",
             "last_commit": "2026-10-11T03:22:32Z",
-            "open_issues": 10,
+            "open_issues": 13,
             "owner": "opendatalab",
             "repo": "MinerU",
-            "stars": 81441,
+            "stars": 81523,
             "topics": [
               "ai4science",
               "document-analysis",
@@ -2981,7 +3285,7 @@
         {
           "node_type": "item",
           "title": "Docling",
-          "description": "IBM open-source document parser with 0.97 table recognition accuracy.",
+          "description": "Open-source parser, created at IBM, converting PDFs, Office files, scans, and XBRL financial reports into Markdown or JSON.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -2990,11 +3294,11 @@
             "id": 826168160,
             "language": "Python",
             "license": "MIT",
-            "last_commit": "2026-10-11T05:22:18Z",
-            "open_issues": 1046,
+            "last_commit": "2026-10-12T09:11:45Z",
+            "open_issues": 1043,
             "owner": "docling-project",
             "repo": "docling",
-            "stars": 68664,
+            "stars": 68737,
             "topics": [
               "ai",
               "convert",
@@ -3018,7 +3322,7 @@
         {
           "node_type": "item",
           "title": "Marker",
-          "description": "PDF to Markdown/JSON at 122 pages/sec with multi-page table merging.",
+          "description": "Converts PDFs, Office files, and images to Markdown or JSON with tables, equations, and forms; LLM mode merges cross-page tables.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -3031,7 +3335,7 @@
             "open_issues": 477,
             "owner": "datalab-to",
             "repo": "marker",
-            "stars": 40368,
+            "stars": 40392,
             "topics": []
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
@@ -3039,7 +3343,7 @@
         {
           "node_type": "item",
           "title": "DeepSeek-OCR",
-          "description": "Open-weight vision model converting document images to Markdown with formula and table recognition.",
+          "description": "Open-weight vision model converting document images to Markdown with formula and table recognition, succeeded by DeepSeek-OCR 2 in 2026.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -3052,7 +3356,7 @@
             "open_issues": 288,
             "owner": "deepseek-ai",
             "repo": "DeepSeek-OCR",
-            "stars": 23925,
+            "stars": 23982,
             "topics": []
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
@@ -3073,15 +3377,15 @@
             "open_issues": 198,
             "owner": "datalab-to",
             "repo": "surya",
-            "stars": 21484,
+            "stars": 21483,
             "topics": []
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
         },
         {
           "node_type": "item",
-          "title": "OlmOCR",
-          "description": "Allen AI's fully open-source OCR with SOTA accuracy on tables, equations, and handwriting.",
+          "title": "olmOCR",
+          "description": "Ai2's fully open OCR toolkit and model (olmOCR 2) for tables, equations, and handwriting, plus the olmOCR-Bench benchmark.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -3094,10 +3398,34 @@
             "open_issues": 92,
             "owner": "allenai",
             "repo": "olmocr",
-            "stars": 19734,
+            "stars": 19733,
             "topics": []
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Chandra",
+          "description": "Datalab's open-weight OCR model converting images and PDFs to Markdown or JSON, handling handwriting, forms, and complex tables.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "OCR model that handles complex tables, forms, handwriting with full layout.",
+            "homepage": "https://www.datalab.to",
+            "id": 1072539730,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-06-26T10:26:47Z",
+            "open_issues": 62,
+            "owner": "datalab-to",
+            "repo": "chandra",
+            "stars": 12491,
+            "topics": [
+              "ai",
+              "ocr"
+            ]
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
         },
         {
           "node_type": "item",
@@ -3132,6 +3460,39 @@
             ]
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
+        },
+        {
+          "node_type": "item",
+          "title": "CHURRO",
+          "description": "Stanford's open-weight OCR model for handwritten and printed historical documents across 46 language clusters (EMNLP 2025).",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "CHURRO is an OCR toolkit for historical document transcription, built to make handwritten and printed sources readable at high accuracy and lower cost.",
+            "homepage": "https://stanford-oval.github.io/Churro/",
+            "id": 1054030578,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-04-18T06:03:07Z",
+            "open_issues": 5,
+            "owner": "stanford-oval",
+            "repo": "Churro",
+            "stars": 80,
+            "topics": [
+              "ai",
+              "document-parser",
+              "document-parsing",
+              "documents",
+              "large-language-models",
+              "markdown",
+              "ocr",
+              "pdf",
+              "pdf-converter",
+              "pdf-to-markdown",
+              "pdf-to-text"
+            ]
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
         }
       ],
       "title": "Document Processing and OCR"
@@ -3162,24 +3523,34 @@
         },
         {
           "node_type": "item",
-          "title": "SentiBigNomics",
-          "description": "Sentiment analysis designed for economic text with aspect-based and negation handling.",
+          "title": "LinkTransformer",
+          "description": "Arora and Dell's (Harvard) Python package for transformer-based record linkage, deduplication, and classification of messy text in dataframes.",
           "children": [],
           "repo_info": {
             "archived": false,
-            "description": "Lexicon-based Sentiment Analysis for Economic and Financial Applications",
-            "homepage": null,
-            "id": 322371496,
+            "description": "A convenient way to link, deduplicate, aggregate and cluster data(frames) in Python using deep learning",
+            "homepage": "https://linktransformer.github.io/",
+            "id": 673163670,
             "language": "Python",
-            "license": "Apache-2.0",
-            "last_commit": "2023-03-29T09:29:51Z",
-            "open_issues": 3,
-            "owner": "consose",
-            "repo": "SentiBigNomics",
-            "stars": 43,
-            "topics": []
+            "license": "GPL-3.0",
+            "last_commit": "2026-09-06T20:31:13Z",
+            "open_issues": 5,
+            "owner": "dell-research-harvard",
+            "repo": "linktransformer",
+            "stars": 146,
+            "topics": [
+              "deep-learning",
+              "entity-matching",
+              "entity-resolution",
+              "huggingface-transformers",
+              "nlp",
+              "python",
+              "record-linkage",
+              "sentence-transformers",
+              "transformers"
+            ]
           },
-          "first_seen": "2026-08-28T15:35:06.493Z"
+          "first_seen": "2026-10-12T11:13:46.942Z"
         },
         {
           "node_type": "item",
@@ -3225,6 +3596,27 @@
         },
         {
           "node_type": "item",
+          "title": "OccCANINE",
+          "description": "Model converting free-text occupational descriptions in 13 languages into HISCO codes with about 96% accuracy.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "A method for automatically converting occupational descriptions into HISCO codes",
+            "homepage": null,
+            "id": 643853714,
+            "language": "HTML",
+            "license": "Apache-2.0",
+            "last_commit": "2026-04-15T14:15:59Z",
+            "open_issues": 2,
+            "owner": "christianvedels",
+            "repo": "OccCANINE",
+            "stars": 30,
+            "topics": []
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
+        },
+        {
+          "node_type": "item",
           "title": "EconBERTa",
           "description": "World Bank DeBERTa trained on 9.4B tokens from 1.5M economics papers with NER.",
           "children": [],
@@ -3243,33 +3635,64 @@
             "topics": []
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
-        },
-        {
-          "node_type": "item",
-          "title": "FinVADER",
-          "description": "VADER updated with financial lexicons.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "VADER sentiment classifier updated with financial lexicons",
-            "homepage": null,
-            "id": 646274800,
-            "language": "Python",
-            "license": "Apache-2.0",
-            "last_commit": "2023-12-07T01:04:10Z",
-            "open_issues": 0,
-            "owner": "PetrKorab",
-            "repo": "FinVADER",
-            "stars": 12,
-            "topics": [
-              "finance",
-              "sentiment-analysis"
-            ]
-          },
-          "first_seen": "2026-08-28T15:35:06.493Z"
         }
       ],
-      "title": "NLP and Sentiment for Economics"
+      "title": "NLP and Text as Data"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "GPTs are GPTs",
+              "description": "Task- and occupation-level LLM exposure scores for O*NET from Eloundou et al. (Science, 2024).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 816491771,
+                "language": "Jupyter Notebook",
+                "license": "MIT",
+                "last_commit": "2025-10-04T00:18:48Z",
+                "open_issues": 1,
+                "owner": "openai",
+                "repo": "GPTs-are-GPTs",
+                "stars": 101,
+                "topics": []
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Indeed Hiring Lab AI Tracker",
+              "description": "Daily share of Indeed job postings mentioning AI in nine countries since 2019, under CC BY 4.0.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Share of job postings containing AI and GenAI-related terms",
+                "homepage": null,
+                "id": 791400571,
+                "language": null,
+                "license": "CC-BY-4.0",
+                "last_commit": "2026-10-08T13:08:45Z",
+                "open_issues": 0,
+                "owner": "hiring-lab",
+                "repo": "ai-tracker",
+                "stars": 14,
+                "topics": []
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "AI Adoption and Exposure Trackers"
+        }
+      ],
+      "title": "Policy, Labor and Alternative Data"
     },
     {
       "description": null,
@@ -3290,7 +3713,7 @@
             "open_issues": 104,
             "owner": "TauricResearch",
             "repo": "TradingAgents",
-            "stars": 110558,
+            "stars": 110740,
             "topics": [
               "agent",
               "finance",
@@ -3304,7 +3727,7 @@
         {
           "node_type": "item",
           "title": "OpenBB",
-          "description": "Open-source financial research platform with AI copilot and economic data integration.",
+          "description": "Open-source data platform connecting financial and economic data to Python and AI agents via MCP, stewarded by the non-profit OpenBQ.",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -3313,11 +3736,11 @@
             "id": 323048702,
             "language": "Python",
             "license": "NOASSERTION",
-            "last_commit": "2026-10-02T04:55:27Z",
-            "open_issues": 103,
+            "last_commit": "2026-10-11T20:16:55Z",
+            "open_issues": 101,
             "owner": "openbq-org",
             "repo": "OpenBB",
-            "stars": 74088,
+            "stars": 74142,
             "topics": [
               "ai",
               "crypto",
@@ -3352,7 +3775,7 @@
             "open_issues": 177,
             "owner": "virattt",
             "repo": "ai-hedge-fund",
-            "stars": 63932,
+            "stars": 63950,
             "topics": []
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
@@ -3369,11 +3792,11 @@
             "id": 43425480,
             "language": "HTML",
             "license": null,
-            "last_commit": "2026-10-11T01:29:24Z",
-            "open_issues": 148,
+            "last_commit": "2026-10-12T01:34:24Z",
+            "open_issues": 154,
             "owner": "wilsonfreitas",
             "repo": "awesome-quant",
-            "stars": 30033,
+            "stars": 30039,
             "topics": [
               "algorithmic-trading-engine",
               "algorithmic-trading-library",
@@ -3415,7 +3838,7 @@
             "open_issues": 106,
             "owner": "virattt",
             "repo": "dexter",
-            "stars": 27654,
+            "stars": 27656,
             "topics": []
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
@@ -3436,7 +3859,7 @@
             "open_issues": 53,
             "owner": "AI4Finance-Foundation",
             "repo": "FinGPT",
-            "stars": 21395,
+            "stars": 21393,
             "topics": [
               "chatgpt",
               "finance",
@@ -3471,7 +3894,7 @@
             "open_issues": 77,
             "owner": "AI4Finance-Foundation",
             "repo": "FinRobot",
-            "stars": 8202,
+            "stars": 8203,
             "topics": [
               "aiagent",
               "chatgpt",
@@ -3484,6 +3907,46 @@
             ]
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
+        },
+        {
+          "node_type": "item",
+          "title": "EdgarTools",
+          "description": "Python library turning SEC EDGAR filings and XBRL financials into DataFrames and LLM-ready text, with a built-in MCP server.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Read and analyze SEC EDGAR filings in Python. 10-K, 8-K, XBRL financials, Form 3/4/5, 13F, ADV — clean API, well-typed, MIT-licensed.",
+            "homepage": "https://edgartools.readthedocs.io/",
+            "id": 581872397,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-10-12T00:50:03Z",
+            "open_issues": 80,
+            "owner": "dgunning",
+            "repo": "edgartools",
+            "stars": 2784,
+            "topics": [
+              "10-k",
+              "10-q",
+              "13-f",
+              "8-k",
+              "balance-sheet",
+              "bdc",
+              "cashflow-statement",
+              "company",
+              "cusip",
+              "edgar",
+              "filings",
+              "financials",
+              "form-4",
+              "income-statement",
+              "insider-trading",
+              "sec",
+              "tickers",
+              "xbrl"
+            ]
+          },
+          "first_seen": "2026-10-12T11:13:46.942Z"
         },
         {
           "node_type": "item",
@@ -3501,7 +3964,7 @@
             "open_issues": 9,
             "owner": "SUFE-AIFLM-Lab",
             "repo": "Fin-R1",
-            "stars": 821,
+            "stars": 822,
             "topics": []
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
@@ -3526,11 +3989,11 @@
                 "id": 798201435,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-11T06:06:31Z",
-                "open_issues": 235,
+                "last_commit": "2026-10-12T11:05:11Z",
+                "open_issues": 233,
                 "owner": "unclecode",
                 "repo": "crawl4ai",
-                "stars": 85187,
+                "stars": 85348,
                 "topics": [
                   "ai",
                   "ai-agents",
@@ -3567,7 +4030,7 @@
                 "open_issues": 17,
                 "owner": "ScrapeGraphAI",
                 "repo": "Scrapegraph-ai",
-                "stars": 31678,
+                "stars": 31715,
                 "topics": [
                   "ai-crawler",
                   "ai-scraping",
@@ -3602,6 +4065,97 @@
           "children": [
             {
               "node_type": "item",
+              "title": "QualCoder",
+              "description": "Open-source qualitative coding app for text, images, audio, and video, with an AI agent that searches data and proposes codes.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Qualitative data analysis for text, images, audio, video. Cross platform. Python 3.13 or newer and PyQt6.",
+                "homepage": "https://qualcoder.wordpress.com/",
+                "id": 165788605,
+                "language": "Python",
+                "license": "LGPL-3.0",
+                "last_commit": "2026-10-10T06:43:57Z",
+                "open_issues": 24,
+                "owner": "ccbogel",
+                "repo": "QualCoder",
+                "stars": 689,
+                "topics": [
+                  "qualitative-data-analysis"
+                ]
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            },
+            {
+              "node_type": "item",
+              "title": "EDSL",
+              "description": "Open-source Python library from Expected Parrot (co-founded by economist John Horton) for surveys and experiments with LLM agents.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Design, conduct and analyze results of AI-powered surveys and experiments. Simulate social science and market research with large numbers of AI agents and LLMs.",
+                "homepage": "https://docs.expectedparrot.com",
+                "id": 738290765,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-10-10T14:25:54Z",
+                "open_issues": 56,
+                "owner": "expectedparrot",
+                "repo": "edsl",
+                "stars": 503,
+                "topics": [
+                  "anthropic",
+                  "data-labeling",
+                  "deepinfra",
+                  "domain-specific-language",
+                  "experiments",
+                  "llama2",
+                  "llm",
+                  "llm-agent",
+                  "llm-framework",
+                  "llm-inference",
+                  "market-research",
+                  "mixtral",
+                  "open-source",
+                  "openai",
+                  "python",
+                  "social-science",
+                  "surveys",
+                  "synthetic-data"
+                ]
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Conversations at Scale",
+              "description": "Geiecke and Jaravel's (LSE) platform for AI-led qualitative interviews, free for non-commercial research.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Conversations at Scale: Robust AI-led Interviews",
+                "homepage": null,
+                "id": 866203669,
+                "language": "Python",
+                "license": "NOASSERTION",
+                "last_commit": "2026-02-09T22:38:43Z",
+                "open_issues": 1,
+                "owner": "friedrichgeiecke",
+                "repo": "interviews",
+                "stars": 71,
+                "topics": []
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            }
+          ],
+          "description": "Warning: Nature reports AI chatbots infiltrating online surveys. Implement detection for MTurk/Prolific studies.",
+          "node_type": "group",
+          "title": "Survey and Qualitative Research"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
               "title": "SDV",
               "description": "Open-source synthetic data generation with CTGAN, CopulaGAN, and GaussianCopula models.",
               "children": [],
@@ -3612,11 +4166,11 @@
                 "id": 133060053,
                 "language": "Python",
                 "license": "NOASSERTION",
-                "last_commit": "2026-10-09T14:00:38Z",
-                "open_issues": 153,
+                "last_commit": "2026-10-12T00:55:43Z",
+                "open_issues": 154,
                 "owner": "sdv-dev",
                 "repo": "SDV",
-                "stars": 3571,
+                "stars": 3572,
                 "topics": [
                   "data-generation",
                   "deep-learning",
@@ -3639,6 +4193,35 @@
             },
             {
               "node_type": "item",
+              "title": "MOSTLY AI",
+              "description": "Open-source SDK generating synthetic tabular, multi-table, and time-series data locally, with optional differential privacy.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Synthetic Data SDK ✨",
+                "homepage": "https://mostly-ai.github.io/mostlyai/",
+                "id": 734710598,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-12T11:10:13Z",
+                "open_issues": 0,
+                "owner": "mostly-ai",
+                "repo": "mostlyai",
+                "stars": 803,
+                "topics": [
+                  "differential-privacy",
+                  "generative-ai",
+                  "machine-learning",
+                  "privacy-enhancing-technologies",
+                  "synthetic-data",
+                  "synthetic-data-generation",
+                  "synthetic-data-generator"
+                ]
+              },
+              "first_seen": "2026-10-12T11:13:46.942Z"
+            },
+            {
+              "node_type": "item",
               "title": "Synthcity",
               "description": "Generates and benchmarks synthetic tabular, time-series, and survival data with privacy and fairness metrics.",
               "children": [],
@@ -3653,7 +4236,7 @@
                 "open_issues": 59,
                 "owner": "vanderschaarlab",
                 "repo": "synthcity",
-                "stars": 689,
+                "stars": 690,
                 "topics": [
                   "data-augmentation",
                   "fairness-ml",
@@ -3669,30 +4252,34 @@
             },
             {
               "node_type": "item",
-              "title": "Gretel",
-              "description": "Synthetic data with differential privacy (acquired by NVIDIA in 2025). Open-source library (archived).",
+              "title": "REaLTabFormer",
+              "description": "World Bank library using transformers to generate synthetic single-table and relational data.",
               "children": [],
               "repo_info": {
-                "archived": true,
-                "description": "Synthetic data generators for structured and unstructured text, featuring differentially private learning.",
-                "homepage": "https://gretel.ai/platform/synthetics",
-                "id": 244411609,
-                "language": "Python",
-                "license": "NOASSERTION",
-                "last_commit": "2025-06-24T21:44:06Z",
-                "open_issues": 0,
-                "owner": "gretelai",
-                "repo": "gretel-synthetics",
-                "stars": 683,
+                "archived": false,
+                "description": "A suite of auto-regressive and Seq2Seq (sequence-to-sequence) transformer models for tabular and relational synthetic data generation.",
+                "homepage": "https://worldbank.github.io/REaLTabFormer/",
+                "id": 563089528,
+                "language": "Jupyter Notebook",
+                "license": "MIT",
+                "last_commit": "2026-01-04T08:38:37Z",
+                "open_issues": 31,
+                "owner": "worldbank",
+                "repo": "REaLTabFormer",
+                "stars": 244,
                 "topics": [
-                  "artificial-intelligence",
-                  "differential-privacy",
-                  "privacy",
+                  "data-generation",
+                  "deep-learning",
+                  "gpt",
+                  "gpt-2",
+                  "seq2seq-model",
                   "synthetic-data",
-                  "tensorflow"
+                  "synthetic-dataset-generation",
+                  "tabular-data",
+                  "transformers"
                 ]
               },
-              "first_seen": "2026-08-28T15:35:06.493Z"
+              "first_seen": "2026-10-12T11:13:46.942Z"
             }
           ],
           "description": null,
@@ -3707,21 +4294,42 @@
       "items": [
         {
           "node_type": "item",
-          "title": "Claude Code",
-          "description": "Agentic terminal coding with MCP integration for Stata and economic data",
+          "title": "OpenCode",
+          "description": "Open-source coding agent for the terminal and desktop that works with 75+ model providers, including local models.",
           "children": [],
           "repo_info": {
             "archived": false,
-            "description": "Stata MCP Extension for VS Code, Cursor, and Antigravity IDE",
-            "homepage": "https://openecon.ai",
-            "id": 953157169,
-            "language": "Python",
+            "description": "The open source coding agent.",
+            "homepage": "https://opencode.ai",
+            "id": 975734319,
+            "language": "TypeScript",
             "license": "MIT",
-            "last_commit": "2026-07-05T20:35:39Z",
-            "open_issues": 6,
-            "owner": "hanlulong",
-            "repo": "stata-mcp",
-            "stars": 509,
+            "last_commit": "2026-10-12T10:28:32Z",
+            "open_issues": 4040,
+            "owner": "anomalyco",
+            "repo": "opencode",
+            "stars": 212832,
+            "topics": []
+          },
+          "first_seen": "2026-08-28T15:35:06.493Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Cline",
+          "description": "Open-source coding agent for VS Code and the terminal that works with many model providers, including local models.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+            "homepage": "https://cline.bot",
+            "id": 824874689,
+            "language": "TypeScript",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-12T10:36:11Z",
+            "open_issues": 1651,
+            "owner": "cline",
+            "repo": "cline",
+            "stars": 70205,
             "topics": []
           },
           "first_seen": "2026-08-28T15:35:06.493Z"
@@ -3731,25 +4339,27 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-11T10:14:34.487Z",
+    "last_updated": "2026-10-12T11:13:46.942Z",
     "original_repository_info": {
       "archived": false,
-      "description": "A curated list of AI tools, libraries, and resources for economics research, teaching, and policy analysis. Maintained by the OpenEcon team.",
+      "description": "A curated list of AI tools, agent skills, libraries, and resources for economics research, teaching, and policy analysis. Maintained by the OpenEcon team.",
       "homepage": "https://openecon.ai",
       "id": 1163081173,
       "language": null,
       "license": "CC0-1.0",
-      "last_commit": "2026-07-20T00:12:21Z",
-      "open_issues": 16,
+      "last_commit": "2026-10-12T09:12:51Z",
+      "open_issues": 0,
       "owner": "hanlulong",
       "repo": "awesome-ai-for-economists",
-      "stars": 666,
+      "stars": 667,
       "topics": [
+        "agent-skills",
         "ai",
         "artificial-intelligence",
         "awesome",
         "awesome-list",
         "causal-inference",
+        "claude-skills",
         "econometrics",
         "economics",
         "economists",
@@ -3762,7 +4372,7 @@
         "stata"
       ]
     },
-    "original_repository_sha": "b0266603eaae8f8c9a6bcd851a9b9d7bfdea53ef",
+    "original_repository_sha": "60ef485ef75d4edc10dc29e69ba3bd1ff0de2d31",
     "enhanced_repository": "enhansome/enhansome-ai-for-economists",
     "enhanced_repository_description": null,
     "title": "Awesome AI for Economists with stars"

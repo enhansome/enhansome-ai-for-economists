@@ -1,40 +1,58 @@
 # Awesome AI for Economists with stars
 
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Last Commit](https://img.shields.io/github/last-commit/hanlulong/awesome-ai-for-economists)](https://github.com/hanlulong/awesome-ai-for-economists/commits/main)
 
-A curated list of AI tools, libraries, and resources transforming how economists conduct research, teach, and analyze policy — from natural language data access to causal machine learning.
+A curated list of AI tools, agent skills, libraries, and resources for economics research, teaching, and policy analysis.
 
-> **Scope:** Tools with specific value for economists. General-purpose AI assistants are in the [Appendix](#appendix-general-purpose-ai).
+> **Scope:** AI tools and resources with specific value for economists, plus research on the economics of AI. General-purpose AI assistants and coding agents are in the Appendix.
 
-### Highlights
+<!-- Highlights repeats the team's own entries on purpose. Its reference-style links are not counted by awesome-lint's double-link check, which stays strict for every inline link below. -->
 
-> This list is maintained by the [OpenEcon](https://openecon.ai/) team — building open-source infrastructure connecting AI to economics.
+> **Highlights:** Projects from the [OpenEcon](https://openecon.ai/) team, which maintains this list. Entries in **bold** below are the team's own.
 >
-> * **[AI-research-setup](https://github.com/hanlulong/AI-research-setup) ⭐ 12 | 🐛 0 | 📅 2026-06-09** — New to this? Start here to set up Claude Code and Codex for economics research on macOS and Windows. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/AI-research-setup?style=flat-square)
-> * **[OpenEcon Data](https://openecon.ai/)** — Query 330,000+ economic indicators from FRED, World Bank, IMF, and 10+ sources in plain English. Available as [web app](https://data.openecon.ai), Python API, and [MCP server](https://github.com/hanlulong/openecon-data) ⭐ 84 | 🐛 1 | 🌐 Python | 📅 2026-09-18. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/openecon-data?style=flat-square)
-> * **[Stata-MCP](https://github.com/hanlulong/stata-mcp) ⭐ 509 | 🐛 6 | 🌐 Python | 📅 2026-07-05** — Run Stata from VS Code, Cursor, Claude Code, and GitHub Copilot with real-time output, data viewer, and graph display. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/stata-mcp?style=flat-square)
-> * **[Econ Writing Skill](https://github.com/hanlulong/econ-writing-skill) ⭐ 652 | 🐛 0 | 🌐 Python | 📅 2026-07-20** — AI agent skill for writing economics papers, synthesizing 50+ guides by Cochrane, McCloskey, Shapiro, Head, and other leading economists. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-writing-skill?style=flat-square)
-> * **[Econ Paper Review Skill](https://github.com/hanlulong/econ-paper-review-skill) ⭐ 28 | 🐛 6 | 🌐 Python | 📅 2026-09-01** — AI referee reports for economics papers: verified comments, editing notes, and a step-by-step revision plan before a real referee sees it. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-paper-review-skill?style=flat-square)
-> * **[Econ Slides Skill](https://github.com/hanlulong/econ-slides-skill) ⭐ 22 | 🐛 1 | 🌐 TeX | 📅 2026-07-20** — Turn your paper into a professional Beamer talk with a timed speaker script: conference, seminar, job-market, and discussant decks with verified layouts and honest numbers. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-slides-skill?style=flat-square)
-> * **[Econ Auto Research](https://github.com/hanlulong/econ-auto-research) ⭐ 34 | 🐛 0 | 📅 2026-07-16** — The vision: an economist-directed AI pipeline from research question to working paper, with adversarial self-refereeing. Star to shape the roadmap. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-auto-research?style=flat-square)
-> * **[overleaf-sync-now](https://github.com/hanlulong/overleaf-sync-now) ⭐ 18 | 🐛 2 | 🌐 Python | 📅 2026-05-30** — Keeps local LaTeX in sync with Overleaf so AI coding agents never edit a stale paper. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/overleaf-sync-now?style=flat-square)
+> * [**AI-research-setup**][ai-research-setup] - Step-by-step guide to setting up Claude Code and Codex for economics research on macOS and Windows. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/AI-research-setup?style=flat-square)
+> * [**OpenEcon Data**][openecon-data] - MCP server and web app for plain-English queries over 330,000+ indicators from FRED, World Bank, IMF, Eurostat, and more. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/openecon-data?style=flat-square)
+> * [**Stata-MCP**][stata-mcp] - Runs Stata from VS Code, Cursor, Claude Code, Codex, and Copilot with real-time output, a data viewer, and graph display. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/stata-mcp?style=flat-square)
+> * [**Econ Writing Skill**][econ-writing-skill] - Economics paper-writing skill synthesizing 50+ guides by Cochrane, McCloskey, Shapiro, Head, and others. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-writing-skill?style=flat-square)
+> * [**Econ Paper Review Skill**][econ-paper-review-skill] - Writes referee reports on economics papers with verified comments, editing notes, and a step-by-step revision plan; free for non-commercial use. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-paper-review-skill?style=flat-square)
+> * [**Econ Slides Skill**][econ-slides-skill] - Turns a paper into a Beamer talk with a timed speaker script, including job-market and discussant decks. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-slides-skill?style=flat-square)
+> * [**overleaf-sync-now**][overleaf-sync-now] - Agent skill and CLI that pull recent Overleaf web edits into a Dropbox-synced copy before AI agents edit it. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/overleaf-sync-now?style=flat-square)
+> * [**Econ Auto Research**][econ-auto-research] - Vision-stage plan (no code yet) for an economist-directed AI pipeline from research question to working paper, with adversarial self-refereeing. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-auto-research?style=flat-square)
+>
+> [ai-research-setup]: https://github.com/hanlulong/AI-research-setup
+>
+> [openecon-data]: https://github.com/hanlulong/openecon-data
+>
+> [stata-mcp]: https://github.com/hanlulong/stata-mcp
+>
+> [econ-writing-skill]: https://github.com/hanlulong/econ-writing-skill
+>
+> [econ-paper-review-skill]: https://github.com/hanlulong/econ-paper-review-skill
+>
+> [econ-slides-skill]: https://github.com/hanlulong/econ-slides-skill
+>
+> [overleaf-sync-now]: https://github.com/hanlulong/overleaf-sync-now
+>
+> [econ-auto-research]: https://github.com/hanlulong/econ-auto-research
 
 ## Contents
 
 * [MCP Servers for Economic Data](#mcp-servers-for-economic-data)
+* [Agent Skills for Economists](#agent-skills-for-economists)
 * [Coding Tools for Economists](#coding-tools-for-economists)
+* [AI Agents for Research](#ai-agents-for-research)
 * [Causal Inference and Econometrics](#causal-inference-and-econometrics)
 * [Simulation, Forecasting and Macro Modeling](#simulation-forecasting-and-macro-modeling)
 * [Literature Review and Research Discovery](#literature-review-and-research-discovery)
 * [Economic Data and Analysis](#economic-data-and-analysis)
 * [Academic Writing and LaTeX](#academic-writing-and-latex)
 * [Document Processing and OCR](#document-processing-and-ocr)
-* [NLP and Sentiment for Economics](#nlp-and-sentiment-for-economics)
+* [NLP and Text as Data](#nlp-and-text-as-data)
 * [Policy, Labor and Alternative Data](#policy-labor-and-alternative-data)
 * [Finance-Specific AI](#finance-specific-ai)
 * [Data Collection Tools](#data-collection-tools)
+* [Benchmarks and Evaluation](#benchmarks-and-evaluation)
 * [Papers and Books](#papers-and-books)
 * [Courses, Conferences and Community](#courses-conferences-and-community)
 * [Appendix: General-Purpose AI](#appendix-general-purpose-ai)
@@ -43,163 +61,201 @@ A curated list of AI tools, libraries, and resources transforming how economists
 
 [Model Context Protocol](https://modelcontextprotocol.io/) (MCP) servers let AI assistants query economic databases directly. Connect Claude, Cursor, or other MCP-compatible tools to live data from FRED, World Bank, IMF, and more.
 
-* [Financial Datasets MCP](https://github.com/financial-datasets/mcp-server) ⭐ 2,306 | 🐛 16 | 🌐 Python | 📅 2025-06-05 - Stock market data including prices, financials, and SEC filings via MCP. ![GitHub stars](https://img.shields.io/github/stars/financial-datasets/mcp-server?style=flat-square)
-* [SEC EDGAR MCP](https://github.com/stefanoamorelli/sec-edgar-mcp) ⭐ 368 | 🐛 14 | 🌐 Python | 📅 2026-10-03 - Connects AI assistants to U.S. SEC EDGAR filings, financial statements, and insider-trading data. ![GitHub stars](https://img.shields.io/github/stars/stefanoamorelli/sec-edgar-mcp?style=flat-square)
-* [Data Commons MCP Server](https://github.com/datacommonsorg/agent-toolkit) ⭐ 144 | 🐛 27 | 🌐 Python | 📅 2026-09-15 - Query Data Commons public statistics from Census, World Bank, WHO, and BLS to ground AI answers. ![GitHub stars](https://img.shields.io/github/stars/datacommonsorg/agent-toolkit?style=flat-square)
-* [FRED MCP Server](https://github.com/stefanoamorelli/fred-mcp-server) ⭐ 124 | 🐛 5 | 🌐 TypeScript | 📅 2026-08-22 - Access all 800,000+ FRED time series with date filtering and frequency adjustment. ![GitHub stars](https://img.shields.io/github/stars/stefanoamorelli/fred-mcp-server?style=flat-square)
+* [SEC EDGAR MCP](https://github.com/stefanoamorelli/sec-edgar-mcp) ⭐ 369 | 🐛 14 | 🌐 Python | 📅 2026-10-03 - Connects AI assistants to U.S. SEC EDGAR filings, financial statements, and insider-trading data. ![GitHub stars](https://img.shields.io/github/stars/stefanoamorelli/sec-edgar-mcp?style=flat-square)
+* [Equibles MCP](https://github.com/daniel3303/Equibles) ⭐ 230 | 🐛 29 | 🌐 C# | 📅 2026-10-11 - Self-hosted, open-source server for SEC filings, XBRL financials, 13F holdings, insider trades, short interest, CFTC positioning, and federal contracts. ![GitHub stars](https://img.shields.io/github/stars/daniel3303/Equibles?style=flat-square)
+* [MoSPI eSankhyiki MCP](https://github.com/nso-india/esankhyiki-mcp) ⭐ 145 | 🐛 13 | 🌐 Python | 📅 2026-10-12 - Official Indian statistics ministry server for PLFS, CPI, national accounts, NSS surveys, and more. ![GitHub stars](https://img.shields.io/github/stars/nso-india/esankhyiki-mcp?style=flat-square)
+* [Data Commons MCP Server](https://github.com/datacommonsorg/agent-toolkit) ⭐ 144 | 🐛 27 | 🌐 Python | 📅 2026-09-15 - Official Data Commons server, hosted with a free key or run locally, serving Census, World Bank, BLS, and WHO statistics. ![GitHub stars](https://img.shields.io/github/stars/datacommonsorg/agent-toolkit?style=flat-square)
+* [FRED MCP Server](https://github.com/stefanoamorelli/fred-mcp-server) ⭐ 124 | 🐛 5 | 🌐 TypeScript | 📅 2026-08-22 - Community open-source FRED server run with your own free API key; a self-hostable alternative to the official connector. ![GitHub stars](https://img.shields.io/github/stars/stefanoamorelli/fred-mcp-server?style=flat-square)
 * [U.S. Census Bureau Data API MCP](https://github.com/uscensusbureau/us-census-bureau-data-api-mcp) ⭐ 100 | 🐛 15 | 🌐 TypeScript | 📅 2026-03-13 - Official Census Bureau server connecting AI assistants to demographic, economic, and population statistics. ![GitHub stars](https://img.shields.io/github/stars/uscensusbureau/us-census-bureau-data-api-mcp?style=flat-square)
+* [**OpenEcon Data**](https://github.com/hanlulong/openecon-data) ⭐ 84 | 🐛 1 | 🌐 Python | 📅 2026-09-18 - MCP server and web app for plain-English queries over 330,000+ indicators from FRED, World Bank, IMF, Eurostat, and more. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/openecon-data?style=flat-square)
 * [Nasdaq Data Link MCP](https://github.com/stefanoamorelli/nasdaq-data-link-mcp) ⭐ 67 | 🐛 7 | 🌐 Python | 📅 2026-10-05 - Access Nasdaq/Quandl financial and economic datasets. ![GitHub stars](https://img.shields.io/github/stars/stefanoamorelli/nasdaq-data-link-mcp?style=flat-square)
 * [World Bank MCP Server](https://github.com/anshumax/world_bank_mcp_server) ⭐ 50 | 🐛 1 | 🌐 Python | 📅 2026-09-04 - Community server for the legacy World Bank Open Data API (the official one is World Bank Data360 MCP above). ![GitHub stars](https://img.shields.io/github/stars/anshumax/world_bank_mcp_server?style=flat-square)
-* [World Bank Data360 MCP](https://github.com/worldbank/data360-mcp) ⭐ 40 | 🐛 37 | 🌐 Python | 📅 2026-09-22 - Official World Bank server giving AI agents structured access to Data360 development indicators. ![GitHub stars](https://img.shields.io/github/stars/worldbank/data360-mcp?style=flat-square)
-* [TAM MCP Server](https://github.com/gvaibhav/TAM-MCP-Server) ⭐ 36 | 🐛 1 | 🌐 TypeScript | 📅 2026-08-16 - One server, eight sources: Alpha Vantage, BLS, Census, FRED, IMF, Nasdaq, OECD, and World Bank. ![GitHub stars](https://img.shields.io/github/stars/gvaibhav/TAM-MCP-Server?style=flat-square)
+* [World Bank Data360 MCP](https://github.com/worldbank/data360-mcp) ⭐ 40 | 🐛 37 | 🌐 Python | 📅 2026-09-22 - Official World Bank server with a public hosted endpoint (no key needed) for searching, fetching, and charting Data360 indicators. ![GitHub stars](https://img.shields.io/github/stars/worldbank/data360-mcp?style=flat-square)
 * [IMF Data MCP Server](https://github.com/c-cf/imf-data-mcp) ⭐ 14 | 🐛 0 | 🌐 Python | 📅 2026-04-05 - WEO forecasts, balance of payments, and more from the IMF. ![GitHub stars](https://img.shields.io/github/stars/c-cf/imf-data-mcp?style=flat-square)
-* [Eurostat MCP Server](https://github.com/ano-kuhanathan/eurostat-mcp) ⭐ 10 | 🐛 1 | 🌐 Python | 📅 2026-01-09 - Query Eurostat APIs for EU statistics with dataset search, filtering, and CSV export. ![GitHub stars](https://img.shields.io/github/stars/ano-kuhanathan/eurostat-mcp?style=flat-square)
 * [OECD MCP Server](https://github.com/isakskogstad/OECD-MCP) ⭐ 8 | 🐛 2 | 🌐 TypeScript | 📅 2026-04-22 - Access 5,000+ OECD statistical datasets via SDMX API with prompt templates. ![GitHub stars](https://img.shields.io/github/stars/isakskogstad/OECD-MCP?style=flat-square)
-* [BEA MCP Server](https://github.com/shawndrake2/mcp-bea) ⭐ 3 | 🐛 0 | 🌐 TypeScript | 📅 2026-01-28 - Exposes U.S. Bureau of Economic Analysis data including GDP, personal income, and regional accounts. ![GitHub stars](https://img.shields.io/github/stars/shawndrake2/mcp-bea?style=flat-square)
-* [BLS MCP Server](https://github.com/shawndrake2/mcp-bls) ⭐ 3 | 🐛 0 | 🌐 TypeScript | 📅 2026-01-28 - Bureau of Labor Statistics data: CPI, unemployment, employment, and wages via BLS API. ![GitHub stars](https://img.shields.io/github/stars/shawndrake2/mcp-bls?style=flat-square)
+* [Eurostat MCP Server](https://github.com/cyanheads/eurostat-mcp-server) ⭐ 7 | 🐛 6 | 🌐 TypeScript | 📅 2026-10-04 - Search, inspect, and query Eurostat datasets, including Comext detailed trade, PRODCOM, and NUTS regional data. ![GitHub stars](https://img.shields.io/github/stars/cyanheads/eurostat-mcp-server?style=flat-square)
 * [ECB MCP Server](https://github.com/scka-de/ecb-mcp) ⭐ 3 | 🐛 1 | 🌐 TypeScript | 📅 2026-03-31 - Query European Central Bank exchange rates, policy rates, yield curves, and euro-area monetary statistics. ![GitHub stars](https://img.shields.io/github/stars/scka-de/ecb-mcp?style=flat-square)
 * [UN Comtrade MCP Server](https://github.com/cyanheads/un-comtrade-mcp-server) ⭐ 3 | 🐛 6 | 🌐 TypeScript | 📅 2026-10-07 - Access UN Comtrade international trade statistics with country and HS commodity code lookup. ![GitHub stars](https://img.shields.io/github/stars/cyanheads/un-comtrade-mcp-server?style=flat-square)
 * [Alpha Vantage MCP](https://mcp.alphavantage.co/) - Official server for stocks, forex, commodities, and economic indicators.
-* [Census MCP Server](https://lobehub.com/mcp/brockwebb-census-mcp-server) - Natural language queries for U.S. Census demographic data.
-* [**OpenEcon**](https://openecon.ai/) - Natural language interface to 330,000+ economic indicators across FRED, World Bank, IMF, and more, with CSV, JSON, and DTA export. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/openecon-data?style=flat-square)
+* [FRED MCP Connector](https://fred.stlouisfed.org/help/data/connecting-fred-to-ai-services/fred-mcp-connector) - St. Louis Fed's official connector letting AI assistants search, fetch, and chart FRED series; requires only a free account.
+* [StatCite](https://statcite.com) - World Bank, IMF, and ECB statistics where every value carries a full citation, plus verification of claimed figures. ![GitHub stars](https://img.shields.io/github/stars/asokore/statcite?style=flat-square)
 
 > Browse the [MCP Registry](https://registry.modelcontextprotocol.io/) to discover more servers.
 
+## Agent Skills for Economists
+
+[Agent Skills](https://agentskills.io/) are folders that an AI agent loads when a task needs them: a `SKILL.md` file of instructions, plus optional scripts and reference files. The open format works in Claude, Claude Code, OpenAI Codex, GitHub Copilot, Cursor, and other agents.
+
+* [Claude Code Academic Workflow](https://github.com/pedrohcgs/claude-code-my-workflow) ⭐ 1,657 | 🐛 6 | 🌐 HTML | 📅 2026-09-27 - Pedro Sant'Anna's (Emory) ready-to-fork template with 60+ skills, multi-agent review, quality gates, and replication protocols. ![GitHub stars](https://img.shields.io/github/stars/pedrohcgs/claude-code-my-workflow?style=flat-square)
+* [Awesome Journal Skills](https://github.com/brycewang-stanford/Awesome-Journal-Skills) ⭐ 1,244 | 🐛 2 | 🌐 Stata | 📅 2026-09-27 - Per-journal skill packs for AER, QJE, the AEJs, and hundreds of other venues, from topic choice to referee response. ![GitHub stars](https://img.shields.io/github/stars/brycewang-stanford/Awesome-Journal-Skills?style=flat-square)
+* [**Econ Writing Skill**](https://github.com/hanlulong/econ-writing-skill) ⭐ 655 | 🐛 0 | 🌐 Python | 📅 2026-07-20 - Economics paper-writing skill synthesizing 50+ guides by Cochrane, McCloskey, Shapiro, Head, and others. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-writing-skill?style=flat-square)
+* [awesome-econ-ai-stuff](https://github.com/meleantonio/awesome-econ-ai-stuff) ⭐ 647 | 🐛 6 | 🌐 HTML | 📅 2026-09-26 - Antonio Mele's (LSE) SKILL.md collection for Stata, R, and Python econometrics, data fetching, LaTeX tables, literature review, and modeling. ![GitHub stars](https://img.shields.io/github/stars/meleantonio/awesome-econ-ai-stuff?style=flat-square)
+* [AI Research Feedback](https://github.com/claesbackman/AI-research-feedback) ⭐ 495 | 🐛 0 | 🌐 JavaScript | 📅 2026-09-25 - Claes Bäckman's (SAFE Frankfurt) skills for multi-agent referee reports plus pre-analysis-plan, grant, and replication-code reviews. ![GitHub stars](https://img.shields.io/github/stars/claesbackman/AI-research-feedback?style=flat-square)
+* [MixtapeTools](https://github.com/scunning1975/MixtapeTools) ⭐ 475 | 🐛 18 | 🌐 TeX | 📅 2026-08-26 - Scott Cunningham's (Baylor) skills for independent code audits, cross-language replication, bibliography checks, and Beamer decks. ![GitHub stars](https://img.shields.io/github/stars/scunning1975/MixtapeTools?style=flat-square)
+* [Stata Skill](https://github.com/dylantmoore/stata-skill) ⭐ 292 | 🐛 6 | 🌐 Python | 📅 2026-04-10 - Dylan Moore's (Hawaii) Stata reference skill covering econometrics, causal inference, Mata, and 20+ community packages such as reghdfe. ![GitHub stars](https://img.shields.io/github/stars/dylantmoore/stata-skill?style=flat-square)
+* [World Bank Reproducibility Skill](https://github.com/worldbank/wb-reproducible-research-repository/tree/main/ai-skills/reproducibility-skill) ⭐ 37 | 🐛 0 | 🌐 R | 📅 2026-09-25 - Official World Bank skill that audits and assembles replication packages, starting with a data-privacy check. ![GitHub stars](https://img.shields.io/github/stars/worldbank/wb-reproducible-research-repository?style=flat-square)
+* [**Econ Paper Review Skill**](https://github.com/hanlulong/econ-paper-review-skill) ⭐ 28 | 🐛 6 | 🌐 Python | 📅 2026-09-01 - Writes referee reports on economics papers with verified comments, editing notes, and a step-by-step revision plan; free for non-commercial use. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-paper-review-skill?style=flat-square)
+* [dynare-copilot](https://github.com/EconSolider/dynare-copilot) ⭐ 23 | 🐛 0 | 🌐 AMPL | 📅 2026-07-16 - Skill turning macro model ideas into validated Dynare .mod files, drawing on 149 Macroeconomic Model Data Base models. ![GitHub stars](https://img.shields.io/github/stars/EconSolider/dynare-copilot?style=flat-square)
+* [**Econ Slides Skill**](https://github.com/hanlulong/econ-slides-skill) ⭐ 22 | 🐛 1 | 🌐 TeX | 📅 2026-07-20 - Turns a paper into a Beamer talk with a timed speaker script, including job-market and discussant decks. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-slides-skill?style=flat-square)
+
+> **More skills:** [Academic Research Skills](https://github.com/Imbad0202/academic-research-skills) ⭐ 51,481 | 🐛 36 | 🌐 Python | 📅 2026-10-11 (research-to-publication pipeline, CC BY-NC) | [Anthropic Skills](https://github.com/anthropics/skills) ⭐ 180,637 | 🐛 1,401 | 🌐 Python | 📅 2026-10-09 (Word, Excel, PowerPoint, PDF) | [Posit Skills](https://github.com/posit-dev/skills) ⭐ 537 | 🐛 17 | 🌐 Python | 📅 2026-10-07 (Quarto, tidyverse, Shiny) | [Scientific Agent Skills](https://github.com/K-Dense-AI/scientific-agent-skills) ⭐ 48,508 | 🐛 23 | 🌐 Python | 📅 2026-10-12 (statistics, FRED and World Bank lookups). Browse [skills.sh](https://skills.sh/) for more. Skills can run code on your computer, so read a third-party skill's `SKILL.md` and scripts before installing it.
+
 ## Coding Tools for Economists
 
-* [opencode](https://github.com/anomalyco/opencode) ⭐ 212,633 | 🐛 5,218 | 🌐 TypeScript | 📅 2026-10-11 - Open-source, provider-agnostic AI coding agent built for the terminal with a TUI. ![GitHub stars](https://img.shields.io/github/stars/anomalyco/opencode?style=flat-square)
-* [Cline](https://github.com/cline/cline) ⭐ 70,152 | 🐛 1,652 | 🌐 TypeScript | 📅 2026-10-11 - Autonomous coding agent for VS Code with Plan/Act modes and MCP integration. ![GitHub stars](https://img.shields.io/github/stars/cline/cline?style=flat-square)
-* [Aider](https://github.com/Aider-AI/aider) ⭐ 49,465 | 🐛 1,911 | 🌐 Python | 📅 2026-05-22 - AI pair programming in your terminal with git integration and 260+ LLM support. ![GitHub stars](https://img.shields.io/github/stars/Aider-AI/aider?style=flat-square)
-* [Marimo](https://github.com/marimo-team/marimo) ⭐ 23,105 | 🐛 617 | 🌐 Python | 📅 2026-10-10 - Reactive Python notebook stored as pure .py files with built-in AI assistant. ![GitHub stars](https://img.shields.io/github/stars/marimo-team/marimo?style=flat-square)
-* [Jupyter AI](https://github.com/jupyterlab/jupyter-ai) ⭐ 4,411 | 🐛 317 | 🌐 Python | 📅 2026-10-10 - Official JupyterLab extension with `%%ai` magic commands for code generation and explanation. ![GitHub stars](https://img.shields.io/github/stars/jupyterlab/jupyter-ai?style=flat-square)
-* [awesome-econ-ai-stuff](https://github.com/meleantonio/awesome-econ-ai-stuff) ⭐ 646 | 🐛 6 | 🌐 HTML | 📅 2026-09-26 - Reusable AI skills for economists (SKILL.md standard) covering Stata, Python, and LaTeX workflows. ![GitHub stars](https://img.shields.io/github/stars/meleantonio/awesome-econ-ai-stuff?style=flat-square)
-* [**Stata-MCP**](https://github.com/hanlulong/stata-mcp) ⭐ 509 | 🐛 6 | 🌐 Python | 📅 2026-07-05 - Execute .do/.ado/.mata files from VS Code, Cursor, Claude Code, or GitHub Copilot with real-time output panels, built-in data viewer, and graph display. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/stata-mcp?style=flat-square)
-* [Jupyter AI Agents](https://github.com/datalayer/jupyter-ai-agents) ⭐ 163 | 🐛 6 | 🌐 Jupyter Notebook | 📅 2026-10-08 - AI agents for JupyterLab with MCP integration for connecting notebooks to FRED, World Bank, and more. ![GitHub stars](https://img.shields.io/github/stars/datalayer/jupyter-ai-agents?style=flat-square)
-* [AI-research-setup](https://github.com/hanlulong/AI-research-setup) ⭐ 12 | 🐛 0 | 📅 2026-06-09 - Step-by-step guide to setting up Claude Code and Codex for economics research on macOS and Windows. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/AI-research-setup?style=flat-square)
-* [Positron IDE](https://posit.co/products/ide/positron/) - IDE from Posit (makers of RStudio) with native R and Python support and an AI data assistant.
+*AI assistants, agent connectors, and setup guides for Stata, R, MATLAB, Python, and notebooks. General-purpose coding agents are in the Appendix.*
+
+* [marimo](https://github.com/marimo-team/marimo) ⭐ 23,122 | 🐛 622 | 🌐 Python | 📅 2026-10-12 - Reactive Python notebook stored as pure .py files with built-in AI assistant. ![GitHub stars](https://img.shields.io/github/stars/marimo-team/marimo?style=flat-square)
+* [Jupyter AI](https://github.com/jupyterlab/jupyter-ai) ⭐ 4,411 | 🐛 319 | 🌐 Python | 📅 2026-10-10 - Official JupyterLab extension bringing Claude, Codex, Gemini, and other agents into notebooks through a chat panel. ![GitHub stars](https://img.shields.io/github/stars/jupyterlab/jupyter-ai?style=flat-square)
+* [MATLAB MCP Server](https://github.com/matlab/matlab-mcp-server) ⭐ 1,647 | 🐛 23 | 🌐 Go | 📅 2026-09-25 - Official MathWorks server letting Claude Code, Codex, and Copilot run, lint, and test code in your local MATLAB. ![GitHub stars](https://img.shields.io/github/stars/matlab/matlab-mcp-server?style=flat-square)
+* [Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server) ⭐ 1,300 | 🐛 31 | 🌐 Python | 📅 2026-10-11 - MCP server and Claude Code plugin letting AI agents edit and run live Jupyter notebooks. ![GitHub stars](https://img.shields.io/github/stars/datalayer/jupyter-mcp-server?style=flat-square)
+* [**Stata-MCP**](https://github.com/hanlulong/stata-mcp) ⭐ 510 | 🐛 6 | 🌐 Python | 📅 2026-07-05 - Runs Stata from VS Code, Cursor, Claude Code, Codex, and Copilot with real-time output, a data viewer, and graph display. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/stata-mcp?style=flat-square)
+* [MCP-for-Stata](https://github.com/SepineTam/mcp-for-stata) ⭐ 265 | 🐛 2 | 🌐 Python | 📅 2026-10-06 - MCP server and CLI, with bundled Stata skills, letting Claude Code, Codex, and other agents run local Stata. ![GitHub stars](https://img.shields.io/github/stars/SepineTam/mcp-for-stata?style=flat-square)
+* [mcptools](https://github.com/posit-dev/mcptools) ⭐ 200 | 🐛 24 | 🌐 R | 📅 2026-09-28 - Posit's R package letting Claude Code, Copilot, and other MCP clients run code in your live R sessions. ![GitHub stars](https://img.shields.io/github/stars/posit-dev/mcptools?style=flat-square)
+* [**AI-research-setup**](https://github.com/hanlulong/AI-research-setup) ⭐ 12 | 🐛 0 | 📅 2026-06-09 - Step-by-step guide to setting up Claude Code and Codex for economics research on macOS and Windows. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/AI-research-setup?style=flat-square)
+* [Posit Assistant](https://assistant.posit.co/) - Posit's data-analysis agent for RStudio, Positron, and the terminal, working in live R and Python sessions with major model providers.
+* [Positron](https://positron.posit.co/) - Free Posit data science IDE for R and Python, with the Posit Assistant agent built in. ![GitHub stars](https://img.shields.io/github/stars/posit-dev/positron?style=flat-square)
+
+## AI Agents for Research
 
 ### AI Agent Frameworks
 
-*Build automated research pipelines — from data collection to analysis to report generation.*
+*Libraries for building your own LLM pipelines and agents, from data collection to analysis and reporting.*
 
-* [DeerFlow](https://github.com/bytedance/deer-flow) ⭐ 83,676 | 🐛 901 | 🌐 Python | 📅 2026-10-11 - ByteDance's research SuperAgent for long-horizon tasks with sandboxed code execution. ![GitHub stars](https://img.shields.io/github/stars/bytedance/deer-flow?style=flat-square)
-* [MetaGPT](https://github.com/FoundationAgents/MetaGPT) ⭐ 70,801 | 🐛 141 | 🌐 Python | 📅 2026-01-21 - Multi-agent framework simulating roles (PM, analyst, engineer) with structured SOPs. ![GitHub stars](https://img.shields.io/github/stars/FoundationAgents/MetaGPT?style=flat-square)
-* [AutoGen](https://github.com/microsoft/autogen) ⭐ 61,347 | 🐛 1,101 | 🌐 Python | 📅 2026-04-15 - Microsoft's multi-agent conversation framework for complex research workflows. ![GitHub stars](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square)
-* [Agno](https://github.com/agno-agi/agno) ⭐ 42,658 | 🐛 1,851 | 🌐 Python | 📅 2026-10-11 - Open-source Python framework with memory, knowledge, and 100+ toolkits including MCP support. ![GitHub stars](https://img.shields.io/github/stars/agno-agi/agno?style=flat-square)
-* [DSPy](https://github.com/stanfordnlp/dspy) ⭐ 38,591 | 🐛 798 | 🌐 Python | 📅 2026-10-10 - Stanford framework for programmatic LLM optimization — "programming, not prompting." ![GitHub stars](https://img.shields.io/github/stars/stanfordnlp/dspy?style=flat-square)
-* [GPT Researcher](https://github.com/assafelovic/gpt-researcher) ⭐ 30,011 | 🐛 31 | 🌐 Python | 📅 2026-10-10 - Autonomous deep research agent producing cited reports from web sources. ![GitHub stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=flat-square)
-* [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) ⭐ 29,962 | 🐛 16 | 🌐 Python | 📅 2026-10-08 - Lightweight production-ready multi-agent framework with handoffs and guardrails. ![GitHub stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat-square)
-* [smolagents](https://github.com/huggingface/smolagents) ⭐ 29,780 | 🐛 906 | 🌐 Python | 📅 2026-10-06 - Hugging Face's minimalist agent library where agents write actions as Python code. ![GitHub stars](https://img.shields.io/github/stars/huggingface/smolagents?style=flat-square)
-* [Google ADK](https://github.com/google/adk-python) ⭐ 21,776 | 🐛 423 | 🌐 Python | 📅 2026-10-11 - Google's modular multi-agent framework with MCP and A2A protocol support. ![GitHub stars](https://img.shields.io/github/stars/google/adk-python?style=flat-square)
-* [The AI Scientist](https://github.com/SakanaAI/AI-Scientist) ⭐ 14,693 | 🐛 122 | 🌐 Jupyter Notebook | 📅 2025-12-19 - Sakana AI framework for fully automated research with LaTeX paper generation and automated reviewing. ![GitHub stars](https://img.shields.io/github/stars/SakanaAI/AI-Scientist?style=flat-square)
-* [**Econ Auto Research**](https://github.com/hanlulong/econ-auto-research) ⭐ 34 | 🐛 0 | 📅 2026-07-16 - Vision stage: an economist-directed research pipeline — identification judgment, pre-specified analysis, and referee-grade self-checking — built on the OpenEcon toolchain. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-auto-research?style=flat-square)
+* [CrewAI](https://github.com/crewAIInc/crewAI) ⭐ 59,597 | 🐛 656 | 🌐 Python | 📅 2026-10-12 - Open-source Python framework for orchestrating role-based, collaborative multi-agent systems. ![GitHub stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=flat-square)
+* [LangGraph](https://github.com/langchain-ai/langgraph) ⭐ 43,123 | 🐛 805 | 🌐 Python | 📅 2026-10-12 - LangChain's low-level framework for stateful, durable agent workflows built as graphs. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square)
+* [Agno](https://github.com/agno-agi/agno) ⭐ 42,684 | 🐛 1,887 | 🌐 Python | 📅 2026-10-12 - Open-source Python framework with memory, knowledge, and 100+ toolkits including MCP support. ![GitHub stars](https://img.shields.io/github/stars/agno-agi/agno?style=flat-square)
+* [DSPy](https://github.com/stanfordnlp/dspy) ⭐ 38,599 | 🐛 805 | 🌐 Python | 📅 2026-10-11 - Stanford NLP framework for building LLM pipelines from declarative Python modules, with optimizers that tune prompts and weights. ![GitHub stars](https://img.shields.io/github/stars/stanfordnlp/dspy?style=flat-square)
+* [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) ⭐ 29,983 | 🐛 20 | 🌐 Python | 📅 2026-10-08 - Lightweight Python framework for multi-agent workflows with handoffs, guardrails, and tracing. ![GitHub stars](https://img.shields.io/github/stars/openai/openai-agents-python?style=flat-square)
+* [smolagents](https://github.com/huggingface/smolagents) ⭐ 29,797 | 🐛 921 | 🌐 Python | 📅 2026-10-06 - Hugging Face's minimalist agent library where agents write actions as Python code. ![GitHub stars](https://img.shields.io/github/stars/huggingface/smolagents?style=flat-square)
+* [Google ADK](https://github.com/google/adk-python) ⭐ 21,780 | 🐛 431 | 🌐 Python | 📅 2026-10-12 - Google's modular multi-agent framework with MCP and A2A protocol support. ![GitHub stars](https://img.shields.io/github/stars/google/adk-python?style=flat-square)
+* [Pydantic AI](https://github.com/pydantic/pydantic-ai) ⭐ 20,570 | 🐛 1,397 | 🌐 Python | 📅 2026-10-12 - Type-safe Python agent framework with validated structured outputs across all major model providers. ![GitHub stars](https://img.shields.io/github/stars/pydantic/pydantic-ai?style=flat-square)
+* [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) ⭐ 14,075 | 🐛 766 | 🌐 Python | 📅 2026-10-12 - Microsoft's successor to AutoGen and Semantic Kernel for multi-agent workflows in Python and .NET. ![GitHub stars](https://img.shields.io/github/stars/microsoft/agent-framework?style=flat-square)
 * [chatlas](https://posit-dev.github.io/chatlas/) - Posit's Python interface for LLMs with streaming, tool calling, and structured output. ![GitHub stars](https://img.shields.io/github/stars/posit-dev/chatlas?style=flat-square)
-* [CrewAI](https://www.crewai.com/) - Role-based multi-agent systems for collaborative research workflows.
 * [ellmer](https://ellmer.tidyverse.org) - Tidyverse R package for calling LLM APIs with tool calling and structured data extraction. ![GitHub stars](https://img.shields.io/github/stars/tidyverse/ellmer?style=flat-square)
-* [LangGraph](https://langchain-ai.github.io/langgraph/) - Stateful agent workflows built on cyclic graphs.
-* [Pydantic AI](https://ai.pydantic.dev/) - Type-safe agent framework with structured input/output, ideal for working with economic data.
+
+### Autonomous Research Agents
+
+*Systems that turn a research question into a cited report, an analysis, or a draft paper.*
+
+* [DeerFlow](https://github.com/bytedance/deer-flow) ⭐ 83,734 | 🐛 934 | 🌐 Python | 📅 2026-10-12 - ByteDance's research SuperAgent for long-horizon tasks with sandboxed code execution. ![GitHub stars](https://img.shields.io/github/stars/bytedance/deer-flow?style=flat-square)
+* [GPT Researcher](https://github.com/assafelovic/gpt-researcher) ⭐ 30,035 | 🐛 33 | 🌐 Python | 📅 2026-10-10 - Autonomous deep research agent producing cited reports from web sources. ![GitHub stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=flat-square)
+* [The AI Scientist](https://github.com/SakanaAI/AI-Scientist) ⭐ 14,701 | 🐛 122 | 🌐 Jupyter Notebook | 📅 2025-12-19 - Sakana AI system that generates ML research ideas, runs experiments, and writes and reviews LaTeX papers (Nature 2026; template-free [v2](https://github.com/SakanaAI/AI-Scientist-v2) ⭐ 7,303 | 🐛 79 | 🌐 Python | 📅 2025-12-19). ![GitHub stars](https://img.shields.io/github/stars/SakanaAI/AI-Scientist?style=flat-square)
+* [**Econ Auto Research**](https://github.com/hanlulong/econ-auto-research) ⭐ 34 | 🐛 0 | 📅 2026-07-16 - Vision-stage plan (no code yet) for an economist-directed AI pipeline from research question to working paper, with adversarial self-refereeing. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-auto-research?style=flat-square)
+* [Kosmos](https://edisonscientific.com/) - Edison Scientific's AI scientist that reads literature, analyzes datasets, and generates hypotheses in long autonomous runs.
+* [Project APE](https://ape.socialcatalystlab.org) - University of Zurich experiment in which AI agents wrote 1,000 open policy-evaluation papers, ranked by LLM judges against AER/AEJ papers. ![GitHub stars](https://img.shields.io/github/stars/SocialCatalystLab/ape-papers?style=flat-square)
 
 ## Causal Inference and Econometrics
 
 ### Core Libraries
 
-* [DoWhy](https://github.com/py-why/dowhy) ⭐ 8,346 | 🐛 235 | 🌐 Python | 📅 2026-10-11 - End-to-end causal inference: model, identify, estimate, refute. ![GitHub stars](https://img.shields.io/github/stars/py-why/dowhy?style=flat-square)
-* [CausalML](https://github.com/uber/causalml) ⭐ 6,021 | 🐛 12 | 🌐 Python | 📅 2026-10-05 - Uber's uplift modeling and causal inference with machine learning. ![GitHub stars](https://img.shields.io/github/stars/uber/causalml?style=flat-square)
-* [EconML](https://github.com/py-why/EconML) ⭐ 4,810 | 🐛 426 | 🌐 Jupyter Notebook | 📅 2026-10-07 - Microsoft/PyWhy library for heterogeneous treatment effects via Double ML and causal forests. ![GitHub stars](https://img.shields.io/github/stars/py-why/EconML?style=flat-square)
+* [DoWhy](https://github.com/py-why/dowhy) ⭐ 8,348 | 🐛 235 | 🌐 Python | 📅 2026-10-12 - End-to-end causal inference: model, identify, estimate, refute. ![GitHub stars](https://img.shields.io/github/stars/py-why/dowhy?style=flat-square)
+* [CausalML](https://github.com/uber/causalml) ⭐ 6,021 | 🐛 10 | 🌐 Python | 📅 2026-10-12 - Uber's uplift modeling and causal inference with machine learning. ![GitHub stars](https://img.shields.io/github/stars/uber/causalml?style=flat-square)
+* [EconML](https://github.com/py-why/EconML) ⭐ 4,811 | 🐛 426 | 🌐 Jupyter Notebook | 📅 2026-10-07 - Microsoft/PyWhy library for heterogeneous treatment effects via Double ML and causal forests. ![GitHub stars](https://img.shields.io/github/stars/py-why/EconML?style=flat-square)
 * [causal-learn](https://github.com/py-why/causal-learn) ⭐ 1,696 | 🐛 69 | 🌐 Python | 📅 2026-09-04 - Causal discovery algorithms (PC, FCI, GES) from the PyWhy ecosystem. ![GitHub stars](https://img.shields.io/github/stars/py-why/causal-learn?style=flat-square)
-* [CausalPy](https://github.com/pymc-labs/CausalPy) ⭐ 1,203 | 🐛 166 | 🌐 Python | 📅 2026-10-09 - Bayesian causal inference for quasi-experiments (DiD, synthetic control, RDD) powered by PyMC. ![GitHub stars](https://img.shields.io/github/stars/pymc-labs/CausalPy?style=flat-square)
+* [CausalPy](https://github.com/pymc-labs/CausalPy) ⭐ 1,204 | 🐛 173 | 🌐 Python | 📅 2026-10-12 - Bayesian causal inference for quasi-experiments (DiD, synthetic control, RDD) powered by PyMC, with bundled agent skills. ![GitHub stars](https://img.shields.io/github/stars/pymc-labs/CausalPy?style=flat-square)
 * [awesome-causal-inference](https://github.com/matteocourthoud/awesome-causal-inference) ⭐ 1,200 | 🐛 6 | 📅 2026-04-21 - Curated list of causal inference resources, courses, and tools. ![GitHub stars](https://img.shields.io/github/stars/matteocourthoud/awesome-causal-inference?style=flat-square)
 * [grf](https://github.com/grf-labs/grf) ⭐ 1,117 | 🐛 69 | 🌐 C++ | 📅 2026-04-30 - Generalized Random Forests for heterogeneous treatment effects (Athey, Tibshirani, Wager). ![GitHub stars](https://img.shields.io/github/stars/grf-labs/grf?style=flat-square)
-* [pyfixest](https://github.com/py-econometrics/pyfixest) ⭐ 356 | 🐛 252 | 🌐 Python | 📅 2026-10-11 - Fast high-dimensional fixed-effects regression in Python with IV, Poisson, and modern difference-in-differences estimators. ![GitHub stars](https://img.shields.io/github/stars/py-econometrics/pyfixest?style=flat-square)
-* [DoubleML](https://docs.doubleml.org/) - Chernozhukov et al. (2018) Double/Debiased ML in Python and R.
+* [marginaleffects](https://github.com/vincentarelbundock/marginaleffects) ⭐ 648 | 🐛 10 | 🌐 R | 📅 2026-10-08 - Predictions, slopes, marginal means, and contrasts for 100+ model classes in R and Python, with an official agent skill. ![GitHub stars](https://img.shields.io/github/stars/vincentarelbundock/marginaleffects?style=flat-square)
+* [pyfixest](https://github.com/py-econometrics/pyfixest) ⭐ 356 | 🐛 256 | 🌐 Python | 📅 2026-10-12 - Fast high-dimensional fixed-effects regression in Python with IV, Poisson, and modern difference-in-differences estimators. ![GitHub stars](https://img.shields.io/github/stars/py-econometrics/pyfixest?style=flat-square)
+* [CausalMatch](https://github.com/bytedance/CausalMatch) ⭐ 113 | 🐛 1 | 🌐 Jupyter Notebook | 📅 2026-03-17 - ByteDance's Python package for propensity score matching and coarsened exact matching, with machine-learning propensity models. ![GitHub stars](https://img.shields.io/github/stars/bytedance/CausalMatch?style=flat-square)
+* [policytree](https://github.com/grf-labs/policytree) ⭐ 89 | 🐛 13 | 🌐 R | 📅 2026-08-04 - R package for learning shallow-tree treatment-assignment rules via doubly robust empirical welfare maximization (Athey and Wager). ![GitHub stars](https://img.shields.io/github/stars/grf-labs/policytree?style=flat-square)
+* [xtdml](https://github.com/POLSEAN/xtdml) ⭐ 20 | 🐛 0 | 🌐 R | 📅 2026-05-15 - Stata module for double machine learning in static panel models with fixed effects. ![GitHub stars](https://img.shields.io/github/stars/POLSEAN/xtdml?style=flat-square)
+* [ddml](https://github.com/aahrens1/ddml) ⭐ 19 | 🐛 6 | 🌐 Stata | 📅 2026-02-12 - Double/debiased ML with stacked learners for Stata (Ahrens, Hansen, Schaffer, Wiemann), with a sister R package. ![GitHub stars](https://img.shields.io/github/stars/aahrens1/ddml?style=flat-square)
+* [DoubleML](https://docs.doubleml.org/) - Double/debiased ML (Chernozhukov et al., 2018) in Python and R; the Python package adds DiD, RDD, and panel fixed-effects models. ![GitHub stars](https://img.shields.io/github/stars/DoubleML/doubleml-for-py?style=flat-square)
 
-### Frontier Tools
+### Difference-in-Differences and Synthetic Control
 
-* [diff-diff](https://github.com/igerber/diff-diff) ⭐ 405 | 🐛 9 | 🌐 Python | 📅 2026-10-05 - Scikit-learn-style difference-in-differences library for Python. ![GitHub stars](https://img.shields.io/github/stars/igerber/diff-diff?style=flat-square)
-* [Salesforce CausalAI](https://github.com/salesforce/causalai) ⚠️ Archived - Causal analysis for time series and tabular data. ![GitHub stars](https://img.shields.io/github/stars/salesforce/causalai?style=flat-square)
-* [Causal-Copilot](https://github.com/Lancelot39/Causal-Copilot) ⭐ 210 | 🐛 0 | 🌐 Python | 📅 2026-06-01 - LLM agent automating end-to-end causal discovery, inference, and reporting from natural-language queries. ![GitHub stars](https://img.shields.io/github/stars/Lancelot39/Causal-Copilot?style=flat-square)
-* [CausalPFN](https://github.com/vdblm/CausalPFN) ⭐ 130 | 🐛 3 | 🌐 Jupyter Notebook | 📅 2026-09-27 - Prior-fitted transformer for amortized, in-context ATE and CATE estimation without per-dataset retraining. ![GitHub stars](https://img.shields.io/github/stars/vdblm/CausalPFN?style=flat-square)
+* [diff-diff](https://github.com/igerber/diff-diff) ⭐ 406 | 🐛 10 | 🌐 Python | 📅 2026-10-05 - Python DiD library with Callaway-Sant'Anna, imputation, synthetic DiD, continuous treatment, and Honest DiD, benchmarked against R. ![GitHub stars](https://img.shields.io/github/stars/igerber/diff-diff?style=flat-square)
 * [differences](https://github.com/bernardodionisi/differences) ⭐ 115 | 🐛 9 | 🌐 Python | 📅 2026-04-12 - Python implementation of Callaway and Sant'Anna staggered difference-in-differences with multiple periods and triple differences. ![GitHub stars](https://img.shields.io/github/stars/bernardodionisi/differences?style=flat-square)
-* [CausalMatch](https://github.com/bytedance/CausalMatch) ⭐ 113 | 🐛 1 | 🌐 Jupyter Notebook | 📅 2026-03-17 - ByteDance's causal matching engine at industrial scale. ![GitHub stars](https://img.shields.io/github/stars/bytedance/CausalMatch?style=flat-square)
 * [pysyncon](https://github.com/sdfordham/pysyncon) ⭐ 84 | 🐛 0 | 🌐 Python | 📅 2026-09-25 - Python synthetic control suite with classic, augmented, penalized, and robust estimators plus placebo inference. ![GitHub stars](https://img.shields.io/github/stars/sdfordham/pysyncon?style=flat-square)
 * [contdid](https://github.com/bcallaway11/contdid) ⭐ 77 | 🐛 7 | 🌐 R | 📅 2026-07-21 - DiD with continuous treatment, by Brantly Callaway. ![GitHub stars](https://img.shields.io/github/stars/bcallaway11/contdid?style=flat-square)
-* [CausalFM](https://github.com/yccm/CausalFM) ⭐ 53 | 🐛 1 | 🌐 Python | 📅 2026-06-07 - Foundation models for causal inference; pre-trained models replace per-problem estimation (ICLR 2026). ![GitHub stars](https://img.shields.io/github/stars/yccm/CausalFM?style=flat-square)
+* [mlsynth](https://github.com/jgreathouse9/mlsynth) ⭐ 62 | 🐛 52 | 🌐 Python | 📅 2026-10-12 - Python library bundling dozens of synthetic control estimators under one API, cross-checked against original implementations. ![GitHub stars](https://img.shields.io/github/stars/jgreathouse9/mlsynth?style=flat-square)
 * [CImpact](https://github.com/Sanofi-Public/CImpact) ⭐ 43 | 🐛 6 | 🌐 Python | 📅 2026-10-06 - Causal impact for time series with frequentist and Bayesian methods. ![GitHub stars](https://img.shields.io/github/stars/Sanofi-Public/CImpact?style=flat-square)
-* [moderndid](https://github.com/jordandeklerk/moderndid) ⭐ 26 | 🐛 4 | 🌐 Python | 📅 2026-10-10 - GPU-accelerated modern DiD with staggered adoption and event studies. ![GitHub stars](https://img.shields.io/github/stars/jordandeklerk/moderndid?style=flat-square)
-* [CausalAgent](https://github.com/DMIRLAB-Group/CausalAgent) ⭐ 23 | 🐛 0 | 🌐 Python | 📅 2026-01-28 - Multi-agent AI for end-to-end causal inference through conversation. ![GitHub stars](https://img.shields.io/github/stars/DMIRLAB-Group/CausalAgent?style=flat-square)
-* [xtdml](https://github.com/POLSEAN/xtdml) ⭐ 20 | 🐛 0 | 🌐 R | 📅 2026-05-15 - Stata module for double machine learning in static panel models with fixed effects. ![GitHub stars](https://img.shields.io/github/stars/POLSEAN/xtdml?style=flat-square)
-* [TexIV](https://github.com/SepineTam/TexIV) ⭐ 7 | 🐛 0 | 🌐 Python | 📅 2026-07-07 - Extract instrumental variables from text data using ML. ![GitHub stars](https://img.shields.io/github/stars/SepineTam/TexIV?style=flat-square)
-* [DoubleLingo](https://github.com/markov24/DoubleLingo) ⭐ 4 | 🐛 0 | 🌐 Python | 📅 2024-07-10 - Double ML with LLM-based nuisance models for causal inference on unstructured data. ![GitHub stars](https://img.shields.io/github/stars/markov24/DoubleLingo?style=flat-square)
+* [moderndid](https://github.com/jordandeklerk/moderndid) ⭐ 26 | 🐛 4 | 🌐 Python | 📅 2026-10-12 - Modern DiD estimators (staggered, continuous, triple, Honest DiD) under one API, scaling to GPUs and Spark or Dask clusters. ![GitHub stars](https://img.shields.io/github/stars/jordandeklerk/moderndid?style=flat-square)
 * [scpi](https://nppackages.github.io/scpi/) - Synthetic control with prediction intervals for single, multiple, and staggered-adoption units, in R, Python, and Stata. ![GitHub stars](https://img.shields.io/github/stars/nppackages/scpi?style=flat-square)
+
+### Inference with AI-Generated Data
+
+*Valid estimates and standard errors when regression variables come from LLM or ML predictions.*
+
+* [ppi\_py](https://github.com/aangelopoulos/ppi_py) ⭐ 301 | 🐛 7 | 🌐 Python | 📅 2026-04-10 - Prediction-powered inference (Science 2023): valid confidence intervals combining a small labeled sample with many ML or LLM predictions. ![GitHub stars](https://img.shields.io/github/stars/aangelopoulos/ppi_py?style=flat-square)
+* [ValidMLInference](https://github.com/timothymchristensen/ValidMLInference) ⭐ 8 | 🐛 0 | 🌐 Jupyter Notebook | 📅 2026-04-30 - Python package for bias-corrected inference with AI/ML-generated covariates (Battaglia, Christensen, Hansen, Sacher); the R port is MLBC on CRAN. ![GitHub stars](https://img.shields.io/github/stars/timothymchristensen/ValidMLInference?style=flat-square)
+* [dsl](https://naokiegami.com/dsl/) - Egami, Hinck, Stewart, and Wei's R package for valid regression inference using LLM-annotated variables plus a small expert-coded sample. ![GitHub stars](https://img.shields.io/github/stars/naoki-egami/dsl?style=flat-square)
+
+### LLM and Foundation-Model Causal Tools
+
+* [Causal-Copilot](https://github.com/Lancelot39/Causal-Copilot) ⭐ 210 | 🐛 0 | 🌐 Python | 📅 2026-06-01 - LLM agent automating end-to-end causal discovery, inference, and reporting from natural-language queries. ![GitHub stars](https://img.shields.io/github/stars/Lancelot39/Causal-Copilot?style=flat-square)
+* [CausalPFN](https://github.com/vdblm/CausalPFN) ⭐ 130 | 🐛 3 | 🌐 Jupyter Notebook | 📅 2026-09-27 - Prior-fitted transformer for amortized, in-context ATE and CATE estimation without per-dataset retraining. ![GitHub stars](https://img.shields.io/github/stars/vdblm/CausalPFN?style=flat-square)
+* [CausalFM](https://github.com/yccm/CausalFM) ⭐ 53 | 🐛 1 | 🌐 Python | 📅 2026-06-07 - Foundation models for causal inference; pre-trained models replace per-problem estimation (ICLR 2026). ![GitHub stars](https://img.shields.io/github/stars/yccm/CausalFM?style=flat-square)
+* [Causal AI Scientist](https://github.com/causalNLP/causal-agent) ⭐ 39 | 🐛 6 | 🌐 Python | 📅 2026-09-24 - LLM agent that answers causal questions by choosing and running DiD, IV, RDD, or adjustment estimators, with assumption checks. ![GitHub stars](https://img.shields.io/github/stars/causalNLP/causal-agent?style=flat-square)
 
 ## Simulation, Forecasting and Macro Modeling
 
 ### Agent-Based Models and LLM Simulation
 
-* [MarS](https://github.com/microsoft/MarS) ⭐ 1,874 | 🐛 16 | 🌐 Python | 📅 2026-09-28 - Microsoft engine simulating financial markets via a generative Large Market Model of order flow. ![GitHub stars](https://img.shields.io/github/stars/microsoft/MarS?style=flat-square)
-* [Concordia](https://github.com/google-deepmind/concordia) ⭐ 1,770 | 🐛 42 | 🌐 Python | 📅 2026-10-08 - Google DeepMind library for generative agent-based modeling of social, economic, and market interactions. ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/concordia?style=flat-square)
-* [AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety) ⭐ 1,335 | 🐛 39 | 🌐 Python | 📅 2026-10-01 - Large-scale LLM-driven social simulator modeling urban, social, and economic spaces with taxation and banking. ![GitHub stars](https://img.shields.io/github/stars/tsinghua-fib-lab/AgentSociety?style=flat-square)
-* [LLM-ABM Survey](https://github.com/tsinghua-fib-lab/LLM-Agent-Based-Modeling-and-Simulation) ⭐ 303 | 🐛 4 | 📅 2025-07-15 - Tsinghua's toolkit and survey for LLM agent-based modeling. ![GitHub stars](https://img.shields.io/github/stars/tsinghua-fib-lab/LLM-Agent-Based-Modeling-and-Simulation?style=flat-square)
+* [Mesa](https://github.com/mesa/mesa) ⭐ 3,879 | 🐛 131 | 🌐 Python | 📅 2026-10-10 - Python agent-based modeling framework; its Mesa-LLM extension adds language-model decision-making to agents. ![GitHub stars](https://img.shields.io/github/stars/mesa/mesa?style=flat-square)
+* [MarS](https://github.com/microsoft/MarS) ⭐ 1,875 | 🐛 16 | 🌐 Python | 📅 2026-09-28 - Microsoft engine simulating financial markets via a generative Large Market Model of order flow. ![GitHub stars](https://img.shields.io/github/stars/microsoft/MarS?style=flat-square)
+* [Concordia](https://github.com/google-deepmind/concordia) ⭐ 1,774 | 🐛 48 | 🌐 Python | 📅 2026-10-08 - Google DeepMind library for generative agent-based modeling of social, economic, and market interactions. ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/concordia?style=flat-square)
+* [AgentSociety](https://github.com/tsinghua-fib-lab/AgentSociety) ⭐ 1,335 | 🐛 39 | 🌐 Python | 📅 2026-10-01 - Tsinghua's LLM-agent platform for social-science experiments (AgentSociety 2, 2026), plus the legacy city simulator with economic modules. ![GitHub stars](https://img.shields.io/github/stars/tsinghua-fib-lab/AgentSociety?style=flat-square)
+* [LLM-ABM Survey](https://github.com/tsinghua-fib-lab/LLM-Agent-Based-Modeling-and-Simulation) ⭐ 303 | 🐛 4 | 📅 2025-07-15 - Tsinghua's paper list accompanying its LLM agent-based modeling survey (Humanities and Social Sciences Communications, 2024). ![GitHub stars](https://img.shields.io/github/stars/tsinghua-fib-lab/LLM-Agent-Based-Modeling-and-Simulation?style=flat-square)
+* [Magentic Marketplace](https://github.com/microsoft/multi-agent-marketplace) ⭐ 192 | 🐛 27 | 🌐 Python | 📅 2026-10-11 - Microsoft Research environment simulating two-sided markets of LLM buyer and seller agents to study welfare and manipulation. ![GitHub stars](https://img.shields.io/github/stars/microsoft/multi-agent-marketplace?style=flat-square)
 * [EconAgent](https://github.com/tsinghua-fib-lab/ACL24-EconAgent) ⭐ 153 | 🐛 3 | 🌐 Python | 📅 2024-08-16 - LLM agents with personality traits simulating macroeconomic activities (ACL 2024). ![GitHub stars](https://img.shields.io/github/stars/tsinghua-fib-lab/ACL24-EconAgent?style=flat-square)
 * [LLM-Economist](https://github.com/sethkarten/LLM-Economist) ⭐ 125 | 🐛 0 | 🌐 Python | 📅 2026-03-11 - Mechanism design with 3–1,000+ LLM agents for optimal taxation research. ![GitHub stars](https://img.shields.io/github/stars/sethkarten/LLM-Economist?style=flat-square)
-* [BeforeIT.jl](https://github.com/bancaditalia/BeforeIT.jl) ⭐ 124 | 🐛 8 | 🌐 Julia | 📅 2026-10-07 - Bank of Italy's agent-based macroeconomic model in Julia. ![GitHub stars](https://img.shields.io/github/stars/bancaditalia/BeforeIT.jl?style=flat-square)
+* [BeforeIT.jl](https://github.com/bancaditalia/BeforeIT.jl) ⭐ 124 | 🐛 8 | 🌐 Julia | 📅 2026-10-12 - Bank of Italy's agent-based macroeconomic model in Julia. ![GitHub stars](https://img.shields.io/github/stars/bancaditalia/BeforeIT.jl?style=flat-square)
 
 ### Forecasting and Nowcasting
 
-* [TimesFM](https://github.com/google-research/timesfm) ⭐ 34,184 | 🐛 264 | 🌐 Python | 📅 2026-09-29 - Google's decoder-only time series foundation model pre-trained on 400B+ time points. ![GitHub stars](https://img.shields.io/github/stars/google-research/timesfm?style=flat-square)
-* [Chronos](https://github.com/amazon-science/chronos-forecasting) ⭐ 6,048 | 🐛 38 | 🌐 Python | 📅 2026-10-05 - Amazon's pretrained time series models with Bolt variant for 250x speedup. ![GitHub stars](https://img.shields.io/github/stars/amazon-science/chronos-forecasting?style=flat-square)
-* [statsforecast](https://github.com/Nixtla/statsforecast) ⭐ 4,926 | 🐛 162 | 🌐 Python | 📅 2026-10-10 - Fast statistical forecasting for econometric time series. ![GitHub stars](https://img.shields.io/github/stars/Nixtla/statsforecast?style=flat-square)
-* [neuralforecast](https://github.com/Nixtla/neuralforecast) ⭐ 4,282 | 🐛 12 | 🌐 Python | 📅 2026-10-07 - Neural forecasting models (N-BEATS, NHITS, Transformers) for economic time series. ![GitHub stars](https://img.shields.io/github/stars/Nixtla/neuralforecast?style=flat-square)
-* [TimeGPT](https://github.com/Nixtla/nixtla) ⭐ 4,020 | 🐛 64 | 🌐 Jupyter Notebook | 📅 2026-10-08 - Nixtla's foundation model for time series trained on 100B+ data points. ![GitHub stars](https://img.shields.io/github/stars/Nixtla/nixtla?style=flat-square)
-* [uni2ts](https://github.com/SalesforceAIResearch/uni2ts) ⭐ 1,604 | 🐛 50 | 🌐 Jupyter Notebook | 📅 2026-06-02 - Unified time series transformer models. ![GitHub stars](https://img.shields.io/github/stars/SalesforceAIResearch/uni2ts?style=flat-square)
-* [Lag-Llama](https://github.com/time-series-foundation-models/lag-llama) ⭐ 1,600 | 🐛 66 | 🌐 Python | 📅 2025-06-06 - First open-source foundation model for probabilistic time series forecasting. ![GitHub stars](https://img.shields.io/github/stars/time-series-foundation-models/lag-llama?style=flat-square)
-* [Toto](https://github.com/DataDog/toto) ⭐ 554 | 🐛 20 | 🌐 Jupyter Notebook | 📅 2026-10-05 - Datadog's open-weight time-series foundation model, paired with the 350M-observation BOOM benchmark. ![GitHub stars](https://img.shields.io/github/stars/DataDog/toto?style=flat-square)
-* [tabpfn-time-series](https://github.com/PriorLabs/tabpfn-time-series) ⭐ 463 | 🐛 15 | 🌐 Python | 📅 2026-10-10 - Zero-shot time-series forecasting that repurposes the TabPFN-v2 tabular foundation model, no training needed. ![GitHub stars](https://img.shields.io/github/stars/PriorLabs/tabpfn-time-series?style=flat-square)
-* [TiRex](https://github.com/NX-AI/tirex) ⭐ 305 | 🐛 4 | 🌐 Jupyter Notebook | 📅 2026-10-07 - NX-AI's xLSTM-based zero-shot time-series foundation model topping the GIFT-Eval forecasting leaderboard. ![GitHub stars](https://img.shields.io/github/stars/NX-AI/tirex?style=flat-square)
+* [TimesFM](https://github.com/google-research/timesfm) ⭐ 34,278 | 🐛 264 | 🌐 Python | 📅 2026-09-29 - Google's time-series foundation model; TimesFM 3.0 (2026) adds zero-shot multivariate forecasting with covariates (self-hosted weights are non-commercial). ![GitHub stars](https://img.shields.io/github/stars/google-research/timesfm?style=flat-square)
+* [Chronos](https://github.com/amazon-science/chronos-forecasting) ⭐ 6,061 | 🐛 38 | 🌐 Python | 📅 2026-10-05 - Amazon's pretrained forecasting models; Chronos-2 adds zero-shot multivariate and covariate-informed forecasting. ![GitHub stars](https://img.shields.io/github/stars/amazon-science/chronos-forecasting?style=flat-square)
+* [statsforecast](https://github.com/Nixtla/statsforecast) ⭐ 4,927 | 🐛 165 | 🌐 Python | 📅 2026-10-10 - Fast statistical forecasting for econometric time series. ![GitHub stars](https://img.shields.io/github/stars/Nixtla/statsforecast?style=flat-square)
+* [neuralforecast](https://github.com/Nixtla/neuralforecast) ⭐ 4,283 | 🐛 12 | 🌐 Python | 📅 2026-10-07 - Neural forecasting models (N-BEATS, NHITS, Transformers) for economic time series. ![GitHub stars](https://img.shields.io/github/stars/Nixtla/neuralforecast?style=flat-square)
+* [TimeGPT](https://github.com/Nixtla/nixtla) ⭐ 4,021 | 🐛 66 | 🌐 Jupyter Notebook | 📅 2026-10-12 - Nixtla's closed-source, API-based time-series foundation model with a free trial; TimeGPT-2.1 adds multivariate forecasting. ![GitHub stars](https://img.shields.io/github/stars/Nixtla/nixtla?style=flat-square)
+* [Moirai (uni2ts)](https://github.com/SalesforceAIResearch/uni2ts) ⭐ 1,605 | 🐛 50 | 🌐 Jupyter Notebook | 📅 2026-06-02 - Salesforce's library for Moirai time-series foundation models (latest Moirai 2.0), with pre-training, fine-tuning, and evaluation code. ![GitHub stars](https://img.shields.io/github/stars/SalesforceAIResearch/uni2ts?style=flat-square)
+* [Toto](https://github.com/DataDog/toto) ⭐ 554 | 🐛 20 | 🌐 Jupyter Notebook | 📅 2026-10-12 - Datadog's Apache-2.0 time-series foundation models; Toto 2.0 (2026) spans 4M to 2.5B parameters. ![GitHub stars](https://img.shields.io/github/stars/DataDog/toto?style=flat-square)
+* [tabpfn-time-series](https://github.com/PriorLabs/tabpfn-time-series) ⭐ 463 | 🐛 13 | 🌐 Python | 📅 2026-10-12 - Zero-shot time-series forecasting that repurposes the TabPFN-v2 tabular foundation model, no training needed. ![GitHub stars](https://img.shields.io/github/stars/PriorLabs/tabpfn-time-series?style=flat-square)
 * [Sundial](https://github.com/thuml/Sundial) ⭐ 231 | 🐛 14 | 📅 2025-09-12 - Generative time-series foundation models giving probabilistic forecasts via flow matching without discrete tokenization. ![GitHub stars](https://img.shields.io/github/stars/thuml/Sundial?style=flat-square)
+* [TiRex-2](https://github.com/NX-AI/tirex-2) ⭐ 149 | 🐛 10 | 🌐 Python | 📅 2026-10-12 - NX-AI's zero-shot forecaster extending TiRex to multivariate series with past and future-known covariates (NeurIPS 2026, Apache-2.0). ![GitHub stars](https://img.shields.io/github/stars/NX-AI/tirex-2?style=flat-square)
 * [Durbyn.jl](https://github.com/taf-society/Durbyn.jl) ⭐ 99 | 🐛 1 | 🌐 Julia | 📅 2026-09-04 - Julia port of R's forecast package. ![GitHub stars](https://img.shields.io/github/stars/taf-society/Durbyn.jl?style=flat-square)
-* [emerging-trajectories](https://github.com/wgryc/emerging-trajectories) ⭐ 79 | 🐛 0 | 🌐 Python | 📅 2025-06-18 - LLM-based forecasting of political and economic events. ![GitHub stars](https://img.shields.io/github/stars/wgryc/emerging-trajectories?style=flat-square)
-* [Now-Casting.com](https://www.now-casting.com/) - Real-time GDP nowcasts for major economies, updated as data releases occur.
-* [Project Spectrum](https://www.bis.org/about/bisih/topics/suptech_regtech/spectrum.htm) - BIS/ECB/Bundesbank GenAI for inflation nowcasting, categorizing 34M+ products for CPI.
+* [Project Spectrum](https://www.bis.org/project/spectrum) - BIS/ECB/Bundesbank project using GenAI embeddings to classify 34M products for inflation nowcasting (2026 report).
 
 ### Game Theory and Mechanism Design
 
-* [Axelrod](https://github.com/Axelrod-Python/Axelrod) ⭐ 854 | 🐛 73 | 🌐 Python | 📅 2026-08-05 - Iterated Prisoner's Dilemma research with 200+ strategies and tournament simulations. ![GitHub stars](https://img.shields.io/github/stars/Axelrod-Python/Axelrod?style=flat-square)
-* [Nashpy](https://nashpy.readthedocs.io/) - Two-player game solver with support enumeration, vertex enumeration, and Lemke-Howson.
-* [pygambit](https://www.gambit-project.org/) - Game theory computation for extensive and strategic form games with a Python API.
+* [OpenSpiel](https://github.com/google-deepmind/open_spiel) ⭐ 5,528 | 🐛 80 | 🌐 C++ | 📅 2026-08-31 - Google DeepMind library of games with equilibrium-finding and multi-agent learning algorithms such as CFR and PSRO. ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/open_spiel?style=flat-square)
+* [Axelrod](https://github.com/Axelrod-Python/Axelrod) ⭐ 855 | 🐛 73 | 🌐 Python | 📅 2026-08-05 - Iterated Prisoner's Dilemma research with 200+ strategies and tournament simulations. ![GitHub stars](https://img.shields.io/github/stars/Axelrod-Python/Axelrod?style=flat-square)
+* [Nashpy](https://nashpy.readthedocs.io/) - Two-player game solver with support enumeration, vertex enumeration, and Lemke-Howson. ![GitHub stars](https://img.shields.io/github/stars/drvinceknight/Nashpy?style=flat-square)
+* [pygambit](https://www.gambit-project.org/) - Game theory computation for extensive and strategic form games with a Python API. ![GitHub stars](https://img.shields.io/github/stars/gambitproject/gambit?style=flat-square)
 
 ### DSGE and Structural Models
 
 * [optimagic](https://github.com/optimagic-dev/optimagic) ⭐ 323 | 🐛 44 | 🌐 Python | 📅 2026-10-05 - Numerical optimization for economists (formerly estimagic). ![GitHub stars](https://img.shields.io/github/stars/optimagic-dev/optimagic?style=flat-square)
-* [MacroModelling.jl](https://github.com/thorek1/MacroModelling.jl) ⭐ 150 | 🐛 48 | 🌐 Julia | 📅 2026-10-10 - Julia DSGE toolkit. ![GitHub stars](https://img.shields.io/github/stars/thorek1/MacroModelling.jl?style=flat-square)
+* [Deep Learning for Solving and Estimating Dynamic Models in Economics and Finance](https://github.com/sischei/Deep_Learning_for_Solving_And_Estimating_Dynamic_Economic_Models) ⭐ 207 | 🐛 0 | 🌐 Jupyter Notebook | 📅 2026-08-24 - Simon Scheidegger's (Lausanne) open course with runnable notebooks applying deep equilibrium nets and PINNs to DSGE, OLG, and heterogeneous-agent models. ![GitHub stars](https://img.shields.io/github/stars/sischei/Deep_Learning_for_Solving_And_Estimating_Dynamic_Economic_Models?style=flat-square)
+* [MacroModelling.jl](https://github.com/thorek1/MacroModelling.jl) ⭐ 150 | 🐛 48 | 🌐 Julia | 📅 2026-10-11 - Julia DSGE toolkit. ![GitHub stars](https://img.shields.io/github/stars/thorek1/MacroModelling.jl?style=flat-square)
 * [econpizza](https://github.com/gboehl/econpizza) ⭐ 118 | 🐛 1 | 🌐 Python | 📅 2026-06-22 - JAX-based solver for fully nonlinear heterogeneous-agent (HANK) macroeconomic models via automatic differentiation. ![GitHub stars](https://img.shields.io/github/stars/gboehl/econpizza?style=flat-square)
-* [gEconpy](https://github.com/jessegrabowski/gEconpy) ⭐ 42 | 🐛 16 | 🌐 Jupyter Notebook | 📅 2026-10-10 - DSGE toolkit in Python. ![GitHub stars](https://img.shields.io/github/stars/jessegrabowski/gEconpy?style=flat-square)
-* [Deep Learning for Dynamic Econ](https://github.com/sischei/Deep_Learning_For_Dynamic_Econ) ⭐ 41 | 🐛 0 | 🌐 Jupyter Notebook | 📅 2024-06-13 - Neural networks to solve DSGE models (course materials).
+* [gEconpy](https://github.com/jessegrabowski/gEconpy) ⭐ 42 | 🐛 16 | 🌐 Jupyter Notebook | 📅 2026-10-12 - DSGE toolkit in Python. ![GitHub stars](https://img.shields.io/github/stars/jessegrabowski/gEconpy?style=flat-square)
+* [Structural Reinforcement Learning](https://github.com/StructuralRL/SRL) ⭐ 20 | 🐛 0 | 🌐 Jupyter Notebook | 📅 2026-09-23 - JAX tutorials by Yang, Wang, Schaab, and Moll solving heterogeneous-agent models with aggregate risk via policy gradients. ![GitHub stars](https://img.shields.io/github/stars/StructuralRL/SRL?style=flat-square)
 * [OpenSourceEconomics](https://github.com/OpenSourceEconomics) - JAX-compatible DC-EGM, Kalman filters, and econ-project-templates.
 
 ## Literature Review and Research Discovery
 
-* [STORM](https://github.com/stanford-oval/storm) ⭐ 31,604 | 🐛 111 | 🌐 Python | 📅 2025-09-30 - Stanford's LLM-powered system that researches topics and generates full reports with citations. ![GitHub stars](https://img.shields.io/github/stars/stanford-oval/storm?style=flat-square)
-* [LangChain Open Deep Research](https://github.com/langchain-ai/open_deep_research) ⚠️ Archived - Open-source configurable deep-research agent producing cited reports across any LLM and search tools. ![GitHub stars](https://img.shields.io/github/stars/langchain-ai/open_deep_research?style=flat-square)
-* [PaperQA2](https://github.com/Future-House/paper-qa) ⭐ 9,344 | 🐛 152 | 🌐 Python | 📅 2026-09-25 - RAG system for question answering and summarization over scientific literature. ![GitHub stars](https://img.shields.io/github/stars/Future-House/paper-qa?style=flat-square)
+* [PaperQA2](https://github.com/Future-House/paper-qa) ⭐ 9,351 | 🐛 152 | 🌐 Python | 📅 2026-09-25 - RAG system for question answering and summarization over scientific literature. ![GitHub stars](https://img.shields.io/github/stars/Future-House/paper-qa?style=flat-square)
+* [Zotero MCP](https://github.com/54yyyu/zotero-mcp) ⭐ 5,336 | 🐛 64 | 🌐 Python | 📅 2026-10-08 - Connects your Zotero library to Claude, ChatGPT, Codex, and Cursor to search, read, annotate, and cite papers. ![GitHub stars](https://img.shields.io/github/stars/54yyyu/zotero-mcp?style=flat-square)
 * [Zotero PapersGPT](https://github.com/papersgpt/papersgpt-for-zotero) ⭐ 2,665 | 🐛 76 | 🌐 JavaScript | 📅 2026-09-29 - Zotero AI plugin supporting ChatGPT, Claude, Gemini, and more for PDF chat and summaries. ![GitHub stars](https://img.shields.io/github/stars/papersgpt/papersgpt-for-zotero?style=flat-square)
-* [OpenScholar](https://github.com/AkariAsai/OpenScholar) ⭐ 1,662 | 🐛 11 | 🌐 Python | 📅 2025-08-13 - Retrieval-augmented LM for scientific literature synthesis across 45M+ papers (Nature 2026). ![GitHub stars](https://img.shields.io/github/stars/AkariAsai/OpenScholar?style=flat-square)
-* [ASReview](https://github.com/asreview/asreview) ⭐ 1,030 | 🐛 120 | 🌐 Python | 📅 2026-10-06 - Active learning for systematic reviews, reducing screening time by up to 95% (Nature Machine Intelligence). ![GitHub stars](https://img.shields.io/github/stars/asreview/asreview?style=flat-square)
+* [ASReview](https://github.com/asreview/asreview) ⭐ 1,031 | 🐛 124 | 🌐 Python | 📅 2026-10-12 - Active learning for systematic reviews, reducing screening time by up to 95% (Nature Machine Intelligence). ![GitHub stars](https://img.shields.io/github/stars/asreview/asreview?style=flat-square)
 * [alphaXiv](https://www.alphaxiv.org/) - Line-by-line discussion on arXiv papers with AI-powered analysis.
-* [Asta](https://asta.allen.ai/) - Ai2's open agentic-science assistant for paper finding, cited literature synthesis, and data analysis. ![GitHub stars](https://img.shields.io/github/stars/allenai/asta-bench?style=flat-square)
+* [Asta](https://asta.allen.ai/) - Ai2's agentic-science assistant for paper finding, cited literature reports, and data analysis; successor to the OpenScholar demo. ![GitHub stars](https://img.shields.io/github/stars/allenai/ai2-scholarqa-lib?style=flat-square)
 * [Connected Papers](https://www.connectedpapers.com/) - Visual graphs of related papers from a seed paper.
-* [Consensus](https://consensus.app/) - Evidence meter categorizing findings as yes/no/mixed across 200M+ papers.
-* [Elicit](https://elicit.com/) - Research agents synthesizing up to 80 papers into structured briefs from a large literature corpus.
-* [Inciteful](https://inciteful.xyz/) - Free citation network analysis using graph algorithms to find key papers and connections.
-* [Kosmos](https://edisonscientific.com/) - Autonomous AI scientist reading 1,500+ papers per run to synthesize fully cited research reports.
+* [Consensus](https://consensus.app/) - AI academic search with quote-linked citations, a multi-step research agent, and API and MCP access.
+* [Elicit](https://elicit.com/) - Research agent and PRISMA 2020-aligned systematic reviews over 138M papers, with data extraction and an API and MCP server.
+* [Google Scholar Labs](https://scholar.google.com/scholar_labs/search) - Free AI mode in Google Scholar that breaks down research questions and explains how each paper addresses them; sign-in required.
+* [Inciteful](https://incitefulmed.com/academic/) - Free citation network analysis using graph algorithms to find key papers and connections.
 * [Litmaps](https://www.litmaps.com/) - Dynamic multi-seed citation mapping with monitored searches and daily alerts for new papers.
 * [Meta-Mar](https://www.meta-mar.com/) - Free meta-analysis platform where AI reads PDFs and extracts quantitative outcomes.
 * [MindMap AI](https://mindmapai.app/) - Turns research papers, PDFs, and notes into structured visual mind maps for literature synthesis.
 * [OpenAlex](https://openalex.org/) - Fully open catalog of scholarly works with a free REST API and semantic search.
-* [Rayyan](https://www.rayyan.ai/) - AI screening for systematic reviews with 90% time reduction and PRISMA flowcharts.
+* [Rayyan](https://www.rayyan.ai/) - AI-assisted screening and data extraction for systematic reviews, with team collaboration, PRISMA flow diagrams, and a free basic tier.
 * [ResearchRabbit](https://www.researchrabbit.ai/) - Citation network and semantic similarity discovery rebuilt with Litmaps.
 * [SciSpace](https://scispace.com/) - Deep review with iterative search and Zotero integration across 280M papers.
-* [Scite](https://scite.ai/) - Classifies 1.5B+ citations as supporting or contrasting with AI-driven research rankings.
+* [Scite](https://scite.ai/) - Smart Citations classifying 1.6B+ citations as supporting or contrasting, plus an AI assistant, Reference Check, and MCP access.
 * [Semantic Scholar](https://www.semanticscholar.org/) - AI-powered academic search with citation analysis, TLDR summaries, and free API across 220M+ papers.
 * [Suppr](https://suppr.ai/) - AI literature search, document translation, and deep-research reports over PubMed and OpenAlex, with a Zotero plugin.
 * [Undermind](https://www.undermind.ai/) - Autonomously reads hundreds of papers and produces structured reports with timelines and categories.
@@ -208,60 +264,57 @@ A curated list of AI tools, libraries, and resources transforming how economists
 
 ### AI Data Analysis Platforms
 
-* [Microsoft Data Formulator](https://github.com/microsoft/data-formulator) ⭐ 17,552 | 🐛 109 | 🌐 Python | 📅 2026-10-08 - Describe charts in English and get publication-quality output with Python code. ![GitHub stars](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat-square)
 * [Julius AI](https://julius.ai/) - Upload datasets and ask questions in natural language; returns charts, regressions, and reports.
+* [Microsoft Data Formulator](https://github.com/microsoft/data-formulator) ⭐ 17,556 | 🐛 109 | 🌐 Python | 📅 2026-10-12 - Describe charts in English and get publication-quality output with Python code. ![GitHub stars](https://img.shields.io/github/stars/microsoft/data-formulator?style=flat-square)
 
 ### Economic Data Sources
 
-* [**OpenEcon Data**](https://openecon.ai/) - Query 330,000+ economic indicators from FRED, World Bank, IMF, Comtrade, StatsCan, Eurostat, BIS, and more in plain English. Export to CSV, JSON, DTA, or Python. [Try it](https://data.openecon.ai) | [GitHub](https://github.com/hanlulong/openecon-data) ⭐ 84 | 🐛 1 | 🌐 Python | 📅 2026-09-18 ![GitHub stars](https://img.shields.io/github/stars/hanlulong/openecon-data?style=flat-square)
-* [fedfred](https://github.com/nikhilxsunder/fedfred) ⭐ 9 | 🐛 0 | 🌐 Python | 📅 2026-10-11 - Modern Python client for the FRED API at scale. ![GitHub stars](https://img.shields.io/github/stars/nikhilxsunder/fedfred?style=flat-square)
 * [FRED API v2](https://fred.stlouisfed.org/docs/api/fred/) - Bulk retrieval of all series in any release across 800,000+ time series.
 * [FXMacroData](https://fxmacrodata.com/) - API and MCP server for macroeconomic releases, calendars, FX, commodities, and bond yields, queryable in plain English.
-* [Global Macro Database](https://www.globalmacrodata.com/) - Open-source macro dataset covering 241 countries, 1086–2024, from contemporary and historical sources.
-* [Trading Economics API](https://tradingeconomics.com/api/) - 300,000+ indicators from 196 countries with Python and R packages.
+* [Global Macro Database](https://www.globalmacrodata.com/) - Macroeconomic dataset, free for academic use, covering 239 countries from 1086 to 2025 with forecasts to 2031, plus MCP access. ![GitHub stars](https://img.shields.io/github/stars/KMueller-Lab/Global-Macro-Database?style=flat-square)
+* [UN System Data Commons](https://data.un.org/) - Official UN statistics portal (successor to UNdata) built on Data Commons, with natural-language search and MCP access.
 
 ## Academic Writing and LaTeX
 
-* [**Econ Writing Skill**](https://github.com/hanlulong/econ-writing-skill) ⭐ 652 | 🐛 0 | 🌐 Python | 📅 2026-07-20 - Agent skill for writing economics papers, synthesizing 50+ guides by Cochrane, McCloskey, Shapiro, Head, and others. Works with Claude Code and OpenAI Codex. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-writing-skill?style=flat-square)
-* [AI Research Feedback](https://github.com/claesbackman/AI-research-feedback) ⭐ 495 | 🐛 0 | 🌐 JavaScript | 📅 2026-09-25 - Claude Code skills giving multi-agent referee-style feedback on economics papers before submission. ![GitHub stars](https://img.shields.io/github/stars/claesbackman/AI-research-feedback?style=flat-square)
-* [Rigorous](https://github.com/Agentic-Systems-Lab/rigorous) ⭐ 254 | 🐛 3 | 🌐 Python | 📅 2025-08-08 - Open-source AI pre-submission peer review generating referee-style manuscript feedback using your own LLM keys. ![GitHub stars](https://img.shields.io/github/stars/Agentic-Systems-Lab/rigorous?style=flat-square)
-* [**Econ Paper Review Skill**](https://github.com/hanlulong/econ-paper-review-skill) ⭐ 28 | 🐛 6 | 🌐 Python | 📅 2026-09-01 - Agent skill producing tough, fair referee reports on economics papers — verified comments, editing notes, and a revision plan. Works with Claude Code and OpenAI Codex. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-paper-review-skill?style=flat-square)
-* [**Econ Slides Skill**](https://github.com/hanlulong/econ-slides-skill) ⭐ 22 | 🐛 1 | 🌐 TeX | 📅 2026-07-20 - Agent skill turning a paper into a professional Beamer talk plus a timed speaker script — conference, seminar, job-market, and discussant decks with compile-and-render verification. Works with Claude Code and OpenAI Codex. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/econ-slides-skill?style=flat-square)
-* [overleaf-sync-now](https://github.com/hanlulong/overleaf-sync-now) ⭐ 18 | 🐛 2 | 🌐 Python | 📅 2026-05-30 - Keeps local LaTeX in sync with Overleaf so AI coding agents never edit a stale paper. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/overleaf-sync-now?style=flat-square)
+*Agent skills for paper writing, refereeing, and slides are listed under Agent Skills for Economists above.*
+
+* [bibverify](https://github.com/Hylouis233/bibverify) ⭐ 99 | 🐛 0 | 🌐 Python | 📅 2026-10-09 - Verifies BibTeX entries against Crossref, OpenAlex, Semantic Scholar, and arXiv via CLI, MCP server, or agent skill. ![GitHub stars](https://img.shields.io/github/stars/Hylouis233/bibverify?style=flat-square)
+* [**overleaf-sync-now**](https://github.com/hanlulong/overleaf-sync-now) ⭐ 18 | 🐛 2 | 🌐 Python | 📅 2026-05-30 - Agent skill and CLI that pull recent Overleaf web edits into a Dropbox-synced copy before AI agents edit it. ![GitHub stars](https://img.shields.io/github/stars/hanlulong/overleaf-sync-now?style=flat-square)
 * [OpenAI Prism](https://openai.com/prism/) - Free LaTeX workspace with citation management, Zotero sync, sketch-to-equation, and real-time collaboration.
-* [Overleaf AI Assist](https://www.overleaf.com/about/ai-features) - LaTeX error fixing, table generation, and equation generation from prompts or images.
+* [Overleaf AI](https://www.overleaf.com/about/ai-features) - LaTeX error fixing, table and equation generation, and writing feedback, included in all Overleaf plans with a basic free allowance.
 * [Paperpal](https://paperpal.com/) - Academic writing assistant on Overleaf, Google Docs, and Chrome.
-* [Refine.ink](https://www.refine.ink/) - AI referee generating peer-review-quality feedback on academic papers, piloting with top economics journals.
+* [Refine.ink](https://www.refine.ink/) - AI technical verification flagging errors in reasoning, calculations, and references; used by AEA and Econometric Society journals.
 * [Thesify](https://www.thesify.ai/) - AI reviewer evaluating argumentation, methodology, and rigor.
-* [Typst](https://typst.app/) - Modern LaTeX alternative with dramatically simpler syntax and sub-second compilation.
+* [Typst](https://typst.app/) - Markup-based typesetting system and LaTeX alternative with simpler syntax, incremental compilation, and a collaborative web editor. ![GitHub stars](https://img.shields.io/github/stars/typst/typst?style=flat-square)
 * [Underleaf](https://www.underleaf.ai/) - Chrome extension for image-to-LaTeX and smart citation generation.
 
 ## Document Processing and OCR
 
-* [PaddleOCR-VL](https://github.com/PaddlePaddle/PaddleOCR) ⭐ 90,909 | 🐛 244 | 🌐 Python | 📅 2026-09-16 - Vision-language OCR extracting layout, formulas, and structured tables from documents across many languages. ![GitHub stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=flat-square)
-* [MinerU](https://github.com/opendatalab/MinerU) ⭐ 81,441 | 🐛 10 | 🌐 Python | 📅 2026-10-11 - PDF, web, and e-book content extraction with OCR for 84 languages. ![GitHub stars](https://img.shields.io/github/stars/opendatalab/MinerU?style=flat-square)
-* [Docling](https://github.com/docling-project/docling) ⭐ 68,664 | 🐛 1,046 | 🌐 Python | 📅 2026-10-11 - IBM open-source document parser with 0.97 table recognition accuracy. ![GitHub stars](https://img.shields.io/github/stars/docling-project/docling?style=flat-square)
-* [Marker](https://github.com/datalab-to/marker) ⭐ 40,368 | 🐛 477 | 🌐 Python | 📅 2026-10-02 - PDF to Markdown/JSON at 122 pages/sec with multi-page table merging. ![GitHub stars](https://img.shields.io/github/stars/datalab-to/marker?style=flat-square)
-* [DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) ⭐ 23,925 | 🐛 288 | 🌐 Python | 📅 2026-01-27 - Open-weight vision model converting document images to Markdown with formula and table recognition. ![GitHub stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-OCR?style=flat-square)
-* [Surya](https://github.com/datalab-to/surya) ⭐ 21,484 | 🐛 198 | 🌐 Python | 📅 2026-09-11 - Open-source OCR toolkit for 90+ languages with layout, reading-order, and table recognition. ![GitHub stars](https://img.shields.io/github/stars/datalab-to/surya?style=flat-square)
-* [OlmOCR](https://github.com/allenai/olmocr) ⭐ 19,734 | 🐛 92 | 🌐 Python | 📅 2026-03-25 - Allen AI's fully open-source OCR with SOTA accuracy on tables, equations, and handwriting. ![GitHub stars](https://img.shields.io/github/stars/allenai/olmocr?style=flat-square)
+* [PaddleOCR-VL](https://github.com/PaddlePaddle/PaddleOCR) ⭐ 90,957 | 🐛 243 | 🌐 Python | 📅 2026-09-16 - Compact 0.9B vision-language OCR (v1.6, 2026) extracting layout, formulas, tables, and charts, including from historical documents. ![GitHub stars](https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?style=flat-square)
+* [MinerU](https://github.com/opendatalab/MinerU) ⭐ 81,523 | 🐛 13 | 🌐 Python | 📅 2026-10-11 - Converts PDFs, scans, Office files, and e-books into LLM-ready Markdown or JSON with tiered local parsing (v4, 2026). ![GitHub stars](https://img.shields.io/github/stars/opendatalab/MinerU?style=flat-square)
+* [Docling](https://github.com/docling-project/docling) ⭐ 68,737 | 🐛 1,043 | 🌐 Python | 📅 2026-10-12 - Open-source parser, created at IBM, converting PDFs, Office files, scans, and XBRL financial reports into Markdown or JSON. ![GitHub stars](https://img.shields.io/github/stars/docling-project/docling?style=flat-square)
+* [Marker](https://github.com/datalab-to/marker) ⭐ 40,392 | 🐛 477 | 🌐 Python | 📅 2026-10-02 - Converts PDFs, Office files, and images to Markdown or JSON with tables, equations, and forms; LLM mode merges cross-page tables. ![GitHub stars](https://img.shields.io/github/stars/datalab-to/marker?style=flat-square)
+* [DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) ⭐ 23,982 | 🐛 288 | 🌐 Python | 📅 2026-01-27 - Open-weight vision model converting document images to Markdown with formula and table recognition, succeeded by [DeepSeek-OCR 2](https://github.com/deepseek-ai/DeepSeek-OCR-2) ⭐ 3,469 | 🐛 55 | 🌐 Python | 📅 2026-02-03 in 2026. ![GitHub stars](https://img.shields.io/github/stars/deepseek-ai/DeepSeek-OCR?style=flat-square)
+* [Surya](https://github.com/datalab-to/surya) ⭐ 21,483 | 🐛 198 | 🌐 Python | 📅 2026-09-11 - Open-source OCR toolkit for 90+ languages with layout, reading-order, and table recognition. ![GitHub stars](https://img.shields.io/github/stars/datalab-to/surya?style=flat-square)
+* [olmOCR](https://github.com/allenai/olmocr) ⭐ 19,733 | 🐛 92 | 🌐 Python | 📅 2026-03-25 - Ai2's fully open OCR toolkit and model (olmOCR 2) for tables, equations, and handwriting, plus the olmOCR-Bench benchmark. ![GitHub stars](https://img.shields.io/github/stars/allenai/olmocr?style=flat-square)
+* [Chandra](https://github.com/datalab-to/chandra) ⭐ 12,491 | 🐛 62 | 🌐 Python | 📅 2026-06-26 - Datalab's open-weight OCR model converting images and PDFs to Markdown or JSON, handling handwriting, forms, and complex tables. ![GitHub stars](https://img.shields.io/github/stars/datalab-to/chandra?style=flat-square)
 * [Pix2Text](https://github.com/breezedeus/Pix2Text) ⭐ 3,275 | 🐛 42 | 🌐 Jupyter Notebook | 📅 2026-08-23 - Open-source tool recognizing layouts, tables, and math formulas in images, exporting LaTeX and Markdown. ![GitHub stars](https://img.shields.io/github/stars/breezedeus/Pix2Text?style=flat-square)
+* [CHURRO](https://github.com/stanford-oval/Churro) ⭐ 80 | 🐛 5 | 🌐 Python | 📅 2026-04-18 - Stanford's open-weight OCR model for handwritten and printed historical documents across 46 language clusters (EMNLP 2025). ![GitHub stars](https://img.shields.io/github/stars/stanford-oval/Churro?style=flat-square)
 * [eScriptorium](https://gitlab.com/scripta/escriptorium) - Open-source platform for segmenting, transcribing, and OCR-ing historical and handwritten manuscripts.
 * [Mathpix](https://mathpix.com/) - Screenshot-to-LaTeX OCR for equations, tables, and diagrams with PDF-to-Overleaf conversion.
-* [Mistral OCR 3](https://mistral.ai/news/mistral-ocr-3) - Costs $1–2 per 1,000 pages with support for cursive, complex tables, and low DPI.
-* [Transkribus](https://www.transkribus.org/) - Handwritten historical document transcription with 140+ AI models in 100+ languages.
+* [Mistral OCR](https://mistral.ai/news/ocr-4/) - Pay-per-page document OCR API returning text with bounding boxes, block types, and confidence scores in 170 languages.
+* [Transkribus](https://www.transkribus.org/) - Cooperative-run platform transcribing handwritten and printed historical documents with 300+ community AI models; 50 free credits monthly.
 
-## NLP and Sentiment for Economics
+## NLP and Text as Data
 
 * [GABRIEL](https://github.com/openai/GABRIEL) ⭐ 439 | 🐛 10 | 🌐 Jupyter Notebook | 📅 2026-07-15 - OpenAI toolkit turning text, images, or audio into quantitative measures for social scientists. ![GitHub stars](https://img.shields.io/github/stars/openai/GABRIEL?style=flat-square)
-* [SentiBigNomics](https://github.com/consose/SentiBigNomics) ⭐ 43 | 🐛 3 | 🌐 Python | 📅 2023-03-29 - Sentiment analysis designed for economic text with aspect-based and negation handling. ![GitHub stars](https://img.shields.io/github/stars/consose/SentiBigNomics?style=flat-square)
+* [LinkTransformer](https://github.com/dell-research-harvard/linktransformer) ⭐ 146 | 🐛 5 | 🌐 Python | 📅 2026-09-06 - Arora and Dell's (Harvard) Python package for transformer-based record linkage, deduplication, and classification of messy text in dataframes. ![GitHub stars](https://img.shields.io/github/stars/dell-research-harvard/linktransformer?style=flat-square)
 * [WorldCentralBanks](https://github.com/gtfintechlab/WorldCentralBanks) ⭐ 37 | 🐛 0 | 🌐 TeX | 📅 2025-10-19 - Annotated corpus and per-bank models classifying monetary policy stance in central bank communications worldwide. ![GitHub stars](https://img.shields.io/github/stars/gtfintechlab/WorldCentralBanks?style=flat-square)
 * [CentralBankRoBERTa](https://github.com/Moritz-Pfeifer/CentralBankRoBERTa) ⭐ 34 | 🐛 0 | 🌐 Jupyter Notebook | 📅 2024-02-28 - Fine-tuned RoBERTa for sentiment classification in central bank communications. ![GitHub stars](https://img.shields.io/github/stars/Moritz-Pfeifer/CentralBankRoBERTa?style=flat-square)
+* [OccCANINE](https://github.com/christianvedels/OccCANINE) ⭐ 30 | 🐛 2 | 🌐 HTML | 📅 2026-04-15 - Model converting free-text occupational descriptions in 13 languages into HISCO codes with about 96% accuracy. ![GitHub stars](https://img.shields.io/github/stars/christianvedels/OccCANINE?style=flat-square)
 * [EconBERTa](https://github.com/worldbank/econberta-econie) ⭐ 20 | 🐛 2 | 🌐 Python | 📅 2024-09-26 - World Bank DeBERTa trained on 9.4B tokens from 1.5M economics papers with NER. ![GitHub stars](https://img.shields.io/github/stars/worldbank/econberta-econie?style=flat-square)
-* [FinVADER](https://github.com/PetrKorab/FinVADER) ⭐ 12 | 🐛 0 | 🌐 Python | 📅 2023-12-07 - VADER updated with financial lexicons. ![GitHub stars](https://img.shields.io/github/stars/PetrKorab/FinVADER?style=flat-square)
+* [ChronoGPT](https://huggingface.co/manelalab) - Open language models with yearly checkpoints (1999–2024), each trained only on text available through that year to avoid lookahead bias.
 * [FinBERT](https://huggingface.co/ProsusAI/finbert) - Fine-tuned BERT for financial sentiment, widely cited in economics and finance research.
-* [FinSentGPT](https://www.sciencedirect.com/science/article/pii/S1057521924002230) - Fine-tuned ChatGPT for multilingual financial sentiment, tested on ECB Monetary Policy Decisions.
-* [Llama-3.1-Hawkish-8B](https://huggingface.co/mukaj/Llama-3.1-Hawkish-8B) - Llama-3.1-8B fine-tuned for financial NLP, including hawkish/dovish classification of Fed communications.
 
 ## Policy, Labor and Alternative Data
 
@@ -269,158 +322,186 @@ A curated list of AI tools, libraries, and resources transforming how economists
 
 * [EUROMOD](https://euromod-web.jrc.ec.europa.eu/) - EU tax-benefit microsimulation covering all 27 member states (open-source, EUPL-1.2).
 * [ImpactAI](https://impactai.worldbank.org/) - World Bank DIME tool synthesizing RCT evidence with effect sizes across interventions.
-* [OpenFisca](https://openfisca.readthedocs.io/) - Open-source microsimulation engine for computing taxes and benefits on population data.
-* [Plural Policy](https://pluralpolicy.com/) - AI bill summarizer with version comparison and momentum indicators across U.S. jurisdictions.
-* [PolicyEngine](https://github.com/PolicyEngine/policyengine-us) ⭐ 166 | 🐛 976 | 🌐 Python | 📅 2026-10-11 - Open-source U.S. tax-benefit microsimulation. ![GitHub stars](https://img.shields.io/github/stars/PolicyEngine/policyengine-us?style=flat-square)
+* [OpenFisca](https://openfisca.org/en/) - Open-source microsimulation engine for computing taxes and benefits on population data. ![GitHub stars](https://img.shields.io/github/stars/openfisca/openfisca-core?style=flat-square)
+* [PolicyEngine](https://www.policyengine.org/) - Open-source tax-benefit microsimulation for the U.S., UK, and Canada with a free web app, API, and Claude Code plugin. ![GitHub stars](https://img.shields.io/github/stars/PolicyEngine/policyengine-us?style=flat-square)
 
 ### Labor Market Data
 
-* [Anthropic Economic Index](https://www.anthropic.com/economic-index) - Open dataset and recurring reports mapping which economic tasks and occupations people use AI for.
-* [Lightcast](https://lightcast.io/) - 2.5B job postings, 800M profiles, and 160+ countries with AI skills taxonomy.
-* [LinkedIn Economic Graph](https://economicgraph.linkedin.com/) - Labor trends, skills migration, and talent matching data for academic researchers.
-* [Revelio Labs](https://www.reveliolabs.com/) - 100M+ employment records with academic access via WRDS.
+* [Lightcast](https://lightcast.io/) - Global job-postings and skills data across 165 countries, plus the free Open Skills taxonomy of 34,000+ skills.
+* [LinkedIn Economic Graph](https://economicgraph.linkedin.com/) - Research and interactive data on hiring, skills, and AI's effect on work, including the monthly LinkedIn Workforce Report.
+* [Revelio Labs](https://www.reveliolabs.com/) - Workforce data with free monthly RPLS U.S. labor statistics, a monthly AI Labor Market Tracker, and academic access via WRDS.
+
+### AI Adoption and Exposure Trackers
+
+* [GPTs are GPTs](https://github.com/openai/GPTs-are-GPTs) ⭐ 101 | 🐛 1 | 🌐 Jupyter Notebook | 📅 2025-10-04 - Task- and occupation-level LLM exposure scores for O\*NET from Eloundou et al. (Science, 2024). ![GitHub stars](https://img.shields.io/github/stars/openai/GPTs-are-GPTs?style=flat-square)
+* [Indeed Hiring Lab AI Tracker](https://github.com/hiring-lab/ai-tracker) ⭐ 14 | 🐛 0 | 📅 2026-10-08 - Daily share of Indeed job postings mentioning AI in nine countries since 2019, under CC BY 4.0. ![GitHub stars](https://img.shields.io/github/stars/hiring-lab/ai-tracker?style=flat-square)
+* [AI Economic Indicators](https://digitaleconomy.stanford.edu/project/indicators/) - Stanford Digital Economy Lab's monthly dashboards on AI's effects on employment, adoption, and consumer surplus.
+* [Anthropic Economic Index](https://www.anthropic.com/economic-index) - CC BY dataset and recurring reports on Claude use by O\*NET task, occupation, and region, queryable through a Claude connector.
+* [Census BTOS](https://www.census.gov/programs-surveys/btos.html) - Census Bureau's biweekly business survey tracking current and expected AI use by sector, state, and firm size.
+* [GenAI Adoption Tracker](https://www.genaiadoptiontracker.com/) - Bick, Blandin, and Deming's nationally representative survey of U.S. generative AI use at work and home.
+* [Microsoft Global AI Diffusion Report](https://www.microsoft.com/en-us/corporate-responsibility/topics/ai-economy-institute/reports/global-ai-diffusion-report/) - Quarterly telemetry-based estimates of generative AI use among working-age adults in 147 economies.
+* [OpenAI Signals](https://openai.com/signals/) - OpenAI's economic research hub with quarterly downloadable data on ChatGPT adoption and use by country, age, and task.
+* [Ramp AI Index](https://ramp.com/data/ai-index) - Monthly share of U.S. businesses on Ramp paying for AI tools, by industry, size, and provider; also on FRED.
+* [Yale Budget Lab AI Tracker](https://budgetlab.yale.edu/research/tracking-impact-ai-labor-market) - Regularly updated CPS-based analysis, with data, of whether AI is shifting U.S. occupations and unemployment.
 
 ### Spatial, Satellite and Alternative Data
 
-* [CARTO](https://carto.com/) - AI agents that reason with spatial data via natural language.
+* [AlphaEarth Satellite Embeddings](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL) - Google DeepMind's annual global 10-meter, 64-dimension satellite embeddings since 2017 on Earth Engine.
 * [Clay Foundation Model](https://madewithclay.org) - Open foundation model for Earth observation generating embeddings from global multi-sensor satellite imagery. ![GitHub stars](https://img.shields.io/github/stars/Clay-foundation/model?style=flat-square)
-* [FlyPix AI](https://flypix.ai/) - No-code custom AI models on satellite and drone imagery for economic measurement.
-* [Neudata](https://www.neudata.co/) - Alternative data intelligence cataloging thousands of non-traditional data sources.
+* [MOSAIKS](https://www.mosaiks.org/) - Precomputed satellite-imagery features and API for predicting local socioeconomic outcomes, including HDI for 61,530 municipalities (Nature Communications, 2026).
 * [Overture Maps](https://overturemaps.org) - Open global geospatial data of places, buildings, addresses, and transportation, released monthly. ![GitHub stars](https://img.shields.io/github/stars/OvertureMaps/data?style=flat-square)
-* [Stanford Satellite + AI](https://sustainability.stanford.edu/news/satellite-imagery-and-ai-reveal-development-needs-hidden-national-data) - HDI for 61,530 municipalities from satellite imagery (Nature Communications, 2026).
 
 ## Finance-Specific AI
 
-* [TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐ 110,558 | 🐛 104 | 🌐 Python | 📅 2026-10-03 - Multi-agent LLM framework simulating analyst, researcher, trader, and risk-manager roles for trading decisions. ![GitHub stars](https://img.shields.io/github/stars/TauricResearch/TradingAgents?style=flat-square)
-* [OpenBB](https://github.com/OpenBB-finance/OpenBB) ⭐ 74,088 | 🐛 103 | 🌐 Python | 📅 2026-10-02 - Open-source financial research platform with AI copilot and economic data integration. ![GitHub stars](https://img.shields.io/github/stars/OpenBB-finance/OpenBB?style=flat-square)
-* [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) ⭐ 63,932 | 🐛 177 | 🌐 Python | 📅 2026-10-02 - Educational multi-agent system mimicking famous investors to research stocks and propose trading decisions. ![GitHub stars](https://img.shields.io/github/stars/virattt/ai-hedge-fund?style=flat-square)
-* [awesome-quant](https://github.com/wilsonfreitas/awesome-quant) ⭐ 30,033 | 🐛 148 | 🌐 HTML | 📅 2026-10-11 - Curated quantitative finance resources. ![GitHub stars](https://img.shields.io/github/stars/wilsonfreitas/awesome-quant?style=flat-square)
-* [Dexter](https://github.com/virattt/dexter) ⭐ 27,654 | 🐛 106 | 🌐 TypeScript | 📅 2026-09-23 - Autonomous financial research agent with task planning and real-time data. ![GitHub stars](https://img.shields.io/github/stars/virattt/dexter?style=flat-square)
-* [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) ⭐ 21,395 | 🐛 53 | 🌐 Jupyter Notebook | 📅 2026-09-23 - Open-source financial LLMs for sentiment, forecasting, and reports. ![GitHub stars](https://img.shields.io/github/stars/AI4Finance-Foundation/FinGPT?style=flat-square)
-* [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) ⭐ 8,202 | 🐛 77 | 🌐 Python | 📅 2026-09-28 - AI agent platform for financial analysis combining LLMs, RL, and quantitative methods. ![GitHub stars](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRobot?style=flat-square)
-* [Fin-R1](https://github.com/SUFE-AIFLM-Lab/Fin-R1) ⭐ 821 | 🐛 9 | 📅 2025-03-27 - Financial reasoning LLM by Shanghai University of Finance and Economics. ![GitHub stars](https://img.shields.io/github/stars/SUFE-AIFLM-Lab/Fin-R1?style=flat-square)
-* [Open Financial LLM Leaderboard](https://huggingface.co/spaces/TheFinAI/Open-FinLLM-Leaderboard) - Public leaderboard benchmarking LLMs across financial NLP, question answering, and forecasting tasks.
+* [TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐ 110,740 | 🐛 104 | 🌐 Python | 📅 2026-10-03 - Multi-agent LLM framework simulating analyst, researcher, trader, and risk-manager roles for trading decisions. ![GitHub stars](https://img.shields.io/github/stars/TauricResearch/TradingAgents?style=flat-square)
+* [OpenBB](https://github.com/openbq-org/OpenBB) ⭐ 74,142 | 🐛 101 | 🌐 Python | 📅 2026-10-11 - Open-source data platform connecting financial and economic data to Python and AI agents via MCP, stewarded by the non-profit OpenBQ. ![GitHub stars](https://img.shields.io/github/stars/openbq-org/OpenBB?style=flat-square)
+* [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) ⭐ 63,950 | 🐛 177 | 🌐 Python | 📅 2026-10-02 - Educational multi-agent system mimicking famous investors to research stocks and propose trading decisions. ![GitHub stars](https://img.shields.io/github/stars/virattt/ai-hedge-fund?style=flat-square)
+* [awesome-quant](https://github.com/wilsonfreitas/awesome-quant) ⭐ 30,039 | 🐛 154 | 🌐 HTML | 📅 2026-10-12 - Curated quantitative finance resources. ![GitHub stars](https://img.shields.io/github/stars/wilsonfreitas/awesome-quant?style=flat-square)
+* [Dexter](https://github.com/virattt/dexter) ⭐ 27,656 | 🐛 106 | 🌐 TypeScript | 📅 2026-09-23 - Autonomous financial research agent with task planning and real-time data. ![GitHub stars](https://img.shields.io/github/stars/virattt/dexter?style=flat-square)
+* [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) ⭐ 21,393 | 🐛 53 | 🌐 Jupyter Notebook | 📅 2026-09-23 - Open-source financial LLMs for sentiment, forecasting, and reports. ![GitHub stars](https://img.shields.io/github/stars/AI4Finance-Foundation/FinGPT?style=flat-square)
+* [FinRobot](https://github.com/AI4Finance-Foundation/FinRobot) ⭐ 8,203 | 🐛 77 | 🌐 Python | 📅 2026-09-28 - AI agent platform for financial analysis combining LLMs, RL, and quantitative methods. ![GitHub stars](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRobot?style=flat-square)
+* [EdgarTools](https://github.com/dgunning/edgartools) ⭐ 2,784 | 🐛 80 | 🌐 Python | 📅 2026-10-12 - Python library turning SEC EDGAR filings and XBRL financials into DataFrames and LLM-ready text, with a built-in MCP server. ![GitHub stars](https://img.shields.io/github/stars/dgunning/edgartools?style=flat-square)
+* [Fin-R1](https://github.com/SUFE-AIFLM-Lab/Fin-R1) ⭐ 822 | 🐛 9 | 📅 2025-03-27 - Financial reasoning LLM by Shanghai University of Finance and Economics. ![GitHub stars](https://img.shields.io/github/stars/SUFE-AIFLM-Lab/Fin-R1?style=flat-square)
 
 ## Data Collection Tools
 
 ### Web Scraping
 
-* [Crawl4AI](https://github.com/unclecode/crawl4ai) ⭐ 85,187 | 🐛 235 | 🌐 Python | 📅 2026-10-11 - Open-source web crawler producing LLM-ready markdown for RAG and data pipelines. ![GitHub stars](https://img.shields.io/github/stars/unclecode/crawl4ai?style=flat-square)
-* [ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai) ⭐ 31,678 | 🐛 17 | 🌐 Python | 📅 2026-10-06 - LLM-powered scraping that adapts to website changes automatically. ![GitHub stars](https://img.shields.io/github/stars/ScrapeGraphAI/Scrapegraph-ai?style=flat-square)
+* [Crawl4AI](https://github.com/unclecode/crawl4ai) ⭐ 85,348 | 🐛 233 | 🌐 Python | 📅 2026-10-12 - Open-source web crawler producing LLM-ready markdown for RAG and data pipelines. ![GitHub stars](https://img.shields.io/github/stars/unclecode/crawl4ai?style=flat-square)
+* [ScrapeGraphAI](https://github.com/ScrapeGraphAI/Scrapegraph-ai) ⭐ 31,715 | 🐛 17 | 🌐 Python | 📅 2026-10-06 - LLM-powered scraping that adapts to website changes automatically. ![GitHub stars](https://img.shields.io/github/stars/ScrapeGraphAI/Scrapegraph-ai?style=flat-square)
 * [Crawlee](https://crawlee.dev) - Open-source crawling and scraping library that extracts web data for AI, LLM, and RAG pipelines. ![GitHub stars](https://img.shields.io/github/stars/apify/crawlee?style=flat-square)
-* [Firecrawl](https://www.firecrawl.dev/) - Webpages to structured markdown with AI extraction endpoint.
-* [Kadoa](https://www.kadoa.com/) - No-code AI extraction for financial and economic data.
+* [Firecrawl](https://www.firecrawl.dev/) - Open-source API turning websites into LLM-ready Markdown or structured JSON, with an AI agent for schema-based extraction. ![GitHub stars](https://img.shields.io/github/stars/firecrawl/firecrawl?style=flat-square)
 
 ### Survey and Qualitative Research
 
-* [Anthropic Interviewer](https://www.anthropic.com/research/anthropic-interviewer) - AI-conducted adaptive qualitative interviews at scale across 159 countries.
-* [ATLAS.ti](https://atlasti.com/) - AI-powered qualitative coding reducing manual effort by 90%.
-* [Conveo](https://conveo.ai/) - AI video interviews with multimodal analysis at scale.
-* [Outset AI](https://outset.ai/) - Hundreds of AI-moderated interviews simultaneously in 40+ languages.
-* [TheySaid](https://www.theysaid.io) - AI-moderated surveys with conversational follow-ups.
+* [QualCoder](https://github.com/ccbogel/QualCoder) ⭐ 689 | 🐛 24 | 🌐 Python | 📅 2026-10-10 - Open-source qualitative coding app for text, images, audio, and video, with an AI agent that searches data and proposes codes. ![GitHub stars](https://img.shields.io/github/stars/ccbogel/QualCoder?style=flat-square)
+* [EDSL](https://github.com/expectedparrot/edsl) ⭐ 503 | 🐛 56 | 🌐 Python | 📅 2026-10-10 - Open-source Python library from Expected Parrot (co-founded by economist John Horton) for surveys and experiments with LLM agents. ![GitHub stars](https://img.shields.io/github/stars/expectedparrot/edsl?style=flat-square)
+* [Conversations at Scale](https://github.com/friedrichgeiecke/interviews) ⭐ 71 | 🐛 1 | 🌐 Python | 📅 2026-02-09 - Geiecke and Jaravel's (LSE) platform for AI-led qualitative interviews, free for non-commercial research. ![GitHub stars](https://img.shields.io/github/stars/friedrichgeiecke/interviews?style=flat-square)
+* [ATLAS.ti](https://atlasti.com/) - Qualitative data analysis software with AI coding, document chat, and transcription, plus a free trial and student licenses.
+* [Twin-2K-500](https://huggingface.co/datasets/LLM-Digital-Twin/Twin-2K-500) - Columbia dataset of 2,058 U.S. respondents answering about 500 survey and behavioral-economics questions, for testing LLM digital twins.
 
 > **Warning:** [Nature](https://www.nature.com/articles/d41586-026-00221-8) reports AI chatbots infiltrating online surveys. Implement detection for MTurk/Prolific studies.
 
 ### Synthetic Data
 
-* [SDV](https://github.com/sdv-dev/SDV) ⭐ 3,571 | 🐛 153 | 🌐 Python | 📅 2026-10-09 - Open-source synthetic data generation with CTGAN, CopulaGAN, and GaussianCopula models. ![GitHub stars](https://img.shields.io/github/stars/sdv-dev/SDV?style=flat-square)
-* [Synthcity](https://github.com/vanderschaarlab/synthcity) ⭐ 689 | 🐛 59 | 🌐 Python | 📅 2026-04-21 - Generates and benchmarks synthetic tabular, time-series, and survival data with privacy and fairness metrics. ![GitHub stars](https://img.shields.io/github/stars/vanderschaarlab/synthcity?style=flat-square)
-* [Gretel](https://www.nvidia.com/en-us/use-cases/synthetic-data-generation-for-agentic-ai/) - Synthetic data with differential privacy (acquired by NVIDIA in 2025). [Open-source library](https://github.com/gretelai/gretel-synthetics) ⚠️ Archived (archived).
-* [MOSTLY AI](https://mostly.ai/) - High-fidelity synthetic datasets with GDPR/HIPAA compliance.
+* [SDV](https://github.com/sdv-dev/SDV) ⭐ 3,572 | 🐛 154 | 🌐 Python | 📅 2026-10-12 - Open-source synthetic data generation with CTGAN, CopulaGAN, and GaussianCopula models. ![GitHub stars](https://img.shields.io/github/stars/sdv-dev/SDV?style=flat-square)
+* [MOSTLY AI](https://github.com/mostly-ai/mostlyai) ⭐ 803 | 🐛 0 | 🌐 Python | 📅 2026-10-12 - Open-source SDK generating synthetic tabular, multi-table, and time-series data locally, with optional differential privacy. ![GitHub stars](https://img.shields.io/github/stars/mostly-ai/mostlyai?style=flat-square)
+* [Synthcity](https://github.com/vanderschaarlab/synthcity) ⭐ 690 | 🐛 59 | 🌐 Python | 📅 2026-04-21 - Generates and benchmarks synthetic tabular, time-series, and survival data with privacy and fairness metrics. ![GitHub stars](https://img.shields.io/github/stars/vanderschaarlab/synthcity?style=flat-square)
+* [REaLTabFormer](https://github.com/worldbank/REaLTabFormer) ⭐ 244 | 🐛 31 | 🌐 Jupyter Notebook | 📅 2026-01-04 - World Bank library using transformers to generate synthetic single-table and relational data. ![GitHub stars](https://img.shields.io/github/stars/worldbank/REaLTabFormer?style=flat-square)
+
+## Benchmarks and Evaluation
+
+*Benchmarks and leaderboards for judging how well AI handles economic reasoning, forecasting, finance, replication, and real work tasks.*
+
+* [ForecastBench](https://www.forecastbench.org/) - Forecasting Research Institute's live benchmark of LLM vs. superforecaster accuracy, including FRED-based questions (ICLR 2025). ![GitHub stars](https://img.shields.io/github/stars/forecastingresearch/forecastbench?style=flat-square)
+* [GDPval](https://huggingface.co/datasets/openai/gdpval) - OpenAI benchmark of real work tasks in 44 occupations from the top nine U.S. GDP sectors, with 220 tasks open-sourced.
+* [Open Financial LLM Leaderboard](https://huggingface.co/spaces/TheFinAI/Open-FinLLM-Leaderboard) - Public leaderboard benchmarking LLMs across financial NLP, question answering, and forecasting tasks.
+* [Remote Labor Index](https://labs.scale.com/leaderboard/rli) - Scale AI and CAIS benchmark of 240 real freelance projects, measuring the share AI agents complete at professional quality.
+* [REPRO-Bench](https://github.com/uiuc-kang-lab/REPRO-Bench) ⭐ 11 | 🐛 0 | 🌐 Python | 📅 2025-11-03 - Benchmark of 112 social-science papers, mainly economics and political science, testing whether AI agents can assess reproducibility (ACL Findings 2025). ![GitHub stars](https://img.shields.io/github/stars/uiuc-kang-lab/REPRO-Bench?style=flat-square)
+* [STEER](https://steer-benchmark.cs.ubc.ca/) - UBC benchmarks of LLM economic rationality and microeconomic reasoning (ICML 2024, NeurIPS 2025). ![GitHub stars](https://img.shields.io/github/stars/narunraman/STEER?style=flat-square)
 
 ## Papers and Books
 
 ### Key Papers
 
-| Paper                                                                                                         | Authors                                | Venue                   |
-| ------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ----------------------- |
-| [Generative AI for Economic Research](https://www.aeaweb.org/articles?id=10.1257/jel.20231736)                | Korinek (2023)                         | JEL                     |
-| [AI Agents for Economic Research](https://www.nber.org/papers/w34202)                                         | Korinek (2025)                         | NBER                    |
-| [Deep Learning for Economists](https://www.aeaweb.org/articles?id=10.1257/jel.20241733)                       | Dell (2025)                            | JEL                     |
-| [DiD Causal Forests](https://onlinelibrary.wiley.com/doi/abs/10.1002/jae.70001)                               | Gavrilova et al. (2025)                | J. Applied Econometrics |
-| [Economics in the Age of Algorithms](https://www.aeaweb.org/articles?id=10.1257%2Fpandp.20251118)             | Mullainathan (2025)                    | AEA P\&P                |
-| [Generative AI at Work](https://academic.oup.com/qje/article/140/2/889/7990658)                               | Brynjolfsson, Li, Raymond (2025)       | QJE                     |
-| [How People Use ChatGPT](https://www.nber.org/papers/w34255)                                                  | Chatterji et al. (2025)                | NBER                    |
-| [A Research Agenda for the Economics of Transformative AI](https://www.nber.org/papers/w34256)                | Brynjolfsson, Korinek, Agrawal (2026)  | NBER                    |
-| [LLMs: An Applied Econometric Framework](https://www.nber.org/papers/w33344)                                  | Ludwig, Mullainathan, Rambachan (2025) | NBER                    |
-| [ML Who to Nudge](https://www.gsb.stanford.edu/faculty-research/faculty/susan-athey)                          | Athey, Keleher, Spiess (2025)          | J. Econometrics         |
-| [The Simple Macroeconomics of AI](https://academic.oup.com/economicpolicy/article-abstract/40/121/13/7728473) | Acemoglu (2025)                        | Economic Policy         |
-| [A.I. and Our Economic Future](https://www.nber.org/papers/w34779)                                            | Jones (2026)                           | NBER                    |
-| [AI in Economics Research](https://onlinelibrary.wiley.com/doi/10.1111/joes.12694)                            | Bahoo et al. (2025)                    | J. Economic Surveys     |
-| [Teaching Economics to the Machines](https://www.nber.org/papers/w34713)                                      | Chen et al. (2026)                     | NBER                    |
+*Grouped by theme, newest first.*
+
+#### Using AI in Economic Research
+
+* [AI-Assisted Teams Outperform AI-Led Teams but Not Human-Only Teams in Assessing Research Reproducibility in Quantitative Social Science](https://www.pnas.org/doi/10.1073/pnas.2524747123) - Brodeur et al. (2026), Proceedings of the National Academy of Sciences.
+* [Teaching Economics to the Machines](https://www.nber.org/papers/w34713) - Chen et al. (2026), NBER Working Paper 34713.
+* [Performing Valid Inference with AI/ML-Generated Covariates: A Guide for Empirical Practice](https://www.aeaweb.org/articles?id=10.1257/pandp.20261020) - Christensen and Hansen (2026), AEA Papers and Proceedings.
+* [A Practitioner's Guide to Using Large Language Models and Generative AI in Economic History](https://www.nber.org/papers/w35374) - Ferrara (2026), NBER Working Paper 35374.
+* [Large Language Models: An Applied Econometric Framework](https://doi.org/10.1146/annurev-economics-120925-105620) - Ludwig, Mullainathan, and Rambachan (2026), Annual Review of Economics.
+* [Machine Learning Who to Nudge: Causal vs Predictive Targeting in a Field Experiment on Student Financial Aid Renewal](https://doi.org/10.1016/j.jeconom.2024.105945) - Athey, Keleher, and Spiess (2025), Journal of Econometrics.
+* [Artificial Intelligence in Economics Research: What Have We Learned? What Do We Need to Learn?](https://onlinelibrary.wiley.com/doi/10.1111/joes.12694) - Bahoo et al. (2025), Journal of Economic Surveys.
+* [Deep Learning for Economists](https://www.aeaweb.org/articles?id=10.1257/jel.20241733) - Dell (2025), Journal of Economic Literature.
+* [Difference-in-Difference Causal Forests with an Application to Payroll Tax Incidence in Norway](https://onlinelibrary.wiley.com/doi/10.1002/jae.70001) - Gavrilova, Langørgen, and Zoutman (2025), Journal of Applied Econometrics.
+* [AI Agents for Economic Research](https://www.nber.org/papers/w34202) - Korinek (2025), NBER Working Paper 34202.
+* [Economics in the Age of Algorithms](https://www.aeaweb.org/articles?id=10.1257/pandp.20251118) - Mullainathan (2025), AEA Papers and Proceedings.
+* [Machine Learning as a Tool for Hypothesis Generation](https://academic.oup.com/qje/article/139/2/751/7515309) - Ludwig and Mullainathan (2024), Quarterly Journal of Economics.
+* [Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?](https://www.nber.org/papers/w31122) - Horton, Filippas, and Manning (2023), NBER Working Paper 31122.
+* [Generative AI for Economic Research: Use Cases and Implications for Economists](https://www.aeaweb.org/articles?id=10.1257/jel.20231736) - Korinek (2023), Journal of Economic Literature.
+
+#### Economics of AI
+
+* [The Emerging Market for Intelligence: How Firms Buy and Sell AI](https://www.aeaweb.org/articles?id=10.1257/jep.20261506) - Demirer, Fradkin, and Tadelis (2026), Journal of Economic Perspectives.
+* [AI and Our Economic Future](https://www.aeaweb.org/articles?id=10.1257/jep.20261505) - Jones (2026), Journal of Economic Perspectives.
+* [Economic Scenarios for Transformative AI](https://web.stanford.edu/~chadj/econscenarios.pdf) - Korinek et al. (2026), CEPR Discussion Paper 21939.
+* [The Simple Macroeconomics of AI](https://academic.oup.com/economicpolicy/article/40/121/13/7728473) - Acemoglu (2025), Economic Policy.
+* [Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence](https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/) - Brynjolfsson, Chandar, and Chen (2025), Stanford Digital Economy Lab working paper.
+* [A Research Agenda for the Economics of Transformative AI](https://www.nber.org/papers/w34256) - Brynjolfsson, Korinek, and Agrawal (2025), NBER Working Paper 34256.
+* [Generative AI at Work](https://academic.oup.com/qje/article/140/2/889/7990658) - Brynjolfsson, Li, and Raymond (2025), Quarterly Journal of Economics.
+* [How People Use ChatGPT](https://www.nber.org/papers/w34255) - Chatterji et al. (2025), NBER Working Paper 34255.
 
 ### Books
 
-* [Deep Learning for Economists](https://dell-research-harvard.github.io/projects/384econdl) - Melissa Dell, JEL 2025 with companion Jupyter notebooks.
-* [The Means of Prediction](https://www.amazon.com/Means-Prediction-Really-Works-Benefits-ebook/dp/B0FJ2NZW7D) - Maximilian Kasy on how AI works and who benefits (UChicago Press, 2025).
-* [The Scaling Era](https://www.dwarkesh.com/podcast) - Dwarkesh Patel's oral history from Amodei, Hassabis, and Zuckerberg interviews.
+* [Applied Causal Inference Powered by ML and AI](https://causalml-book.org/) - Free textbook by Chernozhukov, Hansen, Kallus, Spindler, and Syrgkanis on double/debiased ML, with R and Python notebooks.
+* [The Economics of Transformative AI](https://www.nber.org/books-and-chapters/economics-transformative-ai) - Agrawal, Brynjolfsson, and Korinek's NBER volume of 16 studies on AI agents, labor, growth, and risk (UChicago Press, 2026).
+* [The Means of Prediction](https://press.uchicago.edu/ucp/books/book/chicago/M/bo255887145.html) - Maximilian Kasy on how AI works and who benefits (UChicago Press, 2025).
+* [The Scaling Era](https://press.stripe.com/scaling) - Dwarkesh Patel and Gavin Leech's oral history of AI from interviews with Amodei, Hassabis, Zuckerberg, and others (Stripe Press, 2025).
 
 ## Courses, Conferences and Community
 
 ### Courses, Guides and Tutorials
 
-* [AI for Economists](https://sites.google.com/view/lastunen/ai-for-economists) - Jesse Lastunen's prompt-focused templates.
-* [AI Tools for Economists and Policy Analysts](https://www.aei.org/technology-and-innovation/ai-tools-for-economists-and-policy-analysts/) - Will Rinehart's (AEI) regularly updated guide mapping AI tools and prompts to economics and policy tasks.
-* [Claude Blattman](https://claudeblattman.com/) - Chris Blattman's (UChicago) open-source guide to AI research workflows with Claude Code, no coding required.
-* [Claude Code Academic Workflow](https://psantanna.com/claude-code-my-workflow/) - Pedro Sant'Anna's (Emory) ready-to-fork Claude Code template for economics research and teaching.
-* [Data Analysis with AI v2.0](https://gabors-data-analysis.com/ai-course/) - Gabor Bekes, CEU Vienna (2026). 12-week course covering LLMs for IV, DiD, and simulations.
-* [EconDL](https://dell-research-harvard.github.io/projects/384econdl) - Melissa Dell's Jupyter notebooks for deep learning in economics.
-* [Economics of Transformative AI](https://digitaleconomy.stanford.edu/about/education/the-economics-of-transformative-ai/) - Stanford course with slides and exercises.
-* [genaiforecon.org](https://www.genaiforecon.org/) - Korinek's companion site with semi-annual updates on tools and techniques.
+* [AI for Economic Theorists and Mathematicians](https://markusacademy.substack.com/p/ai-for-economic-theorists-and-mathematicians) - Markus' Academy series by Pietro Ortoleva and Fedor Sandomirskiy (Princeton) on AI for modeling and proofs.
+* [AI for Economists](https://policy.fi/ai-econ/) - Jesse Lastunen's curated, filterable directory of papers, courses, tools, and talks on AI in economics.
+* [AI Tools for Economists and Policy Analysts](https://www.aei.org/domestic-policy/technology-and-innovation/ai-tools-for-economists-and-policy-analysts/) - Will Rinehart's (AEI) regularly updated guide mapping AI tools and prompts to economics and policy tasks.
+* [Claude Blattman](https://claudeblattman.com/) - Chris Blattman's (UChicago) open-source guide to AI research workflows with Claude Code, no coding required, plus an installable skills plugin. ![GitHub stars](https://img.shields.io/github/stars/chrisblattman/claudeblattman?style=flat-square)
+* [Claude Code for Applied Economists](https://markusacademy.substack.com/p/claude-code-for-applied-economists) - Paul Goldsmith-Pinkham's (Yale) eight-episode video series on data work, scraping, skills, sandboxing, and Overleaf.
+* [Data Analysis with AI](https://gabors-data-analysis.com/ai-course/) - Gábor Békés's (CEU) eight-session open course using AI coding agents for data wrangling, econometrics, text as data, and DiD.
+* [EconDL](https://econdl.github.io/) - Melissa Dell's companion site to Deep Learning for Economists, with demo notebooks, software resources, and lectures.
+* [Economics of Transformative AI](https://digitaleconomy.stanford.edu/about/education/the-economics-of-transformative-ai/) - Stanford Digital Economy Lab summer course (2025) with open slides, exercises, and recorded lectures.
+* [genaiforecon.org](https://www.genaiforecon.org/) - Korinek's companion site to his JEL survey, with periodic updates on LLM tools; the latest (August 2025) covers AI agents.
 * [How to Learn and Teach Economics with LLMs](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4391863) - Cowen and Tabarrok's (GMU) practical guide to using GPT for learning, teaching, and researching economics.
-* [ML and Causal Inference](https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course) - Susan Athey, Stanford GSB.
+* [Machine Learning and Causal Inference](https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course) - Video course from Susan Athey's Stanford GSB lab on ML for treatment effects, heterogeneous impacts, and targeting, with R tutorials.
 * [ML and Economics at Oxford](https://maxkasy.github.io/home/ML_Econ_Oxford/) - Maximilian Kasy's reading group.
 * [Modern AI for Economics Research](https://markusacademy.substack.com/p/modern-ai-for-economics-research) - Markus' Academy talk by Benjamin Golub on Cursor, AI refereeing, and prompting for research.
+* [NBER Methods Lecture: AI-Generated Data](https://www.nber.org/research/videos/2026-methods-lecture-melissa-dell-and-ashesh-rambachan-estimation-and-inference-ai-generated-data) - Melissa Dell and Ashesh Rambachan's 2026 Summer Institute lectures on estimation and inference with AI-generated data.
 * [Reflections on Vibe Researching](https://joshuagans.substack.com/p/reflections-on-vibe-researching) - Joshua Gans (Toronto) on where LLMs aid theory work and where human judgment stays essential.
 * [Research in the Time of AI](https://paulgp.substack.com/p/research-in-the-time-of-ai) - Paul Goldsmith-Pinkham (Yale) on where AI compresses the research timeline and where taste matters.
-* [The Economics of AI](https://www.coursera.org/learn/economics-of-ai) - Korinek, UVA on Coursera.
-* [Using AI in Research and Teaching](https://paulgp.substack.com/p/using-ai-in-research-and-teaching) - Paul Goldsmith-Pinkham, Yale SOM.
+* [The Economics of AI](https://www.coursera.org/learn/economics-of-ai) - Anton Korinek's (UVA) Coursera course on AI's implications for economic growth, labor markets, inequality, and policy.
+* [Using AI in Research and Teaching](https://paulgp.com/2024/06/24/llm_talk.html) - Paul Goldsmith-Pinkham's (Yale) 2024 practical guide to Copilot in VS Code, chat LLMs, and local models for research and teaching.
 
-### Conferences (2025–2026)
+### Conferences
 
-* [ESIF Economics and AI+ML](https://www.econometricsociety.org/regional-activities/schedule/2026/06/16/2026-ESIFEconomics-and-AIML-Meeting) - Econometric Society, Cornell, June 2026.
-* [IESE Economics of AI](https://www.iese.edu/faculty-research/economics-ai-conference-2026/) - Barcelona, February 2026.
-* [NBER AI and Economic Measurement](https://www.nber.org/conferences/ai-and-economic-measurement-spring-2026) - Stanford, May 2026.
-* [NBER Digital Economics and AI](https://www.nber.org/conferences/digital-economics-and-ai-meeting-spring-2026) - Spring 2026.
-* [NBER Economics of AI](https://www.nber.org/conferences/economics-artificial-intelligence-fall-2026) - Long-running Economics of AI conference, Toronto, September 2026.
+* [ESIF Economics and AI+ML Meeting](https://www.econometricsociety.org/regional-activities/schedule/2026/06/16/2026-ESIFEconomics-and-AIML-Meeting) - Econometric Society's biennial interdisciplinary meeting on economics and AI/ML (latest: Cornell, June 16–17, 2026).
+* [NBER Digital Economics and AI Meeting](https://www.nber.org/conferences/digital-economics-and-ai-meeting-spring-2027) - Stanford, January 21–22, 2027; paper submissions and PhD tutorial applications due November 3, 2026.
+* [NBER Economics of AI Conference](https://www.nber.org/conferences/economics-artificial-intelligence-fall-2026) - Annual fall conference in Toronto organized by Agrawal, Gans, Goldfarb, and Tucker (latest: September 23–24, 2026).
 
 ### Community
 
-**Newsletters:** [genaiforecon](https://genaiforecon.substack.com/) (Korinek) | [Causal Inference](https://causalinf.substack.com/) (Cunningham) | [Autonomous Econ](https://autonomousecon.substack.com/) (Wong) | [One Useful Thing](https://www.oneusefulthing.org/) (Mollick) | [paulgp](https://paulgp.substack.com/) (Goldsmith-Pinkham) | [Frankly, the Counterfactual](https://franklythecounterfactual.substack.com/) (IU O'Neill)
+**Newsletters:** [Autonomous Econ](https://autonomousecon.substack.com/) (Wong) | [Frankly, the Counterfactual Was Worse](https://franklythecounterfactual.substack.com/) (IU O'Neill) | [genaiforecon](https://genaiforecon.substack.com/) (Korinek) | [One Useful Thing](https://www.oneusefulthing.org/) (Mollick) | [paulgp](https://paulgp.substack.com/) (Goldsmith-Pinkham) | [Scott's Mixtape](https://causalinf.substack.com/) (Cunningham)
 
-**Podcasts:** [Dwarkesh Podcast](https://www.dwarkesh.com/podcast) | [Exponential View](https://podcasts.apple.com/us/podcast/azeem-azhars-exponential-view/id1172218725)
+**Podcasts:** [Dwarkesh Podcast](https://www.dwarkesh.com/podcast) | [Exponential View](https://podcasts.apple.com/us/podcast/azeem-azhars-exponential-view/id1172218725) | [Justified Posteriors](https://empiricrafting.substack.com/) (Benzell and Fradkin)
 
-**People:** [Anton Korinek](https://genaiforecon.org/) | [Scott Cunningham](https://causalinf.substack.com/) | [Erik Brynjolfsson](https://twitter.com/erikbryn) | [Antonio Mele](https://github.com/meleantonio/awesome-econ-ai-stuff) ⭐ 646 | 🐛 6 | 🌐 HTML | 📅 2026-09-26 | [Melissa Dell](https://dell-research-harvard.github.io/) | [Sendhil Mullainathan](https://sendhil.org/)
+**People:** [Erik Brynjolfsson](https://www.brynjolfsson.com/) | [Scott Cunningham](https://www.scunning.com/) | [Melissa Dell](https://dell-research-harvard.github.io/) | [Anton Korinek](https://www.korinek.com/) | [Antonio Mele](https://www.lse.ac.uk/people/antonio-mele) | [Sendhil Mullainathan](https://sendhil.org/)
 
-**Institutions:** [NBER AI](https://www.nber.org/programs-projects/projects-and-centers/economics-digitization) | [Stanford DEL](https://digitaleconomy.stanford.edu/) | [OECD.AI](https://oecd.ai/) | [World Bank ImpactAI](https://impactai.worldbank.org/) | [EconTAI](https://www.econtai.org/)
+**Institutions:** [EconTAI](https://www.econtai.org/) | [NBER Digital Economics and AI](https://www.nber.org/digitization) | [OECD.AI](https://oecd.ai/) | [Stanford DEL](https://digitaleconomy.stanford.edu/)
 
 ## Appendix: General-Purpose AI
 
 *Widely known tools listed for completeness with notes on what economists specifically value.*
 
-| Tool                                                          | Best For (Economists)                                                                                                                                                                  |
-| ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [ChatGPT](https://chat.openai.com/)                           | Deep Research mode for analyst-grade reports from 500+ sources                                                                                                                         |
-| [Claude](https://claude.ai/)                                  | Coding (Stata, R, Python), long document analysis (200K context)                                                                                                                       |
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | Agentic terminal coding with [MCP integration](https://github.com/hanlulong/stata-mcp) ⭐ 509 \| 🐛 6 \| 🌐 Python \| 📅 2026-07-05 for Stata and [economic data](https://openecon.ai/) |
-| [Cursor](https://cursor.com/)                                 | AI-native code editor with Background Agents                                                                                                                                           |
-| [DeepSeek R1](https://huggingface.co/deepseek-ai/DeepSeek-R1) | Open-source (MIT), self-hostable for data privacy                                                                                                                                      |
-| [Gemini](https://gemini.google.com/)                          | Writing, visual reports, Google Workspace integration                                                                                                                                  |
-| [GitHub Copilot](https://github.com/features/copilot)         | Agent Mode with [RStudio integration](https://docs.posit.co/ide/user/ide/guide/tools/copilot.html)                                                                                     |
-| [NotebookLM](https://notebooklm.google.com/)                  | Document synthesis, Audio Overviews, 1M token context                                                                                                                                  |
-| [OpenAI Codex](https://openai.com/codex/)                     | Parallel task execution with reusable agent skills                                                                                                                                     |
-| [Perplexity AI](https://www.perplexity.ai/)                   | Academic Focus mode filtering for peer-reviewed journals                                                                                                                               |
+* [OpenCode](https://github.com/anomalyco/opencode) ⭐ 212,832 | 🐛 4,040 | 🌐 TypeScript | 📅 2026-10-12 - Open-source coding agent for the terminal and desktop that works with 75+ model providers, including local models. ![GitHub stars](https://img.shields.io/github/stars/anomalyco/opencode?style=flat-square)
+* [Cline](https://github.com/cline/cline) ⭐ 70,205 | 🐛 1,651 | 🌐 TypeScript | 📅 2026-10-12 - Open-source coding agent for VS Code and the terminal that works with many model providers, including local models. ![GitHub stars](https://img.shields.io/github/stars/cline/cline?style=flat-square)
+* [ChatGPT](https://chatgpt.com/) - Deep Research that can focus on sites you trust, a Work agent for spreadsheets and decks, and an Excel add-in.
+* [Claude](https://claude.ai/) - Coding help for Stata, R, and Python, 1M-token context for long documents, Research mode, and Claude for Excel.
+* [Claude Code](https://code.claude.com/docs) - Anthropic's agentic coding tool for the terminal, IDE, desktop app, and browser, extensible with MCP servers and agent skills.
+* [Cursor](https://cursor.com/) - AI code editor with agent mode, parallel Cloud Agents, and a free Hobby tier.
+* [DeepSeek](https://huggingface.co/deepseek-ai) - MIT-licensed open-weight models with 1M-token context, plus a low-cost API for large-scale text classification.
+* [Gemini](https://gemini.google.com/) - Deep Research reports from hundreds of sites (optionally your Gmail and Drive), with Canvas for drafts and visuals.
+* [Gemini Notebook](https://notebook.google.com/) - Formerly NotebookLM: cited Q\&A over your papers, Audio and Video Overviews, and code execution for data analysis on paid tiers.
+* [GitHub Copilot](https://github.com/features/copilot) - Free and Student plans, agent mode in VS Code, a cloud coding agent, and completions-only support in [RStudio](https://docs.posit.co/ide/user/ide/guide/tools/copilot.html).
+* [Ollama](https://ollama.com/) - Free local runner for open-weight models (gpt-oss, Qwen, Gemma, DeepSeek), so confidential microdata never leaves your machine. ![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=flat-square)
+* [OpenAI Codex](https://openai.com/codex/) - Coding agent in the ChatGPT desktop app, open-source CLI, and IDE, running parallel local and cloud tasks with reusable skills. ![GitHub stars](https://img.shields.io/github/stars/openai/codex?style=flat-square)
+* [Perplexity](https://www.perplexity.ai/) - Cited answers with an Academic source filter for scholarly papers, plus multi-step Research reports.
 
 ## Contributing
 
 Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
 
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the contributors have waived all copyright and related or neighboring rights to this work. See [LICENSE](LICENSE).
-
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-11._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-12._
